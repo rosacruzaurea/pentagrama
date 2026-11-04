@@ -30,3 +30,10 @@ Nove links antigos de PDFs não tiveram seus arquivos localizados no backup. Per
 - screenshots/: capturas de avaliação. As imagens com1280/390 correspondem ao candidato atual; relatórios de tentativas anteriores são históricos.
 
 A primeira rotina extensa de browser foi interrompida por pressão de recursos. Os lotes menores substituem essa tentativa; não tratar um lote interrompido como aprovado. A verificação pública será registrada após o deploy. Não foram testados Safari/iOS, entrega de e-mail, pedidos de compra ou disponibilidade contínua.
+
+## Resultado local do candidato
+
+-358páginas/aliases;12.112referências locais verificadas;852arquivos;684.590.775bytes de artefato; zero erros no verificador.
+-33verificações de browser aprovadas em lotes:1280px(6),390px(18),320px(6),sem JavaScript(3). Capturas desktop/mobile inspecionadas.
+- Busca sem acentos, estado vazio, entrada tratada como texto, reset, mostrar mais, filtro de ano, filtro de e-books, menu/Escape e link EPUB testados.
+-186PDFs abriram; nenhum declarou JavaScript ou criptografia. O PDF Caos Exterior, Despertar Interior emitiu aviso de campos de formulário, mas a renderização da capa e a leitura da estrutura funcionaram; não foi modificado para ocultar o aviso.
