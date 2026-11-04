@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-04",
+  "scope": "Catálogo e arquivos recuperados; não é inventário integral comprovado da editora em2026.",
+  "missing": {
+    "livro": [
+      {
+        "title": "A Gnosis original egípcia, tomo 3",
+        "year": "",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/gnosis-original-egipcia-tomo-3/"
+      },
+      {
+        "title": "Chamados pelo coração do mundo",
+        "year": "",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/chamados-pelo-coracao-do-mundo/"
+      },
+      {
+        "title": "O triunfo da Gnosis universal",
+        "year": "",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/o-triunfo-da-gnosis-universal/"
+      },
+      {
+        "title": "O único necessário",
+        "year": "",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/o-unico-necessario-2/"
+      },
+      {
+        "title": "Um novo chamado",
+        "year": "",
+        "url": "https://rosacruzaurea.github.io/pentagrama/livros/um-novo-chamado/"
+      }
+    ],
+    "revista": [
+      {
+        "title": "Revista 2007 Número 4",
+        "year": "2007",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2007-numero-4/"
+      },
+      {
+        "title": "Revista 2010 Número 1",
+        "year": "2010",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2010-numero-1/"
+      },
+      {
+        "title": "Revista 2010 Número 2",
+        "year": "2010",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2010-numero-2/"
+      },
+      {
+        "title": "Revista 2010 Número 3",
+        "year": "2010",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2010-numero-3/"
+      },
+      {
+        "title": "Revista 2010 Número 5",
+        "year": "2010",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2010-numero-5/"
+      },
+      {
+        "title": "Revista 2010 Número 6",
+        "year": "2010",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2010-numero-6/"
+      },
+      {
+        "title": "Revista 2013 Número 2",
+        "year": "2013",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2013-numero-2/"
+      },
+      {
+        "title": "Revista 2013 Número 6",
+        "year": "2013",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2013-numero-6/"
+      },
+      {
+        "title": "Revista 2014 Número 3",
+        "year": "2014",
+        "url": "https://rosacruzaurea.github.io/pentagrama/produto/revista-2014-numero-3/"
+      }
+    ]
+  },
+  "epub_only": [
+    {
+      "title": "Iniciação e libertação",
+      "year": "2024",
+      "url": "https://rosacruzaurea.github.io/pentagrama/livros/iniciacao-e-libertacao/"
+    },
+    {
+      "title": "Inspirações para um novo tempo",
+      "year": "2023",
+      "url": "https://rosacruzaurea.github.io/pentagrama/livros/inspiracoes-para-um-novo-tempo/"
+    }
+  ],
+  "placeholder_files": [
+    "luz-sobre-montanha-cristal.pdf",
+    "pequenos-orfaos.pdf",
+    "trabalho-servico-humanidade.pdf"
+  ],
+  "cover_missing": [
+    "Entre o silêncio e a luz: miolo PDF disponível, capa não recuperada."
+  ]
+}

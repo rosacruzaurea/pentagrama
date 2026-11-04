@@ -1,0 +1,319 @@
+{
+  "url": "https://github.com/rosacruzaurea/pentagrama/releases/tag/acervo-2018",
+  "expected": 52,
+  "uploaded": 52,
+  "checks": [
+    {
+      "file": "6a4d57104e68-imagens-do-mundo.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "fa9befafe37f-a-linguagem-libertadora-do-coracao.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "f40529f66fa5-piramide-icosaedro.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "2557b4602324-delta-60-faces.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "46fa9169bc07-rombicosidodecaedro.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "2dc70e7f0104-o-laboratorio-do-ser.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "f18df07b7862-observacao-e-introspeccao.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "7e8ad29b04d5-misterios-e-desafios-do-nascimento-da-vida-e-da-morte-tornar-se-um-novo-homem-andre-de-boer.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "fa017724a3ff-pentagrama-24-lados.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "fcc391f5ebf4-nachiketa-e-a-arte-de-morrer.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "faae776228ff-as-razoes-da-viagem-de-cristiano-rosacruz-a-damcar-e-fez.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "78a503c8312c-muralha-tripla-arvore-da-vida.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "cbf01fcf9924-arvore-tripla-processo-de-transformacao.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "a217e4b57fc3-alem-das-cores.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "c2fd77956b24-as-rotas-da-seda-1.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "5bbca5575c96-lemniscata.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "591f063290d0-piramide-dodecaedro.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "b31be88a1090-dirige-agora-teu-coracao-para-a-luz-e-conhece-a.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "bec369569f8f-liberdade-igualdade-e-fraternidade-sob-o-signo-do-amor.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "a4cf1b27b308-imagens-do-mundo-cataros.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "cd2626022cdb-imagens-do-mundo.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "14e52a219a91-imagens-do-mundo-1.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "a632459971c4-a-missao-espiritual-de-nicetas-e-constantinopla.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "7aacb51d8cc8-imagens-do-mundo-montsegur-consciencia-cosmica.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "5fe5329c8e96-imagens-do-mundo-amor.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "c59521882fd1-imagens-do-mundo-cordessur-ciel.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "6b43ebdac594-imagens-do-mundo-rumo-a-uma-cultura-do-amor.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "5eff9dc2d0f7-o-ideal-de-fraternidade-cerne-do-evangelho-cataro.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "6b31a7995c49-nosso-pao-suprassubstancial-nos-dai-hoje.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "02d105f50c82-despertar-no-espirito-santo.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "232002a44d8c-os-cataros-esquecidos-de-mont-aime.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "efe587d64c49-um-pedido-de-perdao-dos-catolicos-do-ariege-pelo-drama-cataro.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "35ddcab8f72f-o-caminho-dos-cataros-uma-gnosis-hermetica.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "bc5ac14cb87e-um-advogado-herege-traz-novamente-a-cena-a-questao-dos-bogomilos.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "dd29ebed6b97-a-verdadeira-igreja-de-cristo-esta-no-coracao-do-homem.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "da6fa67fb4a9-peter-deunov-mestre-da-sabedoria-do-amor.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "0af334f0d720-uma-noite-em-mostar.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "3bee1d17f11e-transcenda-para-ser-eterno.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "5fdedf50823b-os-dois-objetivos-da-gnosis.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "d8955cb4376e-imagens-do-mundo.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "744ba1c6de0d-imagens-do-mundo-1.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "c911ef630d4a-procrastinacao.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "49f501d129c0-imagens-do-mundo-cityscape.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "edd0d067047d-juventude-e-o-caminho-crepuscular.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "ae901f7e1ebb-identidade-e-nao-identidade-do-eu.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "40ed750454e5-nosso-eu.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "6c2ebe64c57f-trabalhar-em-conjunto-buscar-individualmente.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "b81424b18d12-pensar-e-pensar-sao-dois.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "025a33a88d69-o-restabelecimento-da-ordem.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "c65c081c5a84-imagens-do-mundo.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "a8e35b942720-monologo-interior.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    },
+    {
+      "file": "88d6df9f3a9c-a-europa-em-busca-de-sua-identidade-perdida-1.mp3",
+      "size_ok": true,
+      "sha256_ok": true,
+      "state": "uploaded"
+    }
+  ]
+}

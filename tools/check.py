@@ -10,6 +10,10 @@ ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 errors=[]
 links=0
+for entry in json.loads((ROOT/'content/site.json').read_text())['entries']:
+    if entry['type']=='livro':
+        available=bool(re.search(r'href="/assets/[^\"]+\.(?:pdf|epub|mobi)"',entry['html']))
+        if entry['ebook']!=available:errors.append(f"E-book filter does not reflect available download: {entry['title']}")
 
 
 class Check(HTMLParser):

@@ -24,7 +24,7 @@ try{
   await page.getByRole('searchbox').fill('<img src=x onerror=alert(1)>');check(await page.locator('[data-empty]').isVisible(),'empty state');check(await page.locator('img[src="x"]').count()===0,'search is plain text');
   await page.getByRole('button',{name:'Limpar filtros'}).click();check(await page.locator('[data-item]:visible').count()===24,'reset');await page.getByRole('button',{name:'Mostrar mais publicações'}).click();check(await page.locator('[data-item]:visible').count()===48,'show more');
   await visit('/revistas/?ano=2025');check(await page.locator('[data-item]:visible').count()===2,'2025 magazine filter');
-  await visit('/livros/?tipo=ebook');check(await page.locator('[data-item]:visible').evaluateAll(a=>a.length>0&&a.every(e=>e.dataset.tipo==='ebook')),'ebook filter');
+  await visit('/livros/?tipo=ebook');check(await page.locator('[data-item]:visible').evaluateAll(a=>a.length>0&&a.every(e=>e.dataset.tipo==='ebook')),'ebook filter');const expectedBooks=JSON.parse(fs.readFileSync('content/site.json')).entries.filter(e=>e.type==='livro'&&e.ebook).length;check((await page.locator('[data-count]').innerText()).includes(String(expectedBooks)),'ebook total matches available files');
   await visit('/livros/iniciacao-e-libertacao/');check(await page.locator('.prose a[href$=".epub"]').count()===1,'recovered EPUB link');
   await page.evaluate(()=>Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{}))));await page.screenshot({path:`docs/screenshots/${mode}-book-${width}.png`,timeout:8000});
  }

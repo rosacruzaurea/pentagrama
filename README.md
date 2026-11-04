@@ -5,6 +5,7 @@ Reconstrução estática do site, com **2026 como referência principal** e comp
 - Prévia: https://rosacruzaurea.github.io/pentagrama/
 - [Estado atual e continuidade](ESTADO.md)
 - [Verificação e limitações](docs/VERIFICACAO.md)
+- [Lista de livros e revistas faltantes](docs/FALTANTES.md)
 - [Conteúdo estruturado](content/site.json)
 - [Fontes de 2026 e complementos locais](content/recovery-2026.json)
 
@@ -19,7 +20,7 @@ python3 tools/check.py
 
 `site/` é o único diretório publicável. Caminho base: `/pentagrama/`. A branch `preview-pages` contém apenas esse artefato e usa `.nojekyll`. Não publicar a raiz da branch de código. O conteúdo é revisado em PR antes de qualquer alteração em `main`.
 
-A pesquisa e recuperação inicial usaram ferramentas já disponíveis, inclusive BeautifulSoup, pdfinfo e pdftoppm. Os scripts `recover.py`, `read_sql.py`, `import_public.py` e `merge_2026.py` documentam essa importação e recebem entradas privadas fora do repositório; não são necessários para editar ou reconstruir a versão publicada.
+A pesquisa e recuperação inicial usaram ferramentas já disponíveis, inclusive BeautifulSoup, pdfinfo e pdftoppm. Os scripts `recover.py`, `read_sql.py`, `import_public.py` `merge_2026.py` e `recover_unlinked.py` documentam essa importação e recebem entradas privadas fora do repositório; não são necessários para editar ou reconstruir a versão publicada.
 
 ## Conteúdo e privacidade
 
@@ -28,3 +29,5 @@ Arquivos de configuração, SQL bruto, contas, pedidos, listas de contato, plugi
 Os áudios públicos recuperados ficam no release `acervo-2018`, separados do Pages. PDFs e EPUBs selecionados ficam no artefato. Alguns arquivos antigos continuam ausentes; as páginas informam isso sem inventar downloads.
 
 Textos, marcas, capas, livros e revistas mantêm seus direitos editoriais. Não são automaticamente licenciados como código aberto. A fonte Glegoo acompanha sua licença OFL em `site/assets/fonts/OFL.txt`.
+
+Na reimportação, executar `recover_unlinked.py` após `merge_2026.py`: ele recupera PDFs existentes mas não vinculados corretamente no banco. O inventário de faltantes considera arquivos reais, não apenas links da base.

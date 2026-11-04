@@ -12,7 +12,7 @@ A prioridade é2026. O backup fornece os textos e arquivos ausentes, mantendo as
 
 Os arquivos locais de22livros complementam o acervo:20PDFs e2EPUBs. O volume Entre o silêncio e a luz está identificado como miolo sem capa; a divergência entre o ano do rosto e da CIP não foi corrigida por inferência. Capas de novos livros foram extraídas dos próprios EPUBs ou renderizadas do PDF. A capa da Revista2025nº2 foi renderizada apenas da frente da prancha, sem recriar a arte.
 
-Nove links antigos de PDFs não tiveram seus arquivos localizados no backup. Permanecem explicitamente indisponíveis. A restauração não promete que todo item do catálogo tenha download.
+O inventário vigente de faltantes está em FALTANTES.md. A primeira varredura de links não bastou: a conferência posterior dos235PDFs do backup localizou25publicações do catálogo de livros e2revistas que não estavam corretamente vinculadas no banco. A restauração não promete que todo item do catálogo tenha download.
 
 ## Controles efetivos
 
@@ -37,3 +37,19 @@ A primeira rotina extensa de browser foi interrompida por pressão de recursos. 
 -33verificações de browser aprovadas em lotes:1280px(6),390px(18),320px(6),sem JavaScript(3). Capturas desktop/mobile inspecionadas.
 - Busca sem acentos, estado vazio, entrada tratada como texto, reset, mostrar mais, filtro de ano, filtro de e-books, menu/Escape e link EPUB testados.
 -186PDFs abriram; nenhum declarou JavaScript ou criptografia. O PDF Caos Exterior, Despertar Interior emitiu aviso de campos de formulário, mas a renderização da capa e a leitura da estrutura funcionaram; não foi modificado para ocultar o aviso.
+
+## Verificação da primeira publicação e ajuste final
+
+Pages41829622129 concluiu com sucesso. A primeira prévia pública passou em15conferênciasHTTP com hash idêntico ao candidato,24checks de browser em desktop/mobile e carregamento dos metadados de um áudio real, sem autoplay.52/52áudios tiveram tamanho eSHA256 conferidos pelaAPI do release.
+
+A conferência semântica posterior encontrou flags de e-book herdadas do WordPress que não correspondiam à presença de arquivo. O filtro foi corrigido para representar os40livros comPDF/EPUB/MOBI recuperado, sem apresentar disponibilidade fictícia. O verificador agora bloqueia divergência entre rótulo e arquivo. Esta alteração afeta apenas home e listagens, não os PDFs, EPUBs ou áudios. Os relatórios públicos são atualizados após a nova publicação.
+
+O workflow gerado pelo próprio Pages emitiu aviso sobre upload-artifact@v4 usandoNode20 com execução forçada emNode24 e migração de ubuntu-latest. É infraestrutura gerenciada pelo GitHub, não dependência de runtime do site ou atualização executada na VPS.
+
+## Conferência final por arquivo, solicitada por Dani
+
+A lista completa de faltantes exigiu cruzar o catálogo com os arquivos brutos, não apenas os links exportados. Foram inspecionadas as páginas iniciais dos235PDFs do backup. Os3arquivos contendo somente o aviso Temporariamente indisponível não foram apresentados como livros. Um nome de arquivo diferente recuperou O conhecimento que ilumina, antes classificado como ausente pela URL antiga.
+
+A reconstituição adicional vinculou25publicações do catálogo de livros (incluindo Agenda2016) e2revistas. Inventário vigente:5livros do catálogo semPDF/EPUB,9revistas semPDF,2livros somente emEPUB;3arquivos extras do backup são apenas avisos. Entre o silêncio e a luz permanece como miolo sem capa. A biblioteca local e cópias de recuperação do servidor foram comparadas; nenhum título adicional útil apareceu fora das fontes já examinadas.
+
+Os65registros com download na categoria de livros incluem a Agenda2016. O artefato contém213PDFs no total, incluindo artigos, revistas e livros. A prova atualizada de integridade está em artifact-manifest.json; as contagens da primeira publicação acima são históricas.

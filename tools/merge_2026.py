@@ -160,6 +160,8 @@ data['hero']=copy_asset(backup/'wp-content/uploads/2016/05/banner_2-1687x439.png
 data['source_priority']=['web-2026','wordpress-2018-12-03','local-editorial']
 data['reference_home']='https://web.archive.org/web/20260710195647/https://pentagrama.org.br/'
 for e in data['entries']:
+    if e['type']=='livro':
+        e['ebook']=bool(re.search(r'href="/assets/[^\"]+\.(?:pdf|epub|mobi)"',e['html']))
     e['words']=len(re.sub('<[^>]+>',' ',e['html']).split())
     if e.get('aliases'):e['aliases']=sorted(set(e['aliases'])-{e['path']})
 (ROOT/'content/site.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

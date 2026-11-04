@@ -1,0 +1,122 @@
+[
+  {
+    "path": "/index.html",
+    "http": 200,
+    "bytes": 12894,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "e305354675fef89646e593fe4349f7d23d8b034f035e46da85a0383e7c756b6c"
+  },
+  {
+    "path": "/assets/styles.css",
+    "http": 200,
+    "bytes": 17725,
+    "mime": "text/css; charset=utf-8",
+    "hash_match": true,
+    "sha256": "3f1d2fbe19286c8ef151cd2619f667cb50bb6fa68e16f844d5626527fb9fee0d"
+  },
+  {
+    "path": "/assets/app.js",
+    "http": 200,
+    "bytes": 2730,
+    "mime": "application/javascript; charset=utf-8",
+    "hash_match": true,
+    "sha256": "4100d4b463d710cb74fffc4953cfca0d27a646e95a02f00e0b614618242bd14c"
+  },
+  {
+    "path": "/assets/fonts/glegoo-regular.ttf",
+    "http": 200,
+    "bytes": 155844,
+    "mime": "font/ttf",
+    "hash_match": true,
+    "sha256": "f3abe332e9cc5dbb4cba867373d64177338e3aaa5a292178d1613cfb3baa1c14"
+  },
+  {
+    "path": "/livros/index.html",
+    "http": 200,
+    "bytes": 68297,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "a5cdd251167d0e6d7abe3f9ba58c1033930ed6fbab9d2530f6aca0bfcd5b382b"
+  },
+  {
+    "path": "/revistas/index.html",
+    "http": 200,
+    "bytes": 102902,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "10184c8a9422f54921146a807e8dcec12bde40582ec26e35cb4dc6aa890320f8"
+  },
+  {
+    "path": "/blog/index.html",
+    "http": 200,
+    "bytes": 97932,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "fcd46ef60e8532d9e916b74dea9ebd78a4dd1dd13d4ba233a1f51b1140c2db3f"
+  },
+  {
+    "path": "/livros/rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi/index.html",
+    "http": 200,
+    "bytes": 7146,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "d34ae9963c9a68a816d6285fd1c94a5215e23edfad367a4100362b609afb9ff5"
+  },
+  {
+    "path": "/livros/iniciacao-e-libertacao/index.html",
+    "http": 200,
+    "bytes": 7413,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "7b808c61a348ad54ec9b314fa08284f5ff2d4cd217b65266cfc11d7cecd681e3"
+  },
+  {
+    "path": "/contato/index.html",
+    "http": 200,
+    "bytes": 3287,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "925d4619b88feabc8d53a9fd621300b8910e139895d7a35e681a18d28b4db81c"
+  },
+  {
+    "path": "/assets/media/e453793dfd96-pentagrama-logo-2019.png",
+    "http": 200,
+    "bytes": 11593,
+    "mime": "image/png",
+    "hash_match": true,
+    "sha256": "e453793dfd96e1db83f7040be9ee7951a17b63885804e312377c1a20cfd01ef8"
+  },
+  {
+    "path": "/assets/media/59ba746f1a39-banner_2-1687x439.png",
+    "http": 200,
+    "bytes": 382492,
+    "mime": "image/png",
+    "hash_match": true,
+    "sha256": "59ba746f1a399da49c8e60428a301aafa9a13c2db616da31ed45feb818420bc2"
+  },
+  {
+    "path": "/assets/media/156843d8083c-rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi.pdf",
+    "http": 200,
+    "bytes": 3271500,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "156843d8083c1e3f468b884d6f9600e6e11a1479400299cf1aeec89bd3362348"
+  },
+  {
+    "path": "/assets/media/2142d7d54958-iniciacao-e-libertacao.epub",
+    "http": 200,
+    "bytes": 2709883,
+    "mime": "application/epub+zip",
+    "hash_match": true,
+    "sha256": "2142d7d549582ece079e18f48633bff6fffcec4c734a66828ef6f5d8efed970c"
+  },
+  {
+    "path": "/assets/media/757759cca675-revista-pentagrama-2025-ano1-numero2.pdf",
+    "http": 200,
+    "bytes": 544337,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "757759cca6750ff462a42192d591951be1d02f2f70fee006cf6fd609e3456c15"
+  }
+]

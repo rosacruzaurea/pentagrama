@@ -1486,5 +1486,221 @@
     "encrypted": "no",
     "exit": 0,
     "warning": ""
+  },
+  {
+    "file": "f577f9a24e96-agenda2016.pdf",
+    "pages": "48",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "45109947f280-novo-caduceu-mercurio.pdf",
+    "pages": "74",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "5c06b4e1aa13-selo-renovacao_0.pdf",
+    "pages": "104",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "b446b72be06b-fraternidade-mundial-rosa-cruz.pdf",
+    "pages": "58",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "d873a931b2cd-misterio-bem-aventurancas.pdf",
+    "pages": "104",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "a3f1845c229a-novo-sinal.pdf",
+    "pages": "164",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "47d59edd8506-caminho.pdf",
+    "pages": "34",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "74a4c48ee1a2-transfiguracao.pdf",
+    "pages": "37",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "ca18de32ce64-iniciacao_iluminacao_libertacao.pdf",
+    "pages": "31",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "5b2580c76be5-gnosis-original-egipcia-tomo-1.pdf",
+    "pages": "262",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:no change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "f2692ae2bce2-nuctemeron-apolonio-tiana.pdf",
+    "pages": "162",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "12fc763e2715-historias-roseiral.pdf",
+    "pages": "232",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "f873c931bfa8-senda-libertadora-rosa-cruz.pdf",
+    "pages": "130",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "3ce3c41980c0-gnosis-original-egipcia-tomo-2.pdf",
+    "pages": "354",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "c0c2971d36d0-conhecimento-ilumina-evangelho-verdade-evangelho-maria.pdf",
+    "pages": "9",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "c69ca33a8df8-remedio-universal.pdf",
+    "pages": "74",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "448fba841c4e-misterio-vida-morte.pdf",
+    "pages": "96",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "6623a2496161-christianopolis.pdf",
+    "pages": "121",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "ac3c2b7d5d95-fraternidade-shamballa.pdf",
+    "pages": "98",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "a5829be6a0b6-revista-ano-20-numero-1.pdf",
+    "pages": "44",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "09d726587deb-gnosis-universal.pdf",
+    "pages": "225",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "6782046c3ced-evangelho-doze-santos.pdf",
+    "pages": "36",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "5ac11958da4f-nao-ha-espaco-vazio.pdf",
+    "pages": "82",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "da15c007788d-joao_ultimonascido.pdf",
+    "pages": "33",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "f42e817a275d-revista-ano-24-numero-6.pdf",
+    "pages": "50",
+    "javascript": "no",
+    "encrypted": "no",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "9c1dd66b2f40-gnosis-original-egipcia-tomo-4.pdf",
+    "pages": "236",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)",
+    "exit": 0,
+    "warning": ""
+  },
+  {
+    "file": "ba254a8a1672-sinais-poderosos-conselho-deus.pdf",
+    "pages": "58",
+    "javascript": "no",
+    "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)",
+    "exit": 0,
+    "warning": ""
   }
 ]

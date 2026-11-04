@@ -56,9 +56,9 @@ def card(e,filterable=False):
     topic=(e['categories'][0] if e['categories'] else 'Artigo') if kind=='artigo' else ('Revista · '+e['year'] if kind=='revista' else 'E-book gratuito' if e['ebook'] else 'Livro')
     attrs=''
     if filterable:
-        search=' '.join([e['title'],e['summary'],*e['authors'],*e['categories'],e['year']])
+        search=' '.join(' '.join([e['title'],e['summary'],*e['authors'],*e['categories'],e['year']]).split())
         attrs=f' data-item data-search="{H(search)}" data-tema="{H(json.dumps(e["categories"],ensure_ascii=False))}" data-autor="{H(json.dumps(e["authors"],ensure_ascii=False))}" data-ano="{e["year"]}" data-tipo="{"ebook" if e["ebook"] else kind}"'
-    return f'''<article class="card {"book-card" if book else "article-card"}"{attrs}><a class="card-image" href="{U(e['path'])}" tabindex="-1" aria-hidden="true">{picture(e)}</a><div class="card-copy"><p class="eyebrow">{H(topic)}</p><h3><a href="{U(e['path'])}">{H(e['title'])}</a></h3>{'<p class="card-author">'+H(', '.join(e['authors']))+'</p>' if e['authors'] else ''}{'<p class="card-summary">'+H(e['summary'])+'</p><p class="card-date">'+date(e['date'])+'</p>' if kind=='artigo' else ''}</div></article>'''
+    return f'''<article class="card {"book-card" if book else "article-card"}"{attrs}><a class="card-image" href="{U(e['path'])}" tabindex="-1" aria-hidden="true">{picture(e)}</a><div class="card-copy"><p class="eyebrow">{H(topic)}</p><h3><a href="{U(e['path'])}">{H(e['title'])}</a></h3>{'<p class="card-author">'+H(', '.join(e['authors']))+'</p>' if e['authors'] else ''}{'<p class="card-summary">'+H(' '.join(e['summary'].split()))+'</p><p class="card-date">'+date(e['date'])+'</p>' if kind=='artigo' else ''}</div></article>'''
 
 
 def listing(path,title,intro,items,kind):
