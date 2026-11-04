@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+private/
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+node_modules/
