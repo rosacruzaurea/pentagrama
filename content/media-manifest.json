@@ -3943,5 +3943,6 @@
     "http://www.pentagrama.org.br/digital/2015-4",
     "http://www.pentagrama.org.br/download/file/fid/460",
     "http://www.pentagrama.org.br/download/file/fid/599"
-  ]
+  ],
+  "note": "Inventário da importação inicial de links de 2018. Lacunas vigentes em missing-publications.json; vínculos recuperados depois em recovered-unlinked.json. Os áudios permanecem atuais."
 }

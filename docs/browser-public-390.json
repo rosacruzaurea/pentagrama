@@ -61,6 +61,10 @@
       "passed": true
     },
     {
+      "name": "ebook total matches available files",
+      "passed": true
+    },
+    {
       "name": "/livros/iniciacao-e-libertacao/ fits 390",
       "passed": true
     },

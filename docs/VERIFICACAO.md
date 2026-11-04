@@ -53,3 +53,11 @@ A lista completa de faltantes exigiu cruzar o catálogo com os arquivos brutos, 
 A reconstituição adicional vinculou25publicações do catálogo de livros (incluindo Agenda2016) e2revistas. Inventário vigente:5livros do catálogo semPDF/EPUB,9revistas semPDF,2livros somente emEPUB;3arquivos extras do backup são apenas avisos. Entre o silêncio e a luz permanece como miolo sem capa. A biblioteca local e cópias de recuperação do servidor foram comparadas; nenhum título adicional útil apareceu fora das fontes já examinadas.
 
 Os65registros com download na categoria de livros incluem a Agenda2016. O artefato contém213PDFs no total, incluindo artigos, revistas e livros. A prova atualizada de integridade está em artifact-manifest.json; as contagens da primeira publicação acima são históricas.
+
+## Resultado publicado vigente
+
+Código do artefato: `4d6bf3d6bea41ecb4c1743b6d9568e9dc9228265`. Pages: `f6555e973a152215ebafd6b9e74a51f0fd28f64c`, build 41832471136 aprovado. A atualização não modifica o domínio institucional nem main.
+
+O verificador local aprovou 358 páginas, 12.167 referências locais e 879 arquivos, com 825.490.608 bytes. Todos os 213 PDFs abriram na verificação estrutural. No endereço público, 42 recursos responderam 200 com hashes iguais aos locais, incluindo os 27 PDFs recuperados após a reconciliação. O navegador mobile passou em 19 verificações, incluindo o total real de 65 registros com download no catálogo de livros. Os relatórios JSON e capturas correspondentes estão neste diretório.
+
+As contagens anteriores nesta nota são o histórico da reconstrução, não o inventário vigente. FALTANTES.md e content/missing-publications.json são a referência atual para lacunas.

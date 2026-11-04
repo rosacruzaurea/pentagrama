@@ -41,9 +41,9 @@ Estes três PDFs contêm somente “Temporariamente indisponível”, não o liv
 
 ## Escopo e correções da conferência
 
-Foram cruzados o catálogo recuperado,235PDFs do backup bruto, arquivos públicos de caches e a biblioteca local. A conferência por arquivo recuperou mais25publicações do catálogo de livros (incluindo Agenda2016) e2revistas que não estavam corretamente ligadas no banco. Elas não aparecem nesta lista de faltantes.
+Foram cruzados o catálogo recuperado, 235 PDFs do backup bruto, arquivos públicos de caches e a biblioteca local. A conferência por arquivo recuperou mais 25 publicações do catálogo de livros (incluindo Agenda 2016) e 2 revistas que não estavam corretamente ligadas no banco. Elas não aparecem nesta lista de faltantes.
 
-As capturas disponíveis não permitem afirmar que todo o catálogo2026 foi recuperado. Por isso, não se inferiram edições faltantes apenas por lacunas na sequência de anos/números.
+As capturas disponíveis não permitem afirmar que todo o catálogo de 2026 foi recuperado. Por isso, não se inferiram edições faltantes apenas por lacunas na sequência de anos/números.
 
 Prévia: https://rosacruzaurea.github.io/pentagrama/
 Revisão: https://github.com/rosacruzaurea/pentagrama/pull/1
