@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "name": "77 articles without JS",
+      "passed": true
+    },
+    {
+      "name": "navigation without JS",
+      "passed": true
+    },
+    {
+      "name": "all articles exposed without JS",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

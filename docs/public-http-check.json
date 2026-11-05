@@ -1,0 +1,338 @@
+[
+  {
+    "path": "/index.html",
+    "http": 200,
+    "bytes": 12823,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "9f1a1327f8fb63c6ca4b75237ce5cb1e0c8828fb08833ecc03c996a775d56278"
+  },
+  {
+    "path": "/assets/styles.css",
+    "http": 200,
+    "bytes": 17725,
+    "mime": "text/css; charset=utf-8",
+    "hash_match": true,
+    "sha256": "3f1d2fbe19286c8ef151cd2619f667cb50bb6fa68e16f844d5626527fb9fee0d"
+  },
+  {
+    "path": "/assets/app.js",
+    "http": 200,
+    "bytes": 2730,
+    "mime": "application/javascript; charset=utf-8",
+    "hash_match": true,
+    "sha256": "4100d4b463d710cb74fffc4953cfca0d27a646e95a02f00e0b614618242bd14c"
+  },
+  {
+    "path": "/assets/fonts/glegoo-regular.ttf",
+    "http": 200,
+    "bytes": 155844,
+    "mime": "font/ttf",
+    "hash_match": true,
+    "sha256": "f3abe332e9cc5dbb4cba867373d64177338e3aaa5a292178d1613cfb3baa1c14"
+  },
+  {
+    "path": "/livros/index.html",
+    "http": 200,
+    "bytes": 68390,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "41b7ceb2eb2b4b5a5d7e07b37d07e74b6f512aabcd1d722e6b6e3a063517c349"
+  },
+  {
+    "path": "/revistas/index.html",
+    "http": 200,
+    "bytes": 101743,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "7d9719dcac565fce3d6db804b3e8c289dacafd97aba9a18aef8f08a8e6ce2dc5"
+  },
+  {
+    "path": "/blog/index.html",
+    "http": 200,
+    "bytes": 97843,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "9d9982dae3f1764b5b05776e61eb004ade8d9f5d306b4558dc122fb4824dcdd8"
+  },
+  {
+    "path": "/livros/rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi/index.html",
+    "http": 200,
+    "bytes": 7146,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "d34ae9963c9a68a816d6285fd1c94a5215e23edfad367a4100362b609afb9ff5"
+  },
+  {
+    "path": "/livros/iniciacao-e-libertacao/index.html",
+    "http": 200,
+    "bytes": 7413,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "7b808c61a348ad54ec9b314fa08284f5ff2d4cd217b65266cfc11d7cecd681e3"
+  },
+  {
+    "path": "/contato/index.html",
+    "http": 200,
+    "bytes": 3287,
+    "mime": "text/html; charset=utf-8",
+    "hash_match": true,
+    "sha256": "925d4619b88feabc8d53a9fd621300b8910e139895d7a35e681a18d28b4db81c"
+  },
+  {
+    "path": "/assets/media/e453793dfd96-pentagrama-logo-2019.png",
+    "http": 200,
+    "bytes": 11593,
+    "mime": "image/png",
+    "hash_match": true,
+    "sha256": "e453793dfd96e1db83f7040be9ee7951a17b63885804e312377c1a20cfd01ef8"
+  },
+  {
+    "path": "/assets/media/59ba746f1a39-banner_2-1687x439.png",
+    "http": 200,
+    "bytes": 382492,
+    "mime": "image/png",
+    "hash_match": true,
+    "sha256": "59ba746f1a399da49c8e60428a301aafa9a13c2db616da31ed45feb818420bc2"
+  },
+  {
+    "path": "/assets/media/156843d8083c-rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi.pdf",
+    "http": 200,
+    "bytes": 3271500,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "156843d8083c1e3f468b884d6f9600e6e11a1479400299cf1aeec89bd3362348"
+  },
+  {
+    "path": "/assets/media/2142d7d54958-iniciacao-e-libertacao.epub",
+    "http": 200,
+    "bytes": 2709883,
+    "mime": "application/epub+zip",
+    "hash_match": true,
+    "sha256": "2142d7d549582ece079e18f48633bff6fffcec4c734a66828ef6f5d8efed970c"
+  },
+  {
+    "path": "/assets/media/757759cca675-revista-pentagrama-2025-ano1-numero2.pdf",
+    "http": 200,
+    "bytes": 544337,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "757759cca6750ff462a42192d591951be1d02f2f70fee006cf6fd609e3456c15"
+  },
+  {
+    "path": "/assets/media/b446b72be06b-fraternidade-mundial-rosa-cruz.pdf",
+    "http": 200,
+    "bytes": 18997525,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "b446b72be06b9010c32a30459827c599986c0c41131811776f3d616479ed26ea"
+  },
+  {
+    "path": "/assets/media/ac3c2b7d5d95-fraternidade-shamballa.pdf",
+    "http": 200,
+    "bytes": 3821260,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "ac3c2b7d5d9520ecc1cf2bb254a0df62d3f8ca9c1e5bd51bba1e9f3d06f7a586"
+  },
+  {
+    "path": "/assets/media/5b2580c76be5-gnosis-original-egipcia-tomo-1.pdf",
+    "http": 200,
+    "bytes": 24991491,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "5b2580c76be512aa7fb128ba9e1c7ae5420f098ae8834eb5a49bc6878b68508e"
+  },
+  {
+    "path": "/assets/media/3ce3c41980c0-gnosis-original-egipcia-tomo-2.pdf",
+    "http": 200,
+    "bytes": 12571858,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "3ce3c41980c043c33b691fa624d1fee3890f7c263bcffe39ab59329b4b3533af"
+  },
+  {
+    "path": "/assets/media/9c1dd66b2f40-gnosis-original-egipcia-tomo-4.pdf",
+    "http": 200,
+    "bytes": 11314246,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "9c1dd66b2f40517c1a97c7ff7727bfb07485734a370f60931150d00cc794c65c"
+  },
+  {
+    "path": "/assets/media/09d726587deb-gnosis-universal.pdf",
+    "http": 200,
+    "bytes": 17636679,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "09d726587debcaf11b402b566281fd892ff9adec7e48453e1f54e45be6a1ff9b"
+  },
+  {
+    "path": "/assets/media/f873c931bfa8-senda-libertadora-rosa-cruz.pdf",
+    "http": 200,
+    "bytes": 2356630,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "f873c931bfa84f4fb113d0fd03f14fa4ced79c8b4a96a25d2b2d1820eb0f47ef"
+  },
+  {
+    "path": "/assets/media/f577f9a24e96-agenda2016.pdf",
+    "http": 200,
+    "bytes": 1645123,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "f577f9a24e969d58081f14fb0aef633f5d61e908f08887f955badd551cd24fbd"
+  },
+  {
+    "path": "/assets/media/6623a2496161-christianopolis.pdf",
+    "http": 200,
+    "bytes": 4822213,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "6623a24961616d18e01b9be56c7712b2916aa24baed6f9d72e726fdb70884552"
+  },
+  {
+    "path": "/assets/media/12fc763e2715-historias-roseiral.pdf",
+    "http": 200,
+    "bytes": 1729597,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "12fc763e27150af158e45fd824b3bc9058ea8fcb2f0e46fd932698e6f8e72663"
+  },
+  {
+    "path": "/assets/media/ca18de32ce64-iniciacao_iluminacao_libertacao.pdf",
+    "http": 200,
+    "bytes": 469947,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "ca18de32ce64b951aacbe0f27238447f5f0be1ee47c6c1934f6b3dbee0eb912b"
+  },
+  {
+    "path": "/assets/media/da15c007788d-joao_ultimonascido.pdf",
+    "http": 200,
+    "bytes": 520429,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "da15c007788d46907d62a8622a12ce3400f1d21fa43a212c1f8288d9136a5356"
+  },
+  {
+    "path": "/assets/media/5ac11958da4f-nao-ha-espaco-vazio.pdf",
+    "http": 200,
+    "bytes": 3167421,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "5ac11958da4f15e8389a84952a9036b2bf901cda757f62e3923b86cf448ae7a8"
+  },
+  {
+    "path": "/assets/media/c0c2971d36d0-conhecimento-ilumina-evangelho-verdade-evangelho-maria.pdf",
+    "http": 200,
+    "bytes": 88933,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "c0c2971d36d0e7d03b5d1b93e4bb60dbc95e8494f1057de8894ea4d44249f50c"
+  },
+  {
+    "path": "/assets/media/f2692ae2bce2-nuctemeron-apolonio-tiana.pdf",
+    "http": 200,
+    "bytes": 4256868,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "f2692ae2bce2b8643b505108522b38f4c8fc139e23ff2919e88b87a88c5c0a83"
+  },
+  {
+    "path": "/assets/media/47d59edd8506-caminho.pdf",
+    "http": 200,
+    "bytes": 316829,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "47d59edd850693c4a16fe4efafc51fc5c046fcf6b0900ba69ba514b456e3e184"
+  },
+  {
+    "path": "/assets/media/6782046c3ced-evangelho-doze-santos.pdf",
+    "http": 200,
+    "bytes": 2409424,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "6782046c3ced5ae47b302423459275ab94a0016207ed395c2ae9f2b79d076de8"
+  },
+  {
+    "path": "/assets/media/448fba841c4e-misterio-vida-morte.pdf",
+    "http": 200,
+    "bytes": 5872970,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "448fba841c4e9ff45dd4bec78516784edfd83da3c9f3fa45ee3453b73f848608"
+  },
+  {
+    "path": "/assets/media/d873a931b2cd-misterio-bem-aventurancas.pdf",
+    "http": 200,
+    "bytes": 4033219,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "d873a931b2cd12669856bc6c2930098f64c0ad96667150a6a2e63c70ea2eb0ce"
+  },
+  {
+    "path": "/assets/media/45109947f280-novo-caduceu-mercurio.pdf",
+    "http": 200,
+    "bytes": 1287593,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "45109947f280eff0188623820d7cc0feac13d9096c99b33e7914ac44708530dc"
+  },
+  {
+    "path": "/assets/media/a3f1845c229a-novo-sinal.pdf",
+    "http": 200,
+    "bytes": 1945185,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "a3f1845c229a3d4f32f64df1656ea4efc231c8984cd6be37804fc072fcb9bff0"
+  },
+  {
+    "path": "/assets/media/c69ca33a8df8-remedio-universal.pdf",
+    "http": 200,
+    "bytes": 709042,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "c69ca33a8df85baab6f73eebee7d99c831639cb8255fad0ef6bd0f5d44b7744a"
+  },
+  {
+    "path": "/assets/media/5c06b4e1aa13-selo-renovacao_0.pdf",
+    "http": 200,
+    "bytes": 1143560,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "5c06b4e1aa13f70c75896daaadb3aa0628719946acf0140c551396c1a55128e1"
+  },
+  {
+    "path": "/assets/media/ba254a8a1672-sinais-poderosos-conselho-deus.pdf",
+    "http": 200,
+    "bytes": 10839936,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "ba254a8a16726bd2276ef15c68919453f17b38fa6dd5b5b74bd4a9c801292780"
+  },
+  {
+    "path": "/assets/media/74a4c48ee1a2-transfiguracao.pdf",
+    "http": 200,
+    "bytes": 367411,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "74a4c48ee1a2dd53d39a987483eeed337369c4d05b230ed38ebff43d872f2143"
+  },
+  {
+    "path": "/assets/media/a5829be6a0b6-revista-ano-20-numero-1.pdf",
+    "http": 200,
+    "bytes": 1702327,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "a5829be6a0b6f934446816f85635b28ea0fe0493e925ed0feaa14a3fe0a0aa51"
+  },
+  {
+    "path": "/assets/media/f42e817a275d-revista-ano-24-numero-6.pdf",
+    "http": 200,
+    "bytes": 1878557,
+    "mime": "application/pdf",
+    "hash_match": true,
+    "sha256": "f42e817a275dbbf55dcb7a3661ffb548f9a0e9ce0df9c51d78929ee03e0b9dd5"
+  }
+]

@@ -1,0 +1,22 @@
+name: Validar site estático
+on:
+  push:
+    branches: ['feat/**', main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Gerar HTML
+        run: python3 tools/build.py
+      - name: Conferir links, isolamento e limite do artefato
+        run: python3 tools/check.py
+      - name: Confirmar build reproduzível
+        run: git diff --exit-code -- site

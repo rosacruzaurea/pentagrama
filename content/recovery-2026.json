@@ -1,0 +1,588 @@
+{
+  "assets": [
+    {
+      "file": "d0149f02fadf-revista-pentagrama-2025-ano1-numero1.pdf",
+      "sha256": "d0149f02fadf79a6ec21b2c5e4b4119f2352069ac9ce93e1bfeb84c1e7521bd6",
+      "bytes": 148188,
+      "origin": "Wayback: PDF oficial Revista Pentagrama 2025, número 1"
+    },
+    {
+      "file": "757759cca675-revista-pentagrama-2025-ano1-numero2.pdf",
+      "sha256": "757759cca6750ff462a42192d591951be1d02f2f70fee006cf6fd609e3456c15",
+      "bytes": 544337,
+      "origin": "Wayback: PDF oficial Revista Pentagrama 2025, número 2"
+    },
+    {
+      "file": "156843d8083c-rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi.pdf",
+      "sha256": "156843d8083c1e3f468b884d6f9600e6e11a1479400299cf1aeec89bd3362348",
+      "bytes": 3271500,
+      "origin": "Biblioteca local autorizada: Rosacruz Áurea: Uma Escola Iniciática para o século XXI"
+    },
+    {
+      "file": "2b9085ea757d-caos-exterior-despertar-interior.pdf",
+      "sha256": "2b9085ea757da2f4e98d7767e0addcb4bc7df995ba4f81ed7906308bc2577a37",
+      "bytes": 6712921,
+      "origin": "Biblioteca local autorizada: Caos Exterior, Despertar Interior"
+    },
+    {
+      "file": "2142d7d54958-iniciacao-e-libertacao.epub",
+      "sha256": "2142d7d549582ece079e18f48633bff6fffcec4c734a66828ef6f5d8efed970c",
+      "bytes": 2709883,
+      "origin": "Biblioteca local autorizada: Iniciação e libertação"
+    },
+    {
+      "file": "a7eaa949f8e6-inspiracoes-para-um-novo-tempo.epub",
+      "sha256": "a7eaa949f8e65ce5318dd098916d69cc01335c8136d521a247badeab71b2db28",
+      "bytes": 2322893,
+      "origin": "Biblioteca local autorizada: Inspirações para um novo tempo"
+    },
+    {
+      "file": "7f002cc378a3-a-busca-da-nova-consciencia.pdf",
+      "sha256": "7f002cc378a37f4ac958ebf967f741ccb989001cac16f085b948f5527af17e16",
+      "bytes": 442587,
+      "origin": "Biblioteca local autorizada: A Busca da Nova Consciência"
+    },
+    {
+      "file": "d9d6be5f9aa1-saude-e-espiritualidade-a-cura.pdf",
+      "sha256": "d9d6be5f9aa153d73a26cff7ba70853b0cfe13eb3a863834b6eddf4b9022c1e7",
+      "bytes": 435304,
+      "origin": "Biblioteca local autorizada: Saúde e Espiritualidade: A Cura"
+    },
+    {
+      "file": "e583a0e31942-os-sete-raios-do-espirito-e-a-transformacao-da-vida-humana.pdf",
+      "sha256": "e583a0e31942a99a07b743271f7f19f3ae103d231ad3942cac3fc5490953a44d",
+      "bytes": 1302428,
+      "origin": "Biblioteca local autorizada: Os Sete Raios do Espírito e a transformação da vida humana"
+    },
+    {
+      "file": "b8d52b546498-a-grande-revolucao.pdf",
+      "sha256": "b8d52b546498a4c2fd474e53df4ed644b6a248b21028bfd266204d7b02c03c98",
+      "bytes": 3840177,
+      "origin": "Biblioteca local autorizada: A grande revolução"
+    },
+    {
+      "file": "2807c9729ea5-a-gnosis-chinesa.pdf",
+      "sha256": "2807c9729ea5d7b6ee02d42fa52617329920544339b88605fa443e8faafe2663",
+      "bytes": 12882870,
+      "origin": "Biblioteca local autorizada: A Gnosis Chinesa"
+    },
+    {
+      "file": "98c3a0a0721c-o-misterio-iniciatico-cristao-dei-gloria-intacta.pdf",
+      "sha256": "98c3a0a0721c8afe3d044f90f2279a4f6c004ebbc51f6f0b43fed40671c683c4",
+      "bytes": 830755,
+      "origin": "Biblioteca local autorizada: O mistério iniciático cristão: Dei gloria intacta"
+    },
+    {
+      "file": "1dd38bb7e3b8-filosofia-elementar-da-rosacruz-moderna.pdf",
+      "sha256": "1dd38bb7e3b80857777fb4722c9d0ccd661e57f3ba893473db85902cf15a46ed",
+      "bytes": 9358266,
+      "origin": "Biblioteca local autorizada: Filosofia elementar da Rosacruz moderna"
+    },
+    {
+      "file": "df896ca51422-a-gnose-em-sua-atual-manifestacao.pdf",
+      "sha256": "df896ca5142239ddcac9884a706c84d1355bf97e14b9af109b9517db1fc57a67",
+      "bytes": 16600015,
+      "origin": "Biblioteca local autorizada: A Gnose em sua atual manifestação"
+    },
+    {
+      "file": "bca414827a9e-o-verbo-vivente.pdf",
+      "sha256": "bca414827a9e8876b4c1ca08c66af46761efb671024e6c64562600555a086c82",
+      "bytes": 2889790,
+      "origin": "Biblioteca local autorizada: O Verbo Vivente"
+    },
+    {
+      "file": "9086351299c4-os-misterios-gnosticos-da-pistis-sophia.pdf",
+      "sha256": "9086351299c4bf449f2df09786f7fcc97f199ced0ba43c7cb800612ba750248d",
+      "bytes": 2164972,
+      "origin": "Biblioteca local autorizada: Os mistérios gnósticos da Pistis Sophia"
+    },
+    {
+      "file": "a3c216daea7c-a-veste-de-luz-do-novo-homem.pdf",
+      "sha256": "a3c216daea7c50f2efbbb44f1130e62d613ad40185736e239116cb8d6ac1d856",
+      "bytes": 1200254,
+      "origin": "Biblioteca local autorizada: A veste-de-luz do novo homem"
+    },
+    {
+      "file": "4e34434cc7e2-o-chamado-da-fraternidade-da-rosa-cruz.pdf",
+      "sha256": "4e34434cc7e252d2f66cbe02e3daa493bfbd7330ebbdd10aba51eebbd8bc6b41",
+      "bytes": 3982161,
+      "origin": "Biblioteca local autorizada: O chamado da Fraternidade da Rosa-Cruz"
+    },
+    {
+      "file": "74c8b183fbba-a-luz-do-mundo.pdf",
+      "sha256": "74c8b183fbbacbdb17064af32d5e4fa5e532073ca8dd3e9d209387cf84209006",
+      "bytes": 2537327,
+      "origin": "Biblioteca local autorizada: A luz do mundo"
+    },
+    {
+      "file": "1e8e5fb4a4c6-transfiguracao.pdf",
+      "sha256": "1e8e5fb4a4c6ae7880d52d5987c504704c91f0aed51b9ed9dc26a52f5ba9aa8a",
+      "bytes": 270970,
+      "origin": "Biblioteca local autorizada: Transfiguração"
+    },
+    {
+      "file": "5bebbdbbd1a7-a-triplice-alianca-da-luz.pdf",
+      "sha256": "5bebbdbbd1a7513987f2832c6de5db2ed9fc1d0c70a853ab3dc6650f84982796",
+      "bytes": 1316715,
+      "origin": "Biblioteca local autorizada: A Tríplice Aliança da Luz"
+    },
+    {
+      "file": "0d58e3709cb9-o-novo-homem.pdf",
+      "sha256": "0d58e3709cb9582570fcc867b789bbbe6f8038347780d1e0b0b2e1f7a3ba108a",
+      "bytes": 4487976,
+      "origin": "Biblioteca local autorizada: O novo homem"
+    },
+    {
+      "file": "3fd547d0d3a8-a-confessio-da-fraternidade-da-rosacruz.pdf",
+      "sha256": "3fd547d0d3a837eaec2811d58649319e80167340bc74beae3d9e76ae69bb5826",
+      "bytes": 412135,
+      "origin": "Biblioteca local autorizada: A Confessio da Fraternidade da Rosacruz"
+    },
+    {
+      "file": "5ff7a2a8f750-entre-o-silencio-e-a-luz-miolo.pdf",
+      "sha256": "5ff7a2a8f750a59e00a02916d25ea7ea4adeea9e64b2c159af15b130a31bca59",
+      "bytes": 1066578,
+      "origin": "Biblioteca local autorizada: Entre o silêncio e a luz: reflexões de uma jornada espiritual"
+    },
+    {
+      "file": "e453793dfd96-pentagrama-logo-2019.png",
+      "sha256": "e453793dfd96e1db83f7040be9ee7951a17b63885804e312377c1a20cfd01ef8",
+      "bytes": 11593,
+      "origin": "Logo referido no site2026; binário recuperado do arquivo web"
+    },
+    {
+      "file": "59ba746f1a39-banner_2-1687x439.png",
+      "sha256": "59ba746f1a399da49c8e60428a301aafa9a13c2db616da31ed45feb818420bc2",
+      "bytes": 382492,
+      "origin": "Backup2018: banner com mesmo nome e composição da referência2026"
+    }
+  ],
+  "local_books": [
+    {
+      "title": "Rosacruz Áurea: Uma Escola Iniciática para o século XXI",
+      "format": "pdf",
+      "edition": "2025",
+      "sha256": "156843d8083c1e3f468b884d6f9600e6e11a1479400299cf1aeec89bd3362348"
+    },
+    {
+      "title": "Caos Exterior, Despertar Interior",
+      "format": "pdf",
+      "edition": "2021",
+      "sha256": "2b9085ea757da2f4e98d7767e0addcb4bc7df995ba4f81ed7906308bc2577a37"
+    },
+    {
+      "title": "Iniciação e libertação",
+      "format": "epub",
+      "edition": "2024",
+      "sha256": "2142d7d549582ece079e18f48633bff6fffcec4c734a66828ef6f5d8efed970c"
+    },
+    {
+      "title": "Inspirações para um novo tempo",
+      "format": "epub",
+      "edition": "2023",
+      "sha256": "a7eaa949f8e65ce5318dd098916d69cc01335c8136d521a247badeab71b2db28"
+    },
+    {
+      "title": "A Busca da Nova Consciência",
+      "format": "pdf",
+      "edition": "2020",
+      "sha256": "7f002cc378a37f4ac958ebf967f741ccb989001cac16f085b948f5527af17e16"
+    },
+    {
+      "title": "Saúde e Espiritualidade: A Cura",
+      "format": "pdf",
+      "edition": "2018",
+      "sha256": "d9d6be5f9aa153d73a26cff7ba70853b0cfe13eb3a863834b6eddf4b9022c1e7"
+    },
+    {
+      "title": "Os Sete Raios do Espírito e a transformação da vida humana",
+      "format": "pdf",
+      "edition": "2016",
+      "sha256": "e583a0e31942a99a07b743271f7f19f3ae103d231ad3942cac3fc5490953a44d"
+    },
+    {
+      "title": "A grande revolução",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "b8d52b546498a4c2fd474e53df4ed644b6a248b21028bfd266204d7b02c03c98"
+    },
+    {
+      "title": "A Gnosis Chinesa",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "2807c9729ea5d7b6ee02d42fa52617329920544339b88605fa443e8faafe2663"
+    },
+    {
+      "title": "O mistério iniciático cristão: Dei gloria intacta",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "98c3a0a0721c8afe3d044f90f2279a4f6c004ebbc51f6f0b43fed40671c683c4"
+    },
+    {
+      "title": "Filosofia elementar da Rosacruz moderna",
+      "format": "pdf",
+      "edition": "2003",
+      "sha256": "1dd38bb7e3b80857777fb4722c9d0ccd661e57f3ba893473db85902cf15a46ed"
+    },
+    {
+      "title": "A Gnose em sua atual manifestação",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "df896ca5142239ddcac9884a706c84d1355bf97e14b9af109b9517db1fc57a67"
+    },
+    {
+      "title": "O Verbo Vivente",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "bca414827a9e8876b4c1ca08c66af46761efb671024e6c64562600555a086c82"
+    },
+    {
+      "title": "Os mistérios gnósticos da Pistis Sophia",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "9086351299c4bf449f2df09786f7fcc97f199ced0ba43c7cb800612ba750248d"
+    },
+    {
+      "title": "A veste-de-luz do novo homem",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "a3c216daea7c50f2efbbb44f1130e62d613ad40185736e239116cb8d6ac1d856"
+    },
+    {
+      "title": "O chamado da Fraternidade da Rosa-Cruz",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "4e34434cc7e252d2f66cbe02e3daa493bfbd7330ebbdd10aba51eebbd8bc6b41"
+    },
+    {
+      "title": "A luz do mundo",
+      "format": "pdf",
+      "edition": "2012",
+      "sha256": "74c8b183fbbacbdb17064af32d5e4fa5e532073ca8dd3e9d209387cf84209006"
+    },
+    {
+      "title": "Transfiguração",
+      "format": "pdf",
+      "edition": "2003",
+      "sha256": "1e8e5fb4a4c6ae7880d52d5987c504704c91f0aed51b9ed9dc26a52f5ba9aa8a"
+    },
+    {
+      "title": "A Tríplice Aliança da Luz",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "5bebbdbbd1a7513987f2832c6de5db2ed9fc1d0c70a853ab3dc6650f84982796"
+    },
+    {
+      "title": "O novo homem",
+      "format": "pdf",
+      "edition": "2016",
+      "sha256": "0d58e3709cb9582570fcc867b789bbbe6f8038347780d1e0b0b2e1f7a3ba108a"
+    },
+    {
+      "title": "A Confessio da Fraternidade da Rosacruz",
+      "format": "pdf",
+      "edition": "ver ficha editorial do arquivo",
+      "sha256": "3fd547d0d3a837eaec2811d58649319e80167340bc74beae3d9e76ae69bb5826"
+    },
+    {
+      "title": "Entre o silêncio e a luz: reflexões de uma jornada espiritual",
+      "format": "pdf",
+      "edition": "Rosto: 2025; CIP: 2024. Divergência preservada, sem inferir correção. Miolo sem capa.",
+      "sha256": "5ff7a2a8f750a59e00a02916d25ea7ea4adeea9e64b2c159af15b130a31bca59"
+    }
+  ],
+  "catalogs": {
+    "livros": {
+      "items": [
+        {
+          "id_archive": "9579",
+          "title": "Rosacruz Áurea: Uma Escola Iniciática para o século XXI",
+          "url": "https://pentagrama.org.br/livros/rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2025/08/Rosacruz-Aurea-Uma-Escola-Iniciatica-para-o-seculo-XXI_Pagina_001.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "9573",
+          "title": "Iniciação e libertação",
+          "url": "https://pentagrama.org.br/livros/iniciacao-e-libertacao/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2024/08/ebook_Iniciacao-e-libertacao_9786586863062_Pagina_001.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "9567",
+          "title": "Inspirações para um novo tempo",
+          "url": "https://pentagrama.org.br/livros/inspiracoes-para-um-novo-tempo/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2024/05/ebook_Inspiracoes-para-um-novo-tempo_9786586863055_copy-_1_-_1_.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "9227",
+          "title": "Caos Exterior, Despertar Interior",
+          "url": "https://pentagrama.org.br/livros/caos-exterior-despertar-interior/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2022/03/Capa-Caos-Exterior.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8787",
+          "title": "Gnosis, religião interior",
+          "url": "https://pentagrama.org.br/livros/gnosis-religiao-interior/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/05/5.gnosis.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8786",
+          "title": "Rosa-Cruzes ontem e hoje",
+          "url": "https://pentagrama.org.br/livros/rosa-cruzes-ontem-e-hoje/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/05/6.Rosacruzes_OH.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8723",
+          "title": "O chamado da Fraternidade da Rosa-Cruz",
+          "url": "https://pentagrama.org.br/livros/o-chamado-da-fraternidade-da-rosa-cruz/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/05/chamado-fraternidade-rosacruz-400-anos.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8722",
+          "title": "A grande revolução",
+          "url": "https://pentagrama.org.br/livros/a-grande-revolucao/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/AGrandeRev.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8720",
+          "title": "Do castigo da alma",
+          "url": "https://pentagrama.org.br/livros/do-castigo-da-alma/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/1.cast_.da_alma.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8719",
+          "title": "O Verbo Vivente",
+          "url": "https://pentagrama.org.br/livros/o-verbo-vivente/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/VerboVivente.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8717",
+          "title": "Transfiguração",
+          "url": "https://pentagrama.org.br/livros/transfiguracao/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/Transfiguracao.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8716",
+          "title": "Filosofia elementar da Rosacruz moderna",
+          "url": "https://pentagrama.org.br/livros/filosofia-elementar-da-rosacruz-moderna/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/Filosofia.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8715",
+          "title": "Um novo chamado",
+          "url": "https://pentagrama.org.br/livros/um-novo-chamado/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/novo-chamado.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8711",
+          "title": "Christianopolis",
+          "url": "https://pentagrama.org.br/livros/christianopolis/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/christianopolis-1.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8710",
+          "title": "Reveille! (Desperta!)",
+          "url": "https://pentagrama.org.br/livros/reveille-desperta/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/reveille-desperta.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8709",
+          "title": "O novo sinal",
+          "url": "https://pentagrama.org.br/livros/o-novo-sinal/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/05/ONovoSinal.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8708",
+          "title": "No caminho do Santo Graal",
+          "url": "https://pentagrama.org.br/livros/no-caminho-do-santo-graal/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/SANTO_GRAAL.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8707",
+          "title": "O novo caduceu de Mercúrio",
+          "url": "https://pentagrama.org.br/livros/o-novo-caduceu-de-mercurio/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/Apocalipse_NE_5.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8706",
+          "title": "Os sinais poderosos do conselho de Deus",
+          "url": "https://pentagrama.org.br/livros/os-sinais-poderosos-do-conselho-de-deus/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/Apocalipse_NE_3.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        },
+        {
+          "id_archive": "8705",
+          "title": "A senda libertadora da Rosa-Cruz",
+          "url": "https://pentagrama.org.br/livros/a-senda-libertadora-da-rosa-cruz/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2016/04/Apocalipse_NE_4.jpg",
+          "source": "https://web.archive.org/web/20260710210053id_/https://pentagrama.org.br/livros/"
+        }
+      ],
+      "count": 20,
+      "complete_catalog": false
+    },
+    "revistas": {
+      "items": [
+        {
+          "id_archive": "9625",
+          "title": "Revista 2025 Ano 1 Número 2",
+          "url": "https://pentagrama.org.br/revistas/revista-2025-ano-1-numero-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2025/12/capa-Revista-2025-Ano-1-Numero-2.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "9590",
+          "title": "Revista 2025 Ano 1 Número 1",
+          "url": "https://pentagrama.org.br/revistas/revista-2025-ano-1-numero-1/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2025/08/Revista_Pentagrama_ano_2025_numero_1_Pagina_01.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7193",
+          "title": "Revista 2017 Número 1",
+          "url": "https://pentagrama.org.br/revistas/revista-2017-numero-1-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/Capa-Pentagrama-2017-1-851x1024.png",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7189",
+          "title": "Revista 2016 Número 4",
+          "url": "https://pentagrama.org.br/revistas/revista-2016-numero-4-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/Capa_pentagrama_2016_4-555x710.png",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7185",
+          "title": "Revista 2016 Número 3",
+          "url": "https://pentagrama.org.br/revistas/revista-2016-numero-3-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/capa-Pentagrama-2016-3-555x710.png",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7177",
+          "title": "Revista 2016 Número 1",
+          "url": "https://pentagrama.org.br/revistas/revista-2016-numero-1-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/Capa-Revista-2016_1-555x710.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7167",
+          "title": "Revista 2015 Número 6",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-6-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/Screenshot-2016-07-28-20.45.42-555x710.png",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7163",
+          "title": "Revista 2015 Número 1",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-1-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_2015br1-page-001.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7159",
+          "title": "Revista 2015 Número 2",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-2-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_edicao_2_2015-01.png",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7155",
+          "title": "Revista 2015 Número 3",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-3/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/revista-ano-37-numero-3-page-001.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7151",
+          "title": "Revista 2015 Número 4",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-4/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/revista-pentagrama-2015-4-page-001.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7147",
+          "title": "Revista 2015 Número 5",
+          "url": "https://pentagrama.org.br/revistas/revista-2015-numero-5/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/0001.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7143",
+          "title": "Revista 2014 Número 1",
+          "url": "https://pentagrama.org.br/revistas/revista-2014-numero-1/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_br20141_capa_300dpi.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7139",
+          "title": "Revista 2014 Número 2",
+          "url": "https://pentagrama.org.br/revistas/revista-2014-numero-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_br20142b_capa_300dpi.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7135",
+          "title": "Revista 2014 Número 4",
+          "url": "https://pentagrama.org.br/revistas/revista-2014-numero-4/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/capa_0.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7131",
+          "title": "Revista 2013 Número 3",
+          "url": "https://pentagrama.org.br/revistas/revista-2013-numero-3/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_br20133cover_559x800.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7127",
+          "title": "Revista 2013 Número 4",
+          "url": "https://pentagrama.org.br/revistas/revista-2013-numero-4/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_br20134_web_cover_556x800.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7123",
+          "title": "Revista 2013 Número 5",
+          "url": "https://pentagrama.org.br/revistas/revista-2013-numero-5/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pages_from_pentagramabr_20135_capa_559x800.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7119",
+          "title": "Revista 2012 Número 2",
+          "url": "https://pentagrama.org.br/revistas/revista-2012-numero-2/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/capa.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        },
+        {
+          "id_archive": "7115",
+          "title": "Revista 2012 Número 3",
+          "url": "https://pentagrama.org.br/revistas/revista-2012-numero-3/",
+          "cover_url": "https://pentagrama.org.br/wp-content/uploads/2019/08/pentagrama_br3_2012_capa_1_533x768.jpg",
+          "source": "https://web.archive.org/web/20260710201750id_/https://pentagrama.org.br/revistas/"
+        }
+      ],
+      "count": 20,
+      "complete_catalog": false
+    }
+  }
+}
