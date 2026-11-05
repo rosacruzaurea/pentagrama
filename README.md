@@ -36,3 +36,9 @@ Os áudios públicos recuperados ficam no release `acervo-2018`, separados do Pa
 Textos, marcas, capas, livros e revistas mantêm seus direitos editoriais. Não são automaticamente licenciados como código aberto. A fonte Glegoo acompanha sua licença OFL em `site/assets/fonts/OFL.txt`.
 
 Na reimportação, executar `recover_unlinked.py` após `merge_2026.py`: ele recupera PDFs existentes mas não vinculados corretamente no banco. O inventário de faltantes considera arquivos reais, não apenas links da base.
+
+## Domínio personalizado
+
+`site/CNAME` registra `pentagrama.org.br` na raiz do artefato público. No deploy atual por GitHub Actions, o Pages ignora esse arquivo: o domínio efetivo é definido em Settings → Pages. O workflow já obtém a base de URLs dessa configuração. O arquivo não configura DNS nem comprova emissão do certificado HTTPS.
+
+Ao publicar manualmente em `pentagrama-staging` por branch, não copiar o `CNAME` de produção: o staging deve manter seu endereço separado.
