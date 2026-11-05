@@ -1,9 +1,9 @@
 {
   "summary": {
-    "html_pages": 358,
-    "local_links_checked": 12167,
-    "files": 879,
-    "bytes": 825490608,
+    "html_pages": 357,
+    "local_links_checked": 11794,
+    "files": 878,
+    "bytes": 825364804,
     "errors": []
   },
   "files": [
@@ -14,143 +14,143 @@
     },
     {
       "path": "robots.txt",
-      "bytes": 37,
-      "sha256": "b5aadf8f7e31b1782c979616c38142b580516839866bf5ef82fd1e2a6d83d1c3"
+      "bytes": 23,
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
     },
     {
       "path": "index.html",
-      "bytes": 12823,
-      "sha256": "9f1a1327f8fb63c6ca4b75237ce5cb1e0c8828fb08833ecc03c996a775d56278"
+      "bytes": 12596,
+      "sha256": "3edd9626c0f6339800e2fa556c4effc27114886123379e027c9d47249214ad83"
     },
     {
       "path": "404.html",
-      "bytes": 3188,
-      "sha256": "17b11850eca3186f2ca1e098c6298c1bba33f7239980227dca6705681161b8ae"
+      "bytes": 2961,
+      "sha256": "2c7cf5fcf691952ce723c4d33d9368570fa29de9954dbbc4be3e05e5e172a995"
     },
     {
       "path": "uma-noite-em-mostar-uma-imaginacao/index.html",
-      "bytes": 14388,
-      "sha256": "41e4e9a2ab561a3dbeb0c3cd34d73eebf008f0a2b4a6912bf6f5e964dd9e496a"
+      "bytes": 14033,
+      "sha256": "83284211c21980059e4afb066b7e0825cd603ebb8330b8ac04f90eb875158fa4"
     },
     {
       "path": "missao-espiritual-de-nicetas-de-constantinopla/index.html",
-      "bytes": 25510,
-      "sha256": "6362da5dc6482418fe6eb4f053b30ccdc814a11121dadbc37420691056577504"
+      "bytes": 25155,
+      "sha256": "64d64ba5466ad23a3167a1084341eeb0de8267114d65de480fdb0dd3797f8465"
     },
     {
       "path": "imagens-do-mundo-18/index.html",
-      "bytes": 7596,
-      "sha256": "9969133109fd37df7d2637cbf5547b363d23b8f3e664dc70321e0adbe12acf34"
+      "bytes": 7241,
+      "sha256": "7c6237a55b4a7371f107aa3ccce56e8e3532f0d7254a82f09647a0d2d125ddb3"
     },
     {
       "path": "linguagem-libertadora-do-coracao/index.html",
-      "bytes": 18260,
-      "sha256": "dc10033685227d28c522acfb7f7cfb93ac4d986e652f42386919ac1714ea0b41"
+      "bytes": 17905,
+      "sha256": "f8d9280004c10b9ed74357781507f183dfbb13868023c3552d3e3cad72c534d1"
     },
     {
       "path": "nosso-pao-suprassubstancial-nos-dai-hoje/index.html",
-      "bytes": 33196,
-      "sha256": "67f07834ebad44f3d574c80bd77f95bb6ebc2ba4a99ea6dfe172dfc5f9046a03"
+      "bytes": 32841,
+      "sha256": "213e3d11a3ec00cbb2493f23fac672e95e57fdde894c44d69f3a12005eefade0"
     },
     {
       "path": "blog/index.html",
-      "bytes": 97843,
-      "sha256": "9d9982dae3f1764b5b05776e61eb004ade8d9f5d306b4558dc122fb4824dcdd8"
+      "bytes": 97594,
+      "sha256": "77d3ef142f17082457819c06a616d8cf5d9c69515e6149c1db8c2a8921038564"
     },
     {
       "path": "campos-brancos/index.html",
-      "bytes": 12798,
-      "sha256": "2a1c23ba4ff88e255636e430b7aa759115380df659ca739f7c1ba26f11763629"
+      "bytes": 12443,
+      "sha256": "64552754ccab72f0dc824f0bd6585a9dd9406f9008327094450e157d678832b5"
     },
     {
       "path": "imagens-do-mundo-17/index.html",
-      "bytes": 7351,
-      "sha256": "ce0acc1ea4543b6a002f4aaa883d5e8870654fb66789bd1976141270c6b4b1e7"
+      "bytes": 6996,
+      "sha256": "9ffbb10d7a8a9020461345543f03fb65d7311c65ec08967ae27d3d9924b200ba"
     },
     {
       "path": "cores-e-palavras-vindas-de-uma-fonte/index.html",
-      "bytes": 17043,
-      "sha256": "bf2927646d5e7035fe8b21b9d751c7bfbfde13367095927b53c76dda284dd916"
+      "bytes": 16688,
+      "sha256": "e2e8e5e0f874003ce121beb2b192e119ee7d0549e43a954300dfcfcb4ea04652"
     },
     {
       "path": "juventude/index.html",
-      "bytes": 11265,
-      "sha256": "9e8624f194ae9e31f388e03151c08a60a9e1ec47c7fd9b8b177771127fe9cb04"
+      "bytes": 10910,
+      "sha256": "54344a9d5d31e6b4c47427863b5bca7af54ce1a745a1aaf579ce8b5da204c1eb"
     },
     {
       "path": "imagens-do-mundo-4/index.html",
-      "bytes": 7593,
-      "sha256": "a30ca7e1dbc44fcf0268faed563b6e755b06f3622d9d3088871965b992f98007"
+      "bytes": 7238,
+      "sha256": "8809628c663e94d84ca85bbde31fa96b618a3af50bbdf7097e18fd737ac94eb9"
     },
     {
       "path": "ser-um-peregrino/index.html",
-      "bytes": 10476,
-      "sha256": "cf86be84d3fd6c5ab48348a5c86aa25ef90ac889aa263cbddc2c5c2fbf40c227"
+      "bytes": 10121,
+      "sha256": "42ed981ad3ac1ef543b0680f0a597510d06f82c9bc39526d381e89f2ba787a0d"
     },
     {
       "path": "imagens-do-mundo-10/index.html",
-      "bytes": 7083,
-      "sha256": "610ca4bf5e619fbc568e895148a912ce6e8318389173ebc2b45ed9acece2bc7f"
+      "bytes": 6728,
+      "sha256": "0fd549bc39634b8388a29d7ca2d36cc8e83b01eb41c73a65a6d45c3a602bedb5"
     },
     {
       "path": "imagens-do-mundo-8/index.html",
-      "bytes": 7593,
-      "sha256": "ccf3492cc7626bbbb70e33fd1a911f03620829f71c9151862a88fa77dffc45c4"
+      "bytes": 7238,
+      "sha256": "f0ff7466e8484eec3315dea56145ee04f0ba19d9befce669d130904d504dfb26"
     },
     {
       "path": "pensar-e-pensar-sao-dois/index.html",
-      "bytes": 11997,
-      "sha256": "6e902d0596e9d55a63aa667af28e3737b4177339f9f16d022729cef08624e6de"
+      "bytes": 11642,
+      "sha256": "06a4e2a1b3c34969dbb211183c964ab96a51f11d216c5f25720914fccbcd17f0"
     },
     {
       "path": "o-caminho-dos-cataros-uma-gnosis-hermetica/index.html",
-      "bytes": 28125,
-      "sha256": "0dd9593c24ef816b19117e370cd3e40b710792c583f9e55c39aabeac6b65cd3d"
+      "bytes": 27770,
+      "sha256": "d39511295b963c5dffea24f565d0778d239b8888f814360c4d18ee78a0fb45aa"
     },
     {
       "path": "imagens-do-mundo-7/index.html",
-      "bytes": 7647,
-      "sha256": "4d5c2a9578efd019e9a7456067bdc6256a54f4a045d2df449ce57788a12ae4e7"
+      "bytes": 7292,
+      "sha256": "eb154ebf52d4f5700dc8df80417db6edb15d89ad50a1653bb0a25045deb94c79"
     },
     {
       "path": "o-verdadeiro-rosa-cruz/index.html",
-      "bytes": 8289,
-      "sha256": "0676970aad84f3b5a1a1ba2141d931e1bbeb8786f73fce40108a4aeaf4cf3125"
+      "bytes": 7934,
+      "sha256": "e638a804b0e5315d930e324133f472525aea166e0faf5bbeeb136310111cdb9d"
     },
     {
       "path": "imagens-do-mundo-12/index.html",
-      "bytes": 7421,
-      "sha256": "d6784e9fec8fcc729d22ed1a4562d0f115d58ac105426b064eabd550a09a16c4"
+      "bytes": 7066,
+      "sha256": "493b694a4203ae78e882e2a3cb3d0cd166fb5bcf56ea38b60d393bd4dc618dc1"
     },
     {
       "path": "nosso-eu/index.html",
-      "bytes": 29687,
-      "sha256": "084644917a063e25d3359554e817923119114fa0ce1ceefea9b44a32922b77a3"
+      "bytes": 29332,
+      "sha256": "f42feba7ad66e653e5ae1fe3a4c555dd93f1c8fa5f599991b8bef238de1c5e96"
     },
     {
       "path": "verdadeira-igreja-de-cristo-esta-no-coracao-do-homem/index.html",
-      "bytes": 20915,
-      "sha256": "5971809551e2f9c6fed467438138b81225ee443100852edbca83ffd2563b8fe9"
+      "bytes": 20560,
+      "sha256": "b306244f5afe831b2c2d427fad35fc14c99c05393ffc027e4d454849ed5deb1c"
     },
     {
       "path": "os-cataros-esquecidos-de-mont-aime/index.html",
-      "bytes": 16661,
-      "sha256": "c2f57e13384c6d57b2f5b94b145c995d341acbe718b0460f9dd286ffa03490d0"
+      "bytes": 16306,
+      "sha256": "404d0d6331919d1c8397f9afbb9a74215007fa756e30e754d610942a59451d10"
     },
     {
       "path": "faca-se-luz-fiat-lux/index.html",
-      "bytes": 26332,
-      "sha256": "5bb459b99f00e0606a7909c91affd25dde2163ce0d23e0f45bb5ff71fc0c979c"
+      "bytes": 25977,
+      "sha256": "7f8e6436e358d7a4178f5bee6c1e40db4a13ddd73a226695281dba0c7cc777c9"
     },
     {
       "path": "solem-sol-ouro/index.html",
-      "bytes": 8414,
-      "sha256": "0d5453f0f8399200457c5640a1880f29627fc4b3587a0fa63d8a8fa06c05a72d"
+      "bytes": 8059,
+      "sha256": "7cb41f82af2aefba845a4099b34be1378f28e55f93ef6706d13aa1c555aed355"
     },
     {
       "path": "misterios-e-desafios-do-nascimento-da-vida-e-da-morte-tornar-se-um-novo-homem-andre-de-boer/index.html",
-      "bytes": 11176,
-      "sha256": "9cd037eafaf5a39ef9dad79e8a457c58adaf43f2156ae6fad8de09b3e47094bb"
+      "bytes": 10821,
+      "sha256": "84b904c4e99cde8173a46a6d921a2b01ff0cd3ff6164a940293fe68a6976214f"
     },
     {
       "path": "assets/app.js",
@@ -164,333 +164,328 @@
     },
     {
       "path": "dirige-agora-teu-coracao-para-luz-e-conhece/index.html",
-      "bytes": 20699,
-      "sha256": "552696d86a3e7ef6e2a7c28562517c6a3ec7904acd7c9318b7a0bb6797187633"
+      "bytes": 20344,
+      "sha256": "a5ef88d3674e7ad5d828add3a6ede70e279703e4ce7258abe8cb8262e5d17114"
     },
     {
       "path": "buscar/index.html",
-      "bytes": 258417,
-      "sha256": "86206552e06a03d2aca5d1db93607b1440bdab5be90e281703c30efaab3ddcac"
+      "bytes": 258235,
+      "sha256": "a8b266825288eda4a7c8ce52798f8a36194a69342c705d5571aec499ba41ab81"
     },
     {
       "path": "antonin-gadal/index.html",
-      "bytes": 9728,
-      "sha256": "90240783786f214f150b83a0955e6f7d15f8015aa82c7c9290a7b411f6db02ad"
+      "bytes": 9373,
+      "sha256": "c966f947b51062b43534276ca5e5da75e55958edc2fdc62118194d8c6f9d6301"
     },
     {
       "path": "o-restabelecimento-da-ordem/index.html",
-      "bytes": 27508,
-      "sha256": "1dbac581d832763b99ac66e06a715a6c4acb2953014f7d571c8bac0e72e4432a"
+      "bytes": 27153,
+      "sha256": "f6fb5356d242fa25702e5df5d995589deffece9cd05789a01969516359d994c2"
     },
     {
       "path": "imagens-do-mundo-13/index.html",
-      "bytes": 7414,
-      "sha256": "0a26c341d3e9134c41b4091bb7f7a663744faa03111d6e0068aeac58eb2b9aa2"
+      "bytes": 7059,
+      "sha256": "3fe711d8060e7016509005d9015598f733007d1c4ea0f63be61518d2ae56aa70"
     },
     {
       "path": "uma-escada-para-o-ceu/index.html",
-      "bytes": 6873,
-      "sha256": "9c439ebe072b508e2012faac50da7acc25ce5bec8f5f8981cf184913d91192d0"
+      "bytes": 6518,
+      "sha256": "486467ed1b3859c66608663330a8f29461de5fe69d1bfbb678bfda2fd624d73a"
     },
     {
       "path": "nikolai-astrup/index.html",
-      "bytes": 7375,
-      "sha256": "f08560f18bd0bb12358b1c8aaf50ad78c8c6267a2ff7cb7685bb89cbcd568200"
+      "bytes": 7020,
+      "sha256": "2d33f6d7edcba1557c13369dea77a4ab0e59d037c2fea1ae1f7bc39e29c05b69"
     },
     {
       "path": "lembrancas-para-um-futuro-melhor/index.html",
-      "bytes": 22003,
-      "sha256": "0e7003684de93a74814d9c7a4fc6b64d2a178ff730345423b94fe1c6a19c36c7"
+      "bytes": 21648,
+      "sha256": "cb6d29676991bf7564e10f9f6118a0a3acf9014994ce69b972f17119dcd0375c"
     },
     {
       "path": "tornar-se-homem-verdadeiramente/index.html",
-      "bytes": 15447,
-      "sha256": "7779a2b285d371050aaa9ea6cec4e973d852ead6f4e7cf9674511fdc2157d2b9"
+      "bytes": 15092,
+      "sha256": "8c0db7c2b5cb64429e8e367529fb5829428dbf4d8278b8ae71c7ecca9c3a13a4"
     },
     {
       "path": "o-que-somos-e-o-livre-arbitrio/index.html",
-      "bytes": 18662,
-      "sha256": "2017b723a44e6b0a0afbbcdd20034002b3ce58cc94878993ebf4ecd2899da629"
+      "bytes": 18307,
+      "sha256": "8be2ad420687f930ccd4ea9111ffa90d565268a610aff914dea58f2b97a10d32"
     },
     {
       "path": "amor-intellectualis-dei-o-amor-racional-por-deus/index.html",
-      "bytes": 24709,
-      "sha256": "e918c2a89fd6147a9a623b6654f8da1ab76157e774958e3e3b80457b3647ad17"
+      "bytes": 24354,
+      "sha256": "6f09ce36c1f4adf2a1d40ae328730819983bfad01c2f5502bcf15642fdc3d729"
     },
     {
       "path": "imagens-do-mundo/index.html",
-      "bytes": 7640,
-      "sha256": "a11c2d687920a52b1e88a7808a98cdf6c9453e543ada8412bce06cd3dbb78f89"
+      "bytes": 7285,
+      "sha256": "24a2354f3fd1a43fd1b56305debc80ffe616825a1cf89af4632fa28bca73ff86"
     },
     {
       "path": "nicolau-de-cusa/index.html",
-      "bytes": 37040,
-      "sha256": "a038bace6ec0bb73b320162eedce28a7fc0d0949124587638b369341a4997a56"
+      "bytes": 36685,
+      "sha256": "a90d2e633389b03f414847add4f18b841a15c8992a4b6540684245a1da7b03e7"
     },
     {
       "path": "o-novo-homem/index.html",
-      "bytes": 7142,
-      "sha256": "79e23e8033a2f06e42594e2bfe398d0d9a890c521beae16139a8ffe8ab7bbefe"
+      "bytes": 6787,
+      "sha256": "440b18ac1d8dbe9248a49e38f8595893322934014d3a2b3b594c9a20ee0944c8"
     },
     {
       "path": "imagens-do-mundo-19/index.html",
-      "bytes": 7754,
-      "sha256": "eb7788e9a10e99cfba9cd4459287ab3111c124c1ed52d70a7602e0b2c017254e"
+      "bytes": 7399,
+      "sha256": "467a96562288f1dcd8f421a0d3c3a10bafa6d1bbaa46e0309f9c3b8d26918c70"
     },
     {
       "path": "revistas/index.html",
-      "bytes": 101743,
-      "sha256": "7d9719dcac565fce3d6db804b3e8c289dacafd97aba9a18aef8f08a8e6ce2dc5"
+      "bytes": 101572,
+      "sha256": "1c50b8bc08607b918b2b2b2007b7da515226fb0bab6cd2fbc759357a37771762"
     },
     {
       "path": "jan-van-rijckenborgh/index.html",
-      "bytes": 7817,
-      "sha256": "ccc4a7cef77f5033b894c141ca74e6fef333982f3922fe709c5e12eaea2c287b"
+      "bytes": 7462,
+      "sha256": "0da4adbb42397705c39eea42609622be301974171a19c1128edb44149bb39302"
     },
     {
       "path": "observacao-e-introspeccao/index.html",
-      "bytes": 14527,
-      "sha256": "bf9a576855d052a675cde92d4fdbb202b81c7e3b54f58569d5211c1a4f7bf4ca"
+      "bytes": 14172,
+      "sha256": "90324b4190f545b563383efce2843f07ca4b53bec4ee57e79344f0e6e117ccc9"
     },
     {
       "path": "imagens-do-mundo-6/index.html",
-      "bytes": 7559,
-      "sha256": "4af7f88c7602c838321291fe86c5fd2b584e29d287e393cc11c6159d5b3e3e40"
+      "bytes": 7204,
+      "sha256": "bcf416c7cd9db0481b871e8df8062fc060ad5cec99568cb2d8dbb2838b8d6d42"
     },
     {
       "path": "unidade-interior-das-religioes-frithjof-schuon-filosofo-1907-1998/index.html",
-      "bytes": 14841,
-      "sha256": "13a449aa5e3497fd053e16065f8c8c2e0a027610a1a72ec1ef9a66e21647376f"
+      "bytes": 14486,
+      "sha256": "d5f2b88c5cf59b89cec879a16a17c71a8c1ddebdd58ab22d0b8ae998b872518e"
     },
     {
       "path": "mikhail-naimy/index.html",
-      "bytes": 10183,
-      "sha256": "09c84158687de4cbb3a89a620f08395a6a528ff6cc8be6dac6f84c10b7d8a16e"
+      "bytes": 9828,
+      "sha256": "946ce870b3841ede0cfd5735bc5482af9ff06790f6d15335de315717422136e7"
     },
     {
       "path": "as-razoes-da-viagem-de-cristiano-rosacruz-damcar-e-fez/index.html",
-      "bytes": 27009,
-      "sha256": "2303203476f6aa8a98aaa985ec6acdef78943f0d1cbb1729a7910c843332e951"
+      "bytes": 26654,
+      "sha256": "182e0edd54a5276f2ae945162a6658c33e16b0d91ba3ef9422ed9e21a4bdc5da"
     },
     {
       "path": "o-mestre-da-pedra/index.html",
-      "bytes": 25370,
-      "sha256": "a8eefb278f46e97697f420b08614fcb78a0ffe6c6a4a4d52e572ea83f0730922"
+      "bytes": 25015,
+      "sha256": "d9cee316b3b30811cb77d7e8a96472abc11f14acc5e53fa566eec88cede852df"
     },
     {
       "path": "o-olho-e-testemunha/index.html",
-      "bytes": 24878,
-      "sha256": "d790b11ff7be06083e1b3ec8dcba13b51e5d927d5b06c18f328ad9ca5af11f56"
+      "bytes": 24523,
+      "sha256": "71dce9a148e4f7c187f371e019b0509788e721d5b6228a23ef7c95e6cb9b4fcc"
     },
     {
       "path": "lemniscata/index.html",
-      "bytes": 8283,
-      "sha256": "0312006e61d4a75777c541de9f6ce574a5770b1759909b7d6e2b1abaf87b2211"
+      "bytes": 7928,
+      "sha256": "9b715690d079bf0bc07fe973bb8456cb9797eaee0e96befc49bea7edfca04490"
     },
     {
       "path": "imagens-do-mundo-9/index.html",
-      "bytes": 7487,
-      "sha256": "e7a10dc99fce65a80a7ce16ebe7d26dbf5874e0a64a0edde2dc76999e95996ab"
+      "bytes": 7132,
+      "sha256": "62a91f432f2e77bc8dc9f20df7358d33141c98e7d05f7bfee1c7b366330eb1ea"
     },
     {
       "path": "manifestacao-exterior-de-um-misterio-interior/index.html",
-      "bytes": 18207,
-      "sha256": "b1825ca564074097bf8f6c85116fdbf800c7c36c3fc5b9b9a898327ce5d3792f"
+      "bytes": 17852,
+      "sha256": "d83c9de5b292adb4b76d0d8d7e956828b4362da3f7809ad681eb4fd58f6192fd"
     },
     {
       "path": "johann-valentin-andrea/index.html",
-      "bytes": 6930,
-      "sha256": "cf85c411c80ce18dfb54fb42f201af2c7de658943476bccbb5c9924f5b6de619"
+      "bytes": 6575,
+      "sha256": "091ba7515623e728439957cc1e46ce58dea70225ad10e090c4cffd961621bf0f"
     },
     {
       "path": "contato/index.html",
-      "bytes": 3287,
-      "sha256": "925d4619b88feabc8d53a9fd621300b8910e139895d7a35e681a18d28b4db81c"
+      "bytes": 2996,
+      "sha256": "b52a200bb68130af9f0122f1d78dfd90961fddd38711d7a2f9ec8b8a5a881147"
     },
     {
       "path": "imagens-do-mundo-2/index.html",
-      "bytes": 7709,
-      "sha256": "a1447e8413fda94232de3e2191fbffa22bbb747a85bb137dd0c111ffe66cb744"
+      "bytes": 7354,
+      "sha256": "da4e255811b2caf1efaf317ee243fbac69327b688bc17e61001a99faab14755e"
     },
     {
       "path": "quem-somos/index.html",
-      "bytes": 8001,
-      "sha256": "7ca0e7afce869d38e6277077e5a3a8d0356d28c28d0bb3fe6b2af6f089e1cef2"
+      "bytes": 7646,
+      "sha256": "44182c1c9f1b5df09a650df3ebe93b4beb631e98b0007eb3be62a48f446e41d8"
     },
     {
       "path": "livros/index.html",
-      "bytes": 68390,
-      "sha256": "41b7ceb2eb2b4b5a5d7e07b37d07e74b6f512aabcd1d722e6b6e3a063517c349"
+      "bytes": 68163,
+      "sha256": "4d24f8c32bc9186c00985d30805be4147092c3e18633b787a6ba35c9180efc1b"
     },
     {
       "path": "ponte-de-luz-em-mostar/index.html",
-      "bytes": 16085,
-      "sha256": "28cb0a8b9deb17b7e3676e29b689d7e1b9cc89e1bb28869f0dd6923d9cf4f6db"
+      "bytes": 15730,
+      "sha256": "22f92d3203be7d9bf64aa3b2e22dc2e782191d45c415761829fa2d49bdca9b9a"
     },
     {
       "path": "liberdade-igualdade-e-fraternidade-sob-o-signo-do-amor/index.html",
-      "bytes": 9795,
-      "sha256": "c4ccb2d64a585846207c06fc7974c259e997c7baf4d7ce56672bcd9946c3ccb6"
+      "bytes": 9440,
+      "sha256": "1d2fd5d89b1d7a4a03e4b366d56735f6d14ebe184696aeb503eaf898897841dc"
     },
     {
       "path": "pentagrama-24-lados/index.html",
-      "bytes": 7814,
-      "sha256": "d97e1b3ac8403cd8cbc5ded9d547b566aadac58ced066f88ee58981705512597"
+      "bytes": 7459,
+      "sha256": "8b240c30204858d01c87ea93ec96256a7bab53e92c7cc672398544c16907c0aa"
     },
     {
       "path": "catharose-de-petri/index.html",
-      "bytes": 7294,
-      "sha256": "9770ffa45d68d8c535c6fb40c7313a7523d4e7be84d3a2ecb99d04b065b05a8f"
+      "bytes": 6939,
+      "sha256": "c8dde299cff2c4612fd8a6c696f1d832db6c1e95084b0de9268fce8cf9c0591d"
     },
     {
       "path": "alem-das-cores/index.html",
-      "bytes": 9681,
-      "sha256": "8f34ac494b2efc9e905a9bfadb53a0e6da52b6813ce5cad65d18541635b15613"
+      "bytes": 9326,
+      "sha256": "951fe8ffd89163501249349a6e253ed96ad94159e9cbc87d940d460bea25d85b"
     },
     {
       "path": "imagens-do-mundo-3/index.html",
-      "bytes": 7766,
-      "sha256": "5875a018b8b29bf65bb51c5ad9f311ac75df64e686a62b91cdc32637fb3f04f9"
+      "bytes": 7411,
+      "sha256": "6b4a5a86d70fd05451551a3f6d31f25aae6779e1f5335d7af64d71d3effb1c55"
     },
     {
       "path": "contos-de-fada-para-2016/index.html",
-      "bytes": 14386,
-      "sha256": "7f4ccaeacce63e64b152e516dbd09794af06eabe25dc65535e967296376f71be"
+      "bytes": 14031,
+      "sha256": "280517125a9aef1b2e1e14686c656ae699580074d4f555f19635671432ba91e4"
     },
     {
       "path": "imagens-do-mundo-15/index.html",
-      "bytes": 7564,
-      "sha256": "32b63d6930b9787859066c747b2b59b710dead861569bbbb31a8859586e49e04"
+      "bytes": 7209,
+      "sha256": "8071be10b5a37ec85d4ff4bfc97de6579022c996d2532d841e9f5e5585c896e1"
     },
     {
       "path": "peter-huijs/index.html",
-      "bytes": 6943,
-      "sha256": "54e0202c74e6cba38bfd991cced36bdc9268a96f2fe8cb80def2fb0aa0b1147d"
+      "bytes": 6588,
+      "sha256": "e261356a3c46f0c9765ceb85f2814285998c3719fa3466e7f20d09372840459f"
     },
     {
       "path": "o-laboratorio-do-ser/index.html",
-      "bytes": 23720,
-      "sha256": "c77302a66d60defc481cad79ecff378329a95161a5adb495daf21ec0317b67d9"
+      "bytes": 23365,
+      "sha256": "7ff55a4e201ed95db0edc7b3df14e2ce4cc485f8faeaa86c4d19f818c0398828"
     },
     {
       "path": "nachiketa-e-arte-de-morrer/index.html",
-      "bytes": 24202,
-      "sha256": "f841ea71d257418e5dfdcaf54c5efffb2b4775987e202ce25d81cb04bba8f737"
+      "bytes": 23847,
+      "sha256": "b3d0de88d1005fd1a0fe51cc83473cd117ea7387343a4919dcc2fd69aab24b45"
     },
     {
       "path": "as-rotas-da-seda-peter-frankopan/index.html",
-      "bytes": 14568,
-      "sha256": "9148c2cc16c3ca6affb1ed929708982fbc194a80818b78332e009a6b2382ca10"
+      "bytes": 14213,
+      "sha256": "a7fe14af904353d59f0b51b6ffb38102e7236ef8baf260d75f90ca8c2e1045c1"
     },
     {
       "path": "transcenda-para-ser-eterno/index.html",
-      "bytes": 8401,
-      "sha256": "7feb78af178e7c2d0218c794288c6366b9f712ccc9df1391987f284d06f3f5a1"
+      "bytes": 8046,
+      "sha256": "4cd3275fe7d54ffa94b069ccb0b777502c7684f2702904fc426513ac83d343cc"
     },
     {
       "path": "artigos/index.html",
-      "bytes": 97843,
-      "sha256": "4a21826c90e974c3c61d9c5741d1cdb7e98ad541dfb71248b8472f8ed881eb75"
+      "bytes": 97616,
+      "sha256": "058a5ada75902a04e7c4b31c41d51081c44d542e828f61baac6f766158ef3d7f"
     },
     {
       "path": "imagens-do-mundo-14/index.html",
-      "bytes": 7395,
-      "sha256": "a22549e124b91e03e96651f91688d3ec48b0d769407c6efc0449a7e423b663e2"
+      "bytes": 7040,
+      "sha256": "09a5957812f72173d14ce01bd6ef5f2115e16bdccc3c5f823c372683e67b15e1"
     },
     {
       "path": "procrastinacao/index.html",
-      "bytes": 15014,
-      "sha256": "c06beded1ed60833f8f4027bb01155175e4fc9ba3cf41da61319e32b6cb0db71"
+      "bytes": 14659,
+      "sha256": "06f70de5fa0c74e91ccf0360d4d632a1dc0b120945ff716f1f89b0663789da64"
     },
     {
       "path": "identidade-e-nao-identidade-do-eu/index.html",
-      "bytes": 25069,
-      "sha256": "71b2019582e5eaae7abbc80da81ce62b96c28ca8b914d02604b4d86d88b60497"
+      "bytes": 24714,
+      "sha256": "3b7f7359900bcafd06d4f8935803f1c42a86a7535ce126a71acfcaf2c593991f"
     },
     {
       "path": "despertar-no-espirito-santo/index.html",
-      "bytes": 36336,
-      "sha256": "491317bb9b70491647ffb07e2bfa176d40695f3c731f1358bf9cd59d7af74fc6"
+      "bytes": 35981,
+      "sha256": "3da9ddbc27d791f741813c2a46312b61486cfa6db8d08e665d88765187f844cf"
     },
     {
       "path": "o-olho-de-osiris-2/index.html",
-      "bytes": 15110,
-      "sha256": "6d032e058b6fbbb0fb38cafa11153435788996e0ad502b0023a0c9e42f285a1e"
+      "bytes": 14755,
+      "sha256": "bd2af11cd7130e004f3e386f6ecb6ac4b5acc65b9bbd839c74b58c4c5de66f27"
     },
     {
       "path": "a-cura/index.html",
-      "bytes": 8421,
-      "sha256": "31dc44d0531045901e9600e84b96df0944b33779e24815e1ea58e1fb213bb36c"
+      "bytes": 8066,
+      "sha256": "75203ccf215d2b1c31480c8168f9d4672680f53c16bceb48307b88ec0bf7f8d4"
     },
     {
       "path": "imagens-do-mundo-11/index.html",
-      "bytes": 7593,
-      "sha256": "647b35a70cacf58f7fb8bf8acb41dcae70e90db3fe8ef64b3ea6267ea6b3756e"
+      "bytes": 7238,
+      "sha256": "2daa601639406161a186f4eb665b27aa37e4e1fd247033986867a2935dd0a3e1"
     },
     {
       "path": "trabalhar-em-conjunto-buscar-individualmente/index.html",
-      "bytes": 12162,
-      "sha256": "f4a79b31aea202860fba98da57dc13d171868022e8785273d7b32a349b73aff1"
+      "bytes": 11807,
+      "sha256": "59c3005f3aedc3e188ed5e513e0b3f168838742b9fc323e18542df8189269760"
     },
     {
       "path": "o-ideal-de-fraternidade-cerne-do-evangelho-cataro/index.html",
-      "bytes": 25739,
-      "sha256": "87fd075c738cb72d86ef206f2deb4e300b9c61d14ad0c1ac2340a0c8be54a7a9"
+      "bytes": 25384,
+      "sha256": "175fcf1137ebb87f2d0d27e83e8a6bb3aac387945fd75ac8551e34c541976518"
     },
     {
       "path": "hansen-cia/index.html",
-      "bytes": 20826,
-      "sha256": "d67f0845e1cd4b29355a769afc9aed8050fd76ee8adafc8cebb43101d1c13cf7"
-    },
-    {
-      "path": "sobre-o-acervo/index.html",
-      "bytes": 4873,
-      "sha256": "08dbb97b17cf93e92f1435db0c7871d212b4c50e7cda94d6a05c7d4ab373214c"
+      "bytes": 20471,
+      "sha256": "bae33590bb5a6e605bff848abfcdbc6cab6e6bffdf5071968c0d9f90e288c332"
     },
     {
       "path": "um-advogado-herege-traz-novamente-cena-questao-dos-bogomilos/index.html",
-      "bytes": 30276,
-      "sha256": "c5a578f593681587c2582e27d0a42f6d73024c808e5a61994c701fce935da947"
+      "bytes": 29921,
+      "sha256": "302510acc8a48898a987991b71c46c5ec42fc10461ddb09c47e590bd94754431"
     },
     {
       "path": "peter-deunov-mestre-da-sabedoria-do-amor/index.html",
-      "bytes": 14551,
-      "sha256": "64f2b9485cefb6561fa2a00a8d92e3b4e5b86919a7b0e68d059f8bf0130e883e"
+      "bytes": 14196,
+      "sha256": "a90fb13f4c6a26e1e19b078a09b3101ac27d49412654f84ccbe92679c181937e"
     },
     {
       "path": "paradoxo/index.html",
-      "bytes": 10819,
-      "sha256": "776593d2e18c45ae8c26f6ce2b14dcbd9f34ad3376e98bc2ca7a4c428b7966ef"
+      "bytes": 10464,
+      "sha256": "0f7344b80c8a8e1f75a1a9eaeafcf1f2e5bf9888103d46b3647e66d8b659168d"
     },
     {
       "path": "caminhando-com-paulo/index.html",
-      "bytes": 17196,
-      "sha256": "57c34b8d2c8f0222bcee2c449cb1c309170c093168810dad7fe814902da6b500"
+      "bytes": 16841,
+      "sha256": "eb3f29edf84f5edf25e925be03bb7bfd2e574fd1a411e12919ef3e0be2bd5ee4"
     },
     {
       "path": "europa-em-busca-de-sua-identidade-perdida/index.html",
-      "bytes": 31854,
-      "sha256": "e035984dc46a277e12ede29eb1e487e8c93bf1b66102c1f403c826b9673aeea6"
+      "bytes": 31499,
+      "sha256": "75871be0d42759c2d948296116970a2855187ab3bf7d48e6b1e578b7ca4896cb"
     },
     {
       "path": "os-dois-objetivos-da-gnosis/index.html",
-      "bytes": 17373,
-      "sha256": "761deafb9674acb050877b0377c861dda18737ba1e631c9cfa6eb23b893aa170"
+      "bytes": 17018,
+      "sha256": "50c86e2f398d06e0592d4cdb428f73ad5d3909326b65eb1e62d1c8df56889886"
     },
     {
       "path": "imagens-do-mundo-16/index.html",
-      "bytes": 7258,
-      "sha256": "aff431742252951b835ad4a6dccc6070714ced4002a31084d1a351fd8ade58f5"
+      "bytes": 6903,
+      "sha256": "3756fb88d49c68c883a15c16f34442cb3f43f8039b8340a450b91c7bad200b68"
     },
     {
       "path": "um-pedido-de-perdao-dos-catolicos-do-ariege-pelo-drama-cataro/index.html",
-      "bytes": 10907,
-      "sha256": "6d68e1409e73e683db5aadef0aefac770b3d5504bfdd70a72324656fca526f72"
+      "bytes": 10552,
+      "sha256": "ef525c0a55196ef9c6419014a1d1218f6dd7c373d582cf59ee5e81debc9754e8"
     },
     {
       "path": "o-campo-de-respiracao/index.html",
-      "bytes": 14720,
-      "sha256": "2003a4d325b57574d7bb4fa4e2875b1db3a8b2a17743069b23781648e284ca4b"
+      "bytes": 14365,
+      "sha256": "6aea0d040adea1bbba9ef97ba960e4be15edf5ee67f35f4124a562bc1020454e"
     },
     {
       "path": "assets/fonts/OFL.txt",
@@ -3079,1328 +3074,1328 @@
     },
     {
       "path": "produto/revista-2005-numero-1/index.html",
-      "bytes": 5685,
-      "sha256": "bfc6c8a32a2d0ae83afb88474b1030e0db6fe8fa7cb05629009dc4b630614cb6"
+      "bytes": 5353,
+      "sha256": "de8adbbf6b7928ac9dc617ab1b60a6718902086c4118736429a6caf16fcdbb21"
     },
     {
       "path": "produto/triplice-alianca-da-luz/index.html",
-      "bytes": 6740,
-      "sha256": "0fbb06b3e01cf15fe87501f007f496ac3c305e6c15774e73c302ebcf04da78d7"
+      "bytes": 6408,
+      "sha256": "9d543a036049476191fe3858183a056fae16692fe173f314b4d80f29d9e675d0"
     },
     {
       "path": "produto/o-selo-da-renovacao-ebook/index.html",
-      "bytes": 5691,
-      "sha256": "ebbb6af4aaf3f4cd3f1342c567a1b2f575a25d431460931ff1ab46aa9962795a"
+      "bytes": 5359,
+      "sha256": "2fc6b9d957191e17884bdd0afe37493591be0501eb72254f264ae79a24fc374b"
     },
     {
       "path": "produto/o-novo-caduceu-de-mercurio-ebook/index.html",
-      "bytes": 6119,
-      "sha256": "f402e7939e2fe45df25cb9135cc098e5eea3f2c0cba4ee5bf244a10ea9c52962"
+      "bytes": 5770,
+      "sha256": "45f7a09b79e16999c04674ddfe29f87e1fbe2584383b1371e5610f4e7a7098dc"
     },
     {
       "path": "produto/o-misterio-iniciatico-cristao-dei-gloria-intacta/index.html",
-      "bytes": 6204,
-      "sha256": "6e2d408b379fe833978a396f3efdb4984b10905a5e19578eb73c70aaa4619463"
+      "bytes": 5872,
+      "sha256": "b89bb20feda840f1e6cea0ab3b24056dd205c556a23d209fdc4da523d8911700"
     },
     {
       "path": "produto/filosofia-elementar-da-rosacruz-moderna-ebook/index.html",
-      "bytes": 5941,
-      "sha256": "c9df17b7302b6f326057048ba206f7de4aa0434ddc1b4b6193cf6474a6e9782c"
+      "bytes": 5592,
+      "sha256": "18b596113529f7171d4cfbd6f371c0d9ad53b4598d17a25c63329ecb0369594e"
     },
     {
       "path": "produto/a-grande-revolucao-ebook/index.html",
-      "bytes": 5987,
-      "sha256": "796e3e98a7ff53fcc23565eb21fc8ca6f3477ae2913d4108d565bc2b56fe85a9"
+      "bytes": 5638,
+      "sha256": "a3ea7a3b5fdecc8b522b99f568fbc894c7c3c8df0bc456420ebb7fe17d05cb2b"
     },
     {
       "path": "produto/os-misterios-gnosticos-da-pistis-sophia-ebook/index.html",
-      "bytes": 6118,
-      "sha256": "b12d62ef9427fd200c95d00dcf244bc0a7c9914b532027ca31fe04d6f171f576"
+      "bytes": 5786,
+      "sha256": "f0181168a1ae72ffa5e7cecd28176748d5781135bdb09a25819e52a3ff9e9794"
     },
     {
       "path": "produto/reveille-desperta/index.html",
-      "bytes": 5987,
-      "sha256": "457ffafd3d4621e2dd9805b5efcc38eab18c255408a63c50f97250967c0f76f2"
+      "bytes": 5638,
+      "sha256": "abbeb64c2373ee02c8df7313171a8b04bbdd3879344e617511b669cc5d9ee9f2"
     },
     {
       "path": "produto/filosofia-elementar-da-rosacruz-moderna/index.html",
-      "bytes": 5941,
-      "sha256": "c9df17b7302b6f326057048ba206f7de4aa0434ddc1b4b6193cf6474a6e9782c"
+      "bytes": 5592,
+      "sha256": "18b596113529f7171d4cfbd6f371c0d9ad53b4598d17a25c63329ecb0369594e"
     },
     {
       "path": "produto/revista-ano-27-numero-4/index.html",
-      "bytes": 5710,
-      "sha256": "8feb92e0fa18cc75c3c22c1bd3ff1c33118e61ad7d193e90200a6546a69023de"
+      "bytes": 5378,
+      "sha256": "b0e0ce58de5a1aecf61076511c1dc63ba068ef60deaf6d08a179a20ef4708c15"
     },
     {
       "path": "produto/edicao-especial-em-busca-do-santo-graal/index.html",
-      "bytes": 6072,
-      "sha256": "abc0617369a742ce584bf5b6b03d35bd7900a6be6ed69a442ca225d5527e1428"
+      "bytes": 5740,
+      "sha256": "d3612b39f5123985dbe298f9be7d8a7b3b76cf6d5648cadb05f74952bf168939"
     },
     {
       "path": "produto/gnosis-religiao-interior/index.html",
-      "bytes": 6237,
-      "sha256": "76755e75f5063d9f781cd7b736174a336b97c3f204bbff58aef17811bec789bd"
+      "bytes": 5888,
+      "sha256": "e10eb153f6cff388f73ccff05b1bc0cea2896fa8857bd21d4a0445e99c8a3c6d"
     },
     {
       "path": "produto/revista-2009-numero-5/index.html",
-      "bytes": 5935,
-      "sha256": "164fc58784acc97e2ead32b8560aba0554865995857804ecbbd1979f76455047"
+      "bytes": 5603,
+      "sha256": "a45e4890c393e347248c3b0e1edd6799de0a1d109492701108233f8c3defcacf"
     },
     {
       "path": "produto/revista-ano-18-numero-6/index.html",
-      "bytes": 5831,
-      "sha256": "1ea336a12a685e7b4a8d7b09c6302c35c2b528f97093b99e1f3a031fc8d53fec"
+      "bytes": 5499,
+      "sha256": "b1e64d5fd8c4e51edfea09871343ea37ee2a5ecf811e82c1d5c92af20bb5b9e6"
     },
     {
       "path": "produto/no-caminho-do-santo-graal/index.html",
-      "bytes": 6087,
-      "sha256": "ab1abf585c61f558af0edf47a81ea0f60727cf76a3236d31f072e56b050ebe18"
+      "bytes": 5738,
+      "sha256": "4477ff922cf148cffc7d22e931c20008ebc8401df8337f67aaccdbb33487a6e5"
     },
     {
       "path": "produto/revista-ano-22-numero-6/index.html",
-      "bytes": 5884,
-      "sha256": "a1b1934674f766f79ff496c180ad8c03391e961a0bf80a117d0146fea9b35cf3"
+      "bytes": 5552,
+      "sha256": "1b39e526eaee85ca24d2f39a943f5f1768949c38c41b591976df9b196b6949b0"
     },
     {
       "path": "produto/o-nuctemeron-de-apolonio-de-tiana/index.html",
-      "bytes": 5848,
-      "sha256": "a7433ebb08cc24114a67b6c153a58586a36ee7c9e84c66e0609d3ef30013841b"
+      "bytes": 5516,
+      "sha256": "80dc38bfe98b26bd4b4d2433ea48952b1f4541adf8497366bf82c3fe37ee3880"
     },
     {
       "path": "produto/revista-ano-25-numero-4/index.html",
-      "bytes": 6047,
-      "sha256": "413703526d65ab9fc0970143a1511464be3d295af6f5e6d47cb5715854fa6a01"
+      "bytes": 5715,
+      "sha256": "550b6517500d7d6f0dab54dbb70fe7c611021f4af7c0b89657fec1b0128d3f7c"
     },
     {
       "path": "produto/revista-2011-numero-5/index.html",
-      "bytes": 6154,
-      "sha256": "050e21a055aae18d15c1608ae22507d2df1d58ddc635d7d66cf26a8d785918e2"
+      "bytes": 5822,
+      "sha256": "c3ce00dbee01db0eed061271bc177bb8bdb908ef1e2bdc0f25dbbefe721dc342"
     },
     {
       "path": "produto/luz-do-mundo/index.html",
-      "bytes": 5880,
-      "sha256": "144631ee1c9dcf491c52fac20928e16c40e7e73104eccb1805f658e94a95afde"
+      "bytes": 5548,
+      "sha256": "8ea0eb5056b084e2504afa7375fdd5d7cdc32ad19c73220078596f66aeed3a99"
     },
     {
       "path": "produto/joao-ultimonascido/index.html",
-      "bytes": 5871,
-      "sha256": "4e4057aca3762bf9a5d2c286230c870590736df9f9a2df94c32556367fe01342"
+      "bytes": 5539,
+      "sha256": "2917c2fa6b63f3972b25d6bd9d7184f2fd2530b652edef4d3d1a109f6334afb3"
     },
     {
       "path": "produto/revista-2006-numero-3/index.html",
-      "bytes": 5831,
-      "sha256": "cb02eb3f3a502b0ec5fed22c8414652d6b587475739e8ed30cabd9014c31b1b6"
+      "bytes": 5499,
+      "sha256": "7d3dcf5b4dbcf17fe47d50a974ee8f96df7cb5ac7f873d2bbd76141d8160c054"
     },
     {
       "path": "produto/revista-2008-numero-1/index.html",
-      "bytes": 5779,
-      "sha256": "17eaa554000c76092e3e7756935bbbd2baf9114d6a908e92f3f27dc323a304b3"
+      "bytes": 5447,
+      "sha256": "48384b11480e36aa71fd9baca6238e79122d33c2dc987b0372c9da3181b9d23c"
     },
     {
       "path": "produto/revista-2013-numero-1/index.html",
-      "bytes": 5880,
-      "sha256": "2ec67a2eec7a198dc965cf92f84592df788e35dab8eb377fd322c0ce45c49d85"
+      "bytes": 5548,
+      "sha256": "2be7e9a62a0d366a5d110cd97f2e40b170ddc7481f86f2f702454d6b7c3b40f7"
     },
     {
       "path": "produto/revista-2008-numero-2/index.html",
-      "bytes": 5775,
-      "sha256": "33728f71e25cb2915e96b403131e7f989f98c1e1984b6cffafa7d5079862cac5"
+      "bytes": 5443,
+      "sha256": "4f7e358d3cc66ee570920e9b34935374fa5a28acdaa42fc187fa382c23dae018"
     },
     {
       "path": "produto/joao-ultimonascido-ebook/index.html",
-      "bytes": 5871,
-      "sha256": "4e4057aca3762bf9a5d2c286230c870590736df9f9a2df94c32556367fe01342"
+      "bytes": 5539,
+      "sha256": "2917c2fa6b63f3972b25d6bd9d7184f2fd2530b652edef4d3d1a109f6334afb3"
     },
     {
       "path": "produto/revista-ano-18-numero-3/index.html",
-      "bytes": 5874,
-      "sha256": "e4b726034519c78ef8ff8779790fe79021cc64de84a0bcfa4f24dcae1f9e3193"
+      "bytes": 5542,
+      "sha256": "ca9ccfdbf5c5ef6ba88518dfba70e37ce68f5fc732b0efda9c8830e3add84144"
     },
     {
       "path": "produto/o-novo-sinal/index.html",
-      "bytes": 5832,
-      "sha256": "9238b9087f056ed86d1b7990838622df8793fc4816ebe9acca7fabfda7a839b1"
+      "bytes": 5483,
+      "sha256": "53e7c7c69399213625eda9e7e2d94568891e4d60f5e5b12a450e4ff3cc37eb68"
     },
     {
       "path": "produto/o-novo-sinal-ebook/index.html",
-      "bytes": 5832,
-      "sha256": "9238b9087f056ed86d1b7990838622df8793fc4816ebe9acca7fabfda7a839b1"
+      "bytes": 5483,
+      "sha256": "53e7c7c69399213625eda9e7e2d94568891e4d60f5e5b12a450e4ff3cc37eb68"
     },
     {
       "path": "produto/o-caminho-da-rosacruz-nos-dias-atuais/index.html",
-      "bytes": 6021,
-      "sha256": "c0abddc56dbd476e1bc6458af400d0c95f3d579a99d1dd6aea8d89f6310844aa"
+      "bytes": 5689,
+      "sha256": "3ac6a4c8cec26d0fd060e2f4aafc9a958e037df0da3744c5423d5b264d1371a0"
     },
     {
       "path": "produto/revista-ano-27-numero-3/index.html",
-      "bytes": 5785,
-      "sha256": "450c806c1b678d53994446d3ddf6299da370d760a22e2bdb295488f4d963bd66"
+      "bytes": 5453,
+      "sha256": "03d4ddf88638834e03b5adddd789cd262ab15c624f01d4539d62f0a59f050232"
     },
     {
       "path": "produto/revista-2008-numero-3/index.html",
-      "bytes": 5761,
-      "sha256": "26ced1129fcfeaffc0ab356d508f3896c8375125ae067cf4790c2abb48829429"
+      "bytes": 5429,
+      "sha256": "99fd758df6145a35a5c8a550842ab6b61040dd9b97aaa297ee314dab157998e0"
     },
     {
       "path": "produto/christianopolis-ebook/index.html",
-      "bytes": 5791,
-      "sha256": "eacaf4ef1af525fd10a9082de56647b008ba3b056704f26a21eb4fe9187f17f7"
+      "bytes": 5442,
+      "sha256": "c920f89b36a4301ee46d047b396fbf7b4720cdb04d8d8b6f81b31907822c39f9"
     },
     {
       "path": "produto/revista-ano-20-numero-5/index.html",
-      "bytes": 5863,
-      "sha256": "dad7fe87bc40781265b4defbbaaa29f6c1f759949301814fa9b039687119a3da"
+      "bytes": 5531,
+      "sha256": "42fac7a61d1922a20993aa1bbde332acf39b82989c7bc37fbb342c1c6248066b"
     },
     {
       "path": "produto/revista-2014-numero-1/index.html",
-      "bytes": 5664,
-      "sha256": "34ec9d9cd66937697adc4ace54dead6a590f4bcee92c057a65f6e1e0ffdeb2ca"
+      "bytes": 5315,
+      "sha256": "baa69388b523bc37d176658a284ca0fc3f0bfa2300eddb5a8b85760551274b04"
     },
     {
       "path": "produto/revista-2011-numero-1/index.html",
-      "bytes": 5897,
-      "sha256": "914be3d5d024a976e940f5c62354094d9994fc5c58b9f0c2864a64f473bd9c32"
+      "bytes": 5565,
+      "sha256": "aac4cf51409d6603f4cbafd89c151892b06feda37a230bc0e4099aa8eb4d7d71"
     },
     {
       "path": "produto/veste-de-luz-do-novo-homem-ebook/index.html",
-      "bytes": 5929,
-      "sha256": "5199f3a6ebb18fcd19421cd50e96b166b124c1eea39ff792eda1aec58df4db11"
+      "bytes": 5597,
+      "sha256": "613cb16d008a04409b1586c7089f758a4762ce391e003525f94b50c7de27abea"
     },
     {
       "path": "produto/revista-ano-23-numero-5/index.html",
-      "bytes": 5898,
-      "sha256": "a35928de11250a2c16b15906b8860a364d932a2a8006207683579eb99bd755d5"
+      "bytes": 5566,
+      "sha256": "f5c58de820b8694fefd08a833f0d7b794291a18faa576aa11e4f50913abbd4b5"
     },
     {
       "path": "produto/revista-ano-18-numero-5/index.html",
-      "bytes": 5744,
-      "sha256": "f396e55ea2905984dfb8c183f3ca0413115d9ff6d5fa383989e819b8b10c1eda"
+      "bytes": 5412,
+      "sha256": "6822626cadd6bff86601b7c7775f4cc6a77722c9a22197b0feb452cb9e80aa65"
     },
     {
       "path": "produto/revista-ano-19-numero-5/index.html",
-      "bytes": 6254,
-      "sha256": "fa422f503e9b6da70a7e6a0b93089cd45a9996c44fefb0f8079138226196c03b"
+      "bytes": 5922,
+      "sha256": "c3851c8602989418ebe5bbada6a39cc9d117ec0e8ff5266ddc52bb3e463c56a3"
     },
     {
       "path": "produto/fraternidade-mundial-da-rosa-cruz-ebook/index.html",
-      "bytes": 5943,
-      "sha256": "16fa9c557dbd46b4cb6a1bb6cccf2a9ccd39dc9ec47be418e25a83e807029105"
+      "bytes": 5611,
+      "sha256": "e855c50ce084732cb8ad554a8ffa65ca23e3fba8a4d1a5324fe53dd0858b3b33"
     },
     {
       "path": "produto/agenda-2016-ebook/index.html",
-      "bytes": 5667,
-      "sha256": "f812db14c1dc1105ed34c5215f91df5a71a16c4522ee755142f07fb0784249a6"
+      "bytes": 5335,
+      "sha256": "10bdc94f664cdaa4a2e79ac6e6b5bb822dfa0965c88f1ea1f8d9880198c23e6c"
     },
     {
       "path": "produto/o-verbo-vivente-ebook/index.html",
-      "bytes": 6030,
-      "sha256": "96a6fa7e4ce701304368c7e15e19c7b71745e182ea8847d67ba75e09e362beab"
+      "bytes": 5681,
+      "sha256": "fcca171edbfe4aca6af558ff95b10bf241048e91c3a4d2df5a0ce3ea5d459620"
     },
     {
       "path": "produto/revista-2006-numero-1/index.html",
-      "bytes": 5752,
-      "sha256": "97a03daee9c51c84696d8117d260d3494eefb2d31acceb7aa77379e62fe6fbe6"
+      "bytes": 5420,
+      "sha256": "3e598aa3542a4198e98a35512c23c9284b852c9fceb8319ec1e60971371bbc52"
     },
     {
       "path": "produto/revista-ano-22-numero-5/index.html",
-      "bytes": 5787,
-      "sha256": "49c1284382542ff645c54bea8caf03cbb439436569dc783dddba42552b6d9332"
+      "bytes": 5455,
+      "sha256": "0eeb2e87ecbda2dfe2f008423d8cf3076a7ab190f2bca954fa3bb331157e8cc3"
     },
     {
       "path": "produto/revista-2007-numero-2/index.html",
-      "bytes": 7723,
-      "sha256": "0b5587eae5ab6554709bac70320485f7b91cd5ed0d0c88fb4bdc9913e9476e18"
+      "bytes": 7391,
+      "sha256": "1ce924d9401785b2140bf1d0c09df51dd753f04299367f011f2aab06271dca1d"
     },
     {
       "path": "produto/revista-2011-numero-2/index.html",
-      "bytes": 5968,
-      "sha256": "a3d93798a08cb5a247cb575b34f311269372039b0d96f9d50f7a7b8f50bd9bb8"
+      "bytes": 5636,
+      "sha256": "105b531eabb6adf5fb24f7b92d5b500fed5da09cf9dcc348338aa8f7e1a37243"
     },
     {
       "path": "produto/revista-2010-numero-3/index.html",
-      "bytes": 5756,
-      "sha256": "aaa5d7a1530f7bedf6985ae1836f498939ded82777b8dbdc5236d06dbf4e77a7"
+      "bytes": 5438,
+      "sha256": "9f975e03fafd192f5b288c226d7934375f0f5ac2678982a041572ec0104c6fa1"
     },
     {
       "path": "produto/revista-2015-numero-1/index.html",
-      "bytes": 5930,
-      "sha256": "b34ec26e9a03f77ec4a1f12c57dbb093e9a8434ed9f82e0c5b84dad03c35337b"
+      "bytes": 5581,
+      "sha256": "a10ad6d9c87bcfb5fe20776d68145c5ca042df05e44597120f4302ae48bcdf04"
     },
     {
       "path": "produto/os-sinais-poderosos-do-conselho-de-deus-ebook/index.html",
-      "bytes": 6414,
-      "sha256": "753729a5bdb58902523f73d1ea05f401f3aa409652c4774abaa7c60a897ad250"
+      "bytes": 6065,
+      "sha256": "3fe66640aecb044d814e38a48bdca308fab30f296e722f4f92544e09679874fb"
     },
     {
       "path": "produto/jacob-boehme-pensamentos-2/index.html",
-      "bytes": 6103,
-      "sha256": "fb72c95bd1bb1d9f34acf150516cb008f813be88c925618962d2e20f899da9d0"
+      "bytes": 5771,
+      "sha256": "27e29b6b8f46856fc7f455e9fdd59bae0bd967048745205853491c32f6721be3"
     },
     {
       "path": "produto/revista-ano-21-numero-5/index.html",
-      "bytes": 6266,
-      "sha256": "90485d2929edad9bbfab4c6c8a894235cf2c19dc5a4a66e808fae5ce8d0b74f3"
+      "bytes": 5934,
+      "sha256": "32fc0d3cd70c39fb0d7f0e9398bdceb776c8b1e33a0c4ec121c92765f942d350"
     },
     {
       "path": "produto/os-animais-dos-misterios/index.html",
-      "bytes": 6180,
-      "sha256": "5e369a8ed3f8c3cb86b5b683a4687a551a2481229931355995473357957a8a25"
+      "bytes": 5848,
+      "sha256": "7b2fdf0149a9647f7f0e86837da2d41b2fcbe404b3e1461be637ce7cb7e6da31"
     },
     {
       "path": "produto/fraternidade-de-shamballa-ebook/index.html",
-      "bytes": 5830,
-      "sha256": "2801a574e10d93c15596c17a30244f394503d61e4886c89ccb37219cb94db01c"
+      "bytes": 5498,
+      "sha256": "86f85bde208660e6519cd9d52958bf392d219e9dcf15b1c79ffe1042363e3cd1"
     },
     {
       "path": "produto/revista-2012-numero-2/index.html",
-      "bytes": 6184,
-      "sha256": "41ccf43be30d4edec4f288021b1918cb851c5b300bf43d2ef599fcb7e4145946"
+      "bytes": 5835,
+      "sha256": "3a63e755b7bd8024a1c37aadcf719885703684e493bdab1233cf63244d684cf3"
     },
     {
       "path": "produto/revista-2012-numero-6/index.html",
-      "bytes": 6195,
-      "sha256": "94d959a919db616b4f2d222f0b8996d278e458163bb0e0e77de2d7c8c63deb84"
+      "bytes": 5863,
+      "sha256": "edc385b62e32e008385c2d72a285c0191eddf3049de1912ec730d80928a3ce78"
     },
     {
       "path": "produto/revista-2011-numero-4/index.html",
-      "bytes": 5981,
-      "sha256": "67a4ac0ca452c5cdca0bd2d52c67c53e24a3bfb1c1a166a3f49c2d99d59b216c"
+      "bytes": 5649,
+      "sha256": "21fefa07d80b4c1992bf45b367da93d7d6d64d3b520ca66f09432e0d9ae1a890"
     },
     {
       "path": "produto/revista-2010-numero-2/index.html",
-      "bytes": 5707,
-      "sha256": "f35c2711fa963d28503d32bff92754eb6828b048ee80e6278effa0c1f031f448"
+      "bytes": 5389,
+      "sha256": "3bf31fba26acfc238d12dea1a653221998ea5c23117909c53c630c5b6c606e85"
     },
     {
       "path": "produto/revista-ano-18-numero-4/index.html",
-      "bytes": 6126,
-      "sha256": "b544db67df4e2efae20a5a7af3fbcab68bb74ad01ac00d68e017b5b41b7e8373"
+      "bytes": 5794,
+      "sha256": "e01b2e4b3c57daf23dc29c73ae1cf4cac52d364be074b030e521e4b471cf5d03"
     },
     {
       "path": "produto/o-evangelho-dos-doze-santos-2/index.html",
-      "bytes": 5332,
-      "sha256": "b14f7f3022c8a4e2aca40e71fcc8da1af2a0209a80a174f477da80c90e6c25c3"
+      "bytes": 5000,
+      "sha256": "4ab438b32212492278d593a9baf2a8a9019cd71f5bffbdd74c444fad246cae98"
     },
     {
       "path": "produto/rosa-e-cabala/index.html",
-      "bytes": 5969,
-      "sha256": "febee12af741dc92cc1028eafb67a243f851ce961ef40f0a42439e7b15e8ea42"
+      "bytes": 5637,
+      "sha256": "8cfde7dbadd8109ffdbbeb9bc2916eb7efdc16d1cfbc5c44ffefce86a51bf606"
     },
     {
       "path": "produto/revista-2016-numero-1/index.html",
-      "bytes": 5795,
-      "sha256": "81982df6d5b4e5311068db63936eae807d9ff8b7cd042952df8f5d3e356b0eef"
+      "bytes": 5446,
+      "sha256": "b02283ea6ffbc3058e9949115fb4df12a6ffbbc9d7f6dd8c1107a17605b15d84"
     },
     {
       "path": "produto/iniciacao-iluminacao-libertacao-ebook/index.html",
-      "bytes": 6336,
-      "sha256": "2ec8b8b8bf81e7dc48e754c18fd8c88e70879fa32347696620756abe8e1228bb"
+      "bytes": 6004,
+      "sha256": "40f0e12ba9ebdbb322d8048a4020bd932871e1f95e55e15c0357799aa6f76c40"
     },
     {
       "path": "produto/revista-2006-numero-6/index.html",
-      "bytes": 7016,
-      "sha256": "044cc58ce998385cd96ab496c249da14ad4734a10107759e257843578d4ebb62"
+      "bytes": 6684,
+      "sha256": "27e9f6678c4aff8e57a7dc4ee112ea7db1fe91966d75970bebc4608b53d33dba"
     },
     {
       "path": "produto/senda-libertadora-da-rosa-cruz/index.html",
-      "bytes": 5918,
-      "sha256": "4d1d3e9e308f5f1cb503e81bc00124e9fdbaf3af2bf3cbb0249d5a9f00d82a01"
+      "bytes": 5569,
+      "sha256": "ebba53823c0207d856dfca865b26ae8b24fe7430946793378d969bb4c6aa7d6b"
     },
     {
       "path": "produto/revista-2013-numero-6/index.html",
-      "bytes": 5724,
-      "sha256": "147dcbcb795333388df659f477e63f52ef628c4424053afaf48f42a375294028"
+      "bytes": 5406,
+      "sha256": "f80adfe9da4f5d1b1baf575b615c077e7afd6cb8482fedd1c5d12b30dbdc2805"
     },
     {
       "path": "produto/revista-2006-numero-2/index.html",
-      "bytes": 5876,
-      "sha256": "95d77844e559049c0715dec995d65511eccc7e4abe3136c7d1dc422c9cf3c106"
+      "bytes": 5544,
+      "sha256": "c209d3e821c1c0f5281bac6778574f2484d068ade59d5c67389574cca8af9984"
     },
     {
       "path": "produto/revista-ano-21-numero-2/index.html",
-      "bytes": 6068,
-      "sha256": "a655cd8c9aff6ab6264521882ce0e7b4e33ff1bf72ef80c642824680761310e7"
+      "bytes": 5736,
+      "sha256": "a55f4bebbd850233b458d04dbdc16a993de7936091ccc46e8120d9413ad6f10d"
     },
     {
       "path": "produto/o-livro-secreto-de-joao-o-evangelho-apocrifo-de-joao/index.html",
-      "bytes": 6413,
-      "sha256": "a257e106bbda57eee42fb1457150249e3ead0e533992924db7f1d830dcbaff69"
+      "bytes": 6081,
+      "sha256": "492d6c9a4d7e1e5bb7f46f0246642e0c3f901f9e78c88ded788dc381fd7ef9c6"
     },
     {
       "path": "produto/revista-2016-numero-2/index.html",
-      "bytes": 6961,
-      "sha256": "ea0da8fbc3f34e4e6511c258f12860545a470d33fb286597abb50d8b2c844011"
+      "bytes": 6629,
+      "sha256": "600931a1e828d35095eccf872425019cbff540da078d3dd9eee047a0e03e06bd"
     },
     {
       "path": "produto/o-misterio-da-vida-e-da-morte/index.html",
-      "bytes": 5962,
-      "sha256": "675de0235f47e2c4d395a6b9fd1a43026e6f2637277862d77e2811cd8c14060b"
+      "bytes": 5630,
+      "sha256": "aeea46586c1b90d9e72a0e182c0c806d1b7495cd9140e12f11e693cd5b4209ca"
     },
     {
       "path": "produto/revista-2011-numero-6/index.html",
-      "bytes": 6113,
-      "sha256": "22de7607bd9cd89474cd3dc226ee5fff12630a546a4b57713407288459cc1cf1"
+      "bytes": 5781,
+      "sha256": "7f7df423377fe419492cd10df6a82e602d51cc2651be32ddc7b2c3fe97293b93"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-3/index.html",
-      "bytes": 5837,
-      "sha256": "26c80957c506a4184287d36423dce9f9825d12ed5c2a336b4427caa1fd1b83c6"
+      "bytes": 5505,
+      "sha256": "398c33f73dc23cb2e18ac77f2b4d9f23d793faafaedf173d02518e7b2ad04f5e"
     },
     {
       "path": "produto/revista-ano-22-numero-3/index.html",
-      "bytes": 6070,
-      "sha256": "7d698300cc6e18c4c7cb2b01c57912f40d6c587428e79d094c9bd17976d5e3b0"
+      "bytes": 5738,
+      "sha256": "d4583e325e664b3392d51dd09f667d21a431777c39da1e48095bece9dedd522e"
     },
     {
       "path": "produto/revista-2007-numero-3/index.html",
-      "bytes": 7161,
-      "sha256": "da7ccf397a4b412469782465b11a88e06aa01bf26b2a7b9871aae9c86a279b75"
+      "bytes": 6829,
+      "sha256": "28573d48405b9e4cc4ecc6de5ac54dabbd4825a35c60077faeeda7ef0dbf4e53"
     },
     {
       "path": "produto/revista-ano-19-numero-6/index.html",
-      "bytes": 5827,
-      "sha256": "56f778b6fd9966b1f378db23bbd43399ddc2431704086d9ee2617d2088aaf6a0"
+      "bytes": 5495,
+      "sha256": "da84d2fb8748a3d621431f31402f0724bee089c96cd47bc040e9f78cf7e53288"
     },
     {
       "path": "produto/revista-2012-numero-5/index.html",
-      "bytes": 6140,
-      "sha256": "3c4afa6f6fa2724c8043b2a35cc05c33c9d243997cabc913ad824b1798590b9a"
+      "bytes": 5808,
+      "sha256": "3e6dd4e81909f838956c95d27697608c558c6bd05825bfebfd29abea0ec08a3e"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-4-ebook/index.html",
-      "bytes": 5931,
-      "sha256": "53dfc916267c822aa5202ce37e1a028cf1b82978fe953c6fdcc9ed4d879f65ad"
+      "bytes": 5599,
+      "sha256": "87838b6e44410ef71286c03ccf02a43c18546a9ad8299aa9e87d066f98597353"
     },
     {
       "path": "produto/o-chamado-da-fraternidade-rosacruz/index.html",
-      "bytes": 6827,
-      "sha256": "cc56348c72414f721b72aca8ca52d8bdac073ca6ab328e03f950bf76cf245ca5"
+      "bytes": 6478,
+      "sha256": "9fe7a11a5ec5f8fa003719b7cdf8eaf69e910ada01040390a606a5030fbbada4"
     },
     {
       "path": "produto/o-triunfo-da-gnosis-universal/index.html",
-      "bytes": 6567,
-      "sha256": "714cb127f8364b77af5eab0ed87ca1efdd057303bda97e71c6bbac2673cb0fe5"
+      "bytes": 6235,
+      "sha256": "752010cca8621938d6ad39f7c80a1ac76e1e09e84073ab85150e9f70ce9ca30c"
     },
     {
       "path": "produto/revista-ano-26-numero-6/index.html",
-      "bytes": 5878,
-      "sha256": "f2d3350740100e90d373baf929d39f4d3d55e0d64bf23500a063743143ed3950"
+      "bytes": 5546,
+      "sha256": "393c732ff385bb05b26de5c7e29e7227f2e9088b45ec038335a57165ee55bdba"
     },
     {
       "path": "produto/revista-2016-numero-3/index.html",
-      "bytes": 6199,
-      "sha256": "e91f37189e81cc96714e21e8afe6e5247e593e5d4cf8463de50bd7172cea203b"
+      "bytes": 5850,
+      "sha256": "c4bdab35cdf1c0acdcd1fd9d4035b66ab4ffce09d7fb6a8ec821fcf08cd364c5"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-2/index.html",
-      "bytes": 5965,
-      "sha256": "0a0861a37a6bd6d64d71c1d12183b11844624a94b5b23568fd46c0e6a59eaca3"
+      "bytes": 5633,
+      "sha256": "6d9b08218380d513f547ec1f8cfe2e9015144f0ba577e9228f9628f65a5c6148"
     },
     {
       "path": "produto/os-sete-raios-do-espirito-e-transformacao-da-vida-humana/index.html",
-      "bytes": 6623,
-      "sha256": "36ef9026871ac28357524835c3fe06d8bb9086c40401b5114979b74f6f596104"
+      "bytes": 6291,
+      "sha256": "0b97a47d9df8b02fbb37196208caea960ea2d138c904e4a8b6f2bde3ccad09b3"
     },
     {
       "path": "produto/nao-ha-espaco-vazio/index.html",
-      "bytes": 6034,
-      "sha256": "2a34ce32e7ff7c6d61f27cdd1b92eefbb9005786293ce0514b84febea25e90c5"
+      "bytes": 5702,
+      "sha256": "2a070333a9bf09fff664beced3aee2da1268583c4d113c5d8f1911db20c15cc2"
     },
     {
       "path": "produto/revista-ano-23-numero-3/index.html",
-      "bytes": 5946,
-      "sha256": "8221e3d10867e137c3513920533583397795b4efb16f449f644d1449eab036cb"
+      "bytes": 5614,
+      "sha256": "8fca60b309fc9deb3ac60326b86de2022b2ab76a194880578c1c55b25a3fcd85"
     },
     {
       "path": "produto/revista-ano-26-numero-1/index.html",
-      "bytes": 5952,
-      "sha256": "734f8d2b06c4e47dd4b262a8f4c72a7e39b6e5da32ea7e793128dde7f67e3552"
+      "bytes": 5620,
+      "sha256": "09b2c5c8f9df866ab4668071aba4b6b3677854c3eb49eebca4fcdcdcff9f9ff2"
     },
     {
       "path": "produto/do-castigo-da-alma/index.html",
-      "bytes": 6250,
-      "sha256": "c4e2775a818aca6b05ee63153ae12288229b5dc261beea832d8270bcfe919643"
+      "bytes": 5901,
+      "sha256": "ff68b8d5ebed1a816b01b9e54547ababb8151b3205dbcf929d7a0f2272e3743e"
     },
     {
       "path": "produto/os-sinais-poderosos-do-conselho-de-deus/index.html",
-      "bytes": 6414,
-      "sha256": "753729a5bdb58902523f73d1ea05f401f3aa409652c4774abaa7c60a897ad250"
+      "bytes": 6065,
+      "sha256": "3fe66640aecb044d814e38a48bdca308fab30f296e722f4f92544e09679874fb"
     },
     {
       "path": "produto/o-livro-de-mirdad/index.html",
-      "bytes": 6157,
-      "sha256": "ee584d075caf3969497e1375f587e634463809b467d91f2f904937237d00849d"
+      "bytes": 5825,
+      "sha256": "549bc2fc30ab1abc6568e834f36864a622156d26fa0fb3c216e2fff608b7079a"
     },
     {
       "path": "produto/revista-ano-23-numero-1/index.html",
-      "bytes": 5774,
-      "sha256": "d822d58f58e0311d46812a28d6337155f411c4917f903b76358a1f9edfa654de"
+      "bytes": 5442,
+      "sha256": "9a02dabfb80bc96efc4fee041ed501854d8b897d72ae1d7a68b06f6e64503911"
     },
     {
       "path": "produto/revista-2010-numero-6/index.html",
-      "bytes": 5777,
-      "sha256": "86334895ab74f769d6bf8e72b6f03ef6aaab3554b498f8937e3862c51999115a"
+      "bytes": 5459,
+      "sha256": "02af94da781b4f3e13cbe6ba8d1d820aa9fbfc7a6950c037781b7d48e3bf1f75"
     },
     {
       "path": "produto/revista-2010-numero-4/index.html",
-      "bytes": 5862,
-      "sha256": "b4ad581dee47b503db4e742f0753ce46e6659ff1a9445b7dee546559b3a97167"
+      "bytes": 5530,
+      "sha256": "1c971cbd94aa43bf98d9e427aa0e76d1d3995ac628a9691f4385d2af2ce60575"
     },
     {
       "path": "produto/revista-2015-numero-6/index.html",
-      "bytes": 5895,
-      "sha256": "6faf9123805e946cb6a5af6562d336cd8b03e3a7f5966c3a2e3b0f5f06faf415"
+      "bytes": 5546,
+      "sha256": "23ca24daad1ae7967bf8ece15b2b249b4b8cb6500ceb8fcb940d5671e18cc350"
     },
     {
       "path": "produto/o-nuctemeron-de-apolonio-de-tiana-ebook/index.html",
-      "bytes": 5848,
-      "sha256": "a7433ebb08cc24114a67b6c153a58586a36ee7c9e84c66e0609d3ef30013841b"
+      "bytes": 5516,
+      "sha256": "80dc38bfe98b26bd4b4d2433ea48952b1f4541adf8497366bf82c3fe37ee3880"
     },
     {
       "path": "produto/revista-ano-18-numero-2/index.html",
-      "bytes": 5917,
-      "sha256": "b8c234149fd955caef2f4f5e105a6fcda5d47c25d0f00df38a75efc479a9b270"
+      "bytes": 5585,
+      "sha256": "d2f82821f97172d928a7e1a74e39412339a17c177ffb305c6634a018bffd2ec3"
     },
     {
       "path": "produto/revista-ano-25-numero-2/index.html",
-      "bytes": 6205,
-      "sha256": "19e3ad3e9685d433a8283f5aa2dac00f073a10b6fafd53cd88097fcde0b876b1"
+      "bytes": 5873,
+      "sha256": "b983ff038173032931a3f816b57dbf1d83a3a3f0a74d576512fda81b34f0b230"
     },
     {
       "path": "produto/o-caminho-universal/index.html",
-      "bytes": 6027,
-      "sha256": "15d6eaa4cb0b07e14207858c33b00bc2657d82a9c010f379080c9dbbe06bfaaa"
+      "bytes": 5695,
+      "sha256": "8ac89062da12a89c89dc6ec0dc6513b7cd264f239227c983468f65c4e919dc4f"
     },
     {
       "path": "produto/revista-2008-numero-6/index.html",
-      "bytes": 5902,
-      "sha256": "9ff9d539bc7497262a76ef9d8827ede67af06c41364dca3f0075de88faa1da5c"
+      "bytes": 5570,
+      "sha256": "a09073ab3b30d1a619a323e085de7e181ccc441d41298973e75f4b4eb6a0e467"
     },
     {
       "path": "produto/revista-ano-21-numero-6/index.html",
-      "bytes": 6019,
-      "sha256": "b274dd7d6ca61fc8f3ae1da8377366395e4dda87cf353b230dd704f33b438349"
+      "bytes": 5687,
+      "sha256": "7a9837689e5853b60f743c14fa1f28cd4b1aaadfd0fd07c4aeba9dbe3c0af538"
     },
     {
       "path": "produto/o-novo-homem-ebook/index.html",
-      "bytes": 6445,
-      "sha256": "23a7b322503765eebe9dff600b2b8b09fbf7799c727af2fcbb835c3934cbc2ae"
+      "bytes": 6113,
+      "sha256": "e2ba96603052eec9811e952ce80fff05a4e299ddbbe98003f0c1779c2854055a"
     },
     {
       "path": "produto/o-unico-necessario-2/index.html",
-      "bytes": 6704,
-      "sha256": "c8cf5ad5d96b43e88dd679bbb236b453e13ad9f8ad93cd9afab5d87637522be2"
+      "bytes": 6372,
+      "sha256": "e0c7bcbceb3f59a53c90d7a349796f906ae946b7ef4085e4e3c7532eecca58a6"
     },
     {
       "path": "produto/o-caminho-da-rosa-cruz-nos-dias-atuais/index.html",
-      "bytes": 6021,
-      "sha256": "c0abddc56dbd476e1bc6458af400d0c95f3d579a99d1dd6aea8d89f6310844aa"
+      "bytes": 5689,
+      "sha256": "3ac6a4c8cec26d0fd060e2f4aafc9a958e037df0da3744c5423d5b264d1371a0"
     },
     {
       "path": "produto/revista-2010-numero-5/index.html",
-      "bytes": 5711,
-      "sha256": "e9b9ae2ccf57fb01a94469806e9386b6cc52391b139ea26c9012d0252c815d56"
+      "bytes": 5393,
+      "sha256": "c936665751246909d98705b1d0778cd981c1886609a62cd68e3413516607beb0"
     },
     {
       "path": "produto/chamados-pelo-coracao-do-mundo/index.html",
-      "bytes": 6122,
-      "sha256": "060dac6a0c88b51b55f8fb59a640fa98e1d84dba7e00401363a0166f1a52f9b7"
+      "bytes": 5790,
+      "sha256": "d379b0e4f5d5bd043dcf27122ec6849799929f05670d0ce55bbcdd3a09287d41"
     },
     {
       "path": "produto/o-misterio-das-bem-aventurancas-ebook/index.html",
-      "bytes": 5954,
-      "sha256": "b80f71a9cb24323b448a8815b11d405195659dbb3bb92c0b51fc06cc4e037af2"
+      "bytes": 5622,
+      "sha256": "89bd3c5b5f8e138550e5898e430db7fd28a9d66c27a04636721019048ac2c2e6"
     },
     {
       "path": "produto/o-novo-homem/index.html",
-      "bytes": 6445,
-      "sha256": "23a7b322503765eebe9dff600b2b8b09fbf7799c727af2fcbb835c3934cbc2ae"
+      "bytes": 6113,
+      "sha256": "e2ba96603052eec9811e952ce80fff05a4e299ddbbe98003f0c1779c2854055a"
     },
     {
       "path": "produto/algumas-palavras-do-mais-profundo-do-ser/index.html",
-      "bytes": 6081,
-      "sha256": "f986dd1e7cfb6a288e9c0c132434a16baadf9e53ed2ae50b9660bf1e64a5d8d0"
+      "bytes": 5749,
+      "sha256": "fd0fd33050bd1a18b6561219d5974ad30bb5d900e6127d66039abd94aef9be40"
     },
     {
       "path": "produto/revista-2005-numero-2/index.html",
-      "bytes": 5891,
-      "sha256": "ee24a3b6279f1fc872b03ae2ac733dfa7a79766e6bbaeb2f91bfac39f4f4821c"
+      "bytes": 5559,
+      "sha256": "7ab57d49e8f54bbfdb52600e878543276cfa6e35e91df0460a9c070330d5e1ca"
     },
     {
       "path": "produto/revista-2013-numero-2/index.html",
-      "bytes": 5825,
-      "sha256": "5fe8070bd58896f107f6d9c59b0f2b662dd7c5b63c6eaa2f3786c047af737471"
+      "bytes": 5507,
+      "sha256": "4bdcb8794514ea83281daa5cf7bf7d77dcb7a44c0a8a519cc1af2475975a8ed2"
     },
     {
       "path": "produto/revista-2011-numero-3/index.html",
-      "bytes": 6362,
-      "sha256": "75963c4cd92e819971683515a5c6dc1ebf06925a30b013bcc6c22d2c1eb1431e"
+      "bytes": 6030,
+      "sha256": "a49c2335828d2c33b8ca9701a7aa646e0675470d711488641c0b3a4148f7ecfe"
     },
     {
       "path": "produto/a-gnosis-chinesa-ebook/index.html",
-      "bytes": 6926,
-      "sha256": "42b639aa5029b816d85b3dd724dd2d4017ea4e2922d1cec291d9d0ba67f5ae73"
+      "bytes": 6594,
+      "sha256": "4ee849b24dbaab99947e7268398250a3ba7cf92c006fd881971351b1c8481e4d"
     },
     {
       "path": "produto/revista-2013-numero-3/index.html",
-      "bytes": 5933,
-      "sha256": "5d3e97de3e7b2687d49b51a685b55d0bedea6eded80980ba3d391f60d90e96a6"
+      "bytes": 5584,
+      "sha256": "e4abd26d9b9b1b480cfd86bb187c0af4960a6622bd8f6128bcee6c9f8a3e547a"
     },
     {
       "path": "produto/o-unico-necessario/index.html",
-      "bytes": 6704,
-      "sha256": "c8cf5ad5d96b43e88dd679bbb236b453e13ad9f8ad93cd9afab5d87637522be2"
+      "bytes": 6372,
+      "sha256": "e0c7bcbceb3f59a53c90d7a349796f906ae946b7ef4085e4e3c7532eecca58a6"
     },
     {
       "path": "produto/o-selo-da-renovacao/index.html",
-      "bytes": 5691,
-      "sha256": "ebbb6af4aaf3f4cd3f1342c567a1b2f575a25d431460931ff1ab46aa9962795a"
+      "bytes": 5359,
+      "sha256": "2fc6b9d957191e17884bdd0afe37493591be0501eb72254f264ae79a24fc374b"
     },
     {
       "path": "produto/luz-do-mundo-ebook/index.html",
-      "bytes": 5880,
-      "sha256": "144631ee1c9dcf491c52fac20928e16c40e7e73104eccb1805f658e94a95afde"
+      "bytes": 5548,
+      "sha256": "8ea0eb5056b084e2504afa7375fdd5d7cdc32ad19c73220078596f66aeed3a99"
     },
     {
       "path": "produto/transfiguracao-e-transmutacao/index.html",
-      "bytes": 6726,
-      "sha256": "f33dd31132a39f31ce67c4a515cb84bf0c91638f30d34a05724fcd8adef30d3c"
+      "bytes": 6394,
+      "sha256": "4085cd477a1f7aeadaff2cef6fa2067e83ff7988d037df123c3c0bbc0ee9e818"
     },
     {
       "path": "produto/revista-2008-numero-4/index.html",
-      "bytes": 5929,
-      "sha256": "6811fb79828a7bab45c22160d963939ce7a2ebe54b037dd2460846bcd8446e8d"
+      "bytes": 5597,
+      "sha256": "cb853a25480a27d8ed100054d77579398d1dfc601cca924e3b22153e67b08e3f"
     },
     {
       "path": "produto/o-remedio-universal-ebook/index.html",
-      "bytes": 5936,
-      "sha256": "2255488bfdca2b7d336c7deec66d6794856137ee7846f3a1746e3374945d2552"
+      "bytes": 5604,
+      "sha256": "d923945cd8a0638200813b95351b498dcc8ed7306f3d7d8efe203692bd13eea7"
     },
     {
       "path": "produto/revista-ano-18-numero-1/index.html",
-      "bytes": 5894,
-      "sha256": "ab80cbde15185a81c027863e31479ed11e4f31b83c726a500dec71421a10832e"
+      "bytes": 5562,
+      "sha256": "60b8048d8f7471ab5798cb37643e42384d0cf67078fd6bec9b6955d084006008"
     },
     {
       "path": "produto/revista-2014-numero-4/index.html",
-      "bytes": 6001,
-      "sha256": "d20c438f63721460c586d9232c0be36e5ef6a17f5b563bfb4776c0671be226d1"
+      "bytes": 5652,
+      "sha256": "27c7a27266f4bc9120ae6e6b146f950f9b6e247b4a83c444536df8b6f4cf3c06"
     },
     {
       "path": "produto/revista-2013-numero-5/index.html",
-      "bytes": 6188,
-      "sha256": "2cf03035402fbf186105a272690711dd12cad8e221f5e4c1b8332d8891044e2a"
+      "bytes": 5839,
+      "sha256": "2eb99026a23f147634a30f219b38b9055871e3b70bd3e0b995f2a3a81ad71818"
     },
     {
       "path": "produto/revista-2009-numero-2/index.html",
-      "bytes": 5962,
-      "sha256": "ce58f98492ae308e7d3fe2954f3c7c488d4a8373393654ad2b766da27381052c"
+      "bytes": 5630,
+      "sha256": "6bcb1e21eb9667ecc9130b8c3960409fcd2e48e9033f6056c7be7e833b0984ae"
     },
     {
       "path": "produto/revista-2006-numero-5/index.html",
-      "bytes": 7141,
-      "sha256": "5fa705141dca5fff8e3ea57507b8f25d713d1f91f34d0cc2dddec7ef9f1cfbdb"
+      "bytes": 6809,
+      "sha256": "969f9c396827209af6e4fb2ee05d98fc5f4d8c28bf40eb5c4f3dd6390cfdb1b8"
     },
     {
       "path": "produto/o-evangelho-dos-doze-santos/index.html",
-      "bytes": 5332,
-      "sha256": "b14f7f3022c8a4e2aca40e71fcc8da1af2a0209a80a174f477da80c90e6c25c3"
+      "bytes": 5000,
+      "sha256": "4ab438b32212492278d593a9baf2a8a9019cd71f5bffbdd74c444fad246cae98"
     },
     {
       "path": "produto/fraternidade-de-shamballa/index.html",
-      "bytes": 5830,
-      "sha256": "2801a574e10d93c15596c17a30244f394503d61e4886c89ccb37219cb94db01c"
+      "bytes": 5498,
+      "sha256": "86f85bde208660e6519cd9d52958bf392d219e9dcf15b1c79ffe1042363e3cd1"
     },
     {
       "path": "produto/revista-ano-23-numero-6/index.html",
-      "bytes": 5956,
-      "sha256": "c23947ceb9565698b5e785b415bd0738cc528ae466b3c27b5deddd15e9e7a92e"
+      "bytes": 5624,
+      "sha256": "5f37073a8d24994b74d7708b26f42e5937415985d97df01db92731e3240de018"
     },
     {
       "path": "produto/revista-2015-numero-5/index.html",
-      "bytes": 5360,
-      "sha256": "71f4c64a5fe3975dbff0dc53cb4c32fa561d01633d1bc204c636386267008a7b"
+      "bytes": 5011,
+      "sha256": "9d4a76d7bdb670b8e21999e6a844568a15b921ba8b923f343f4fd2fcd6dac8cb"
     },
     {
       "path": "produto/a-gnosis-universal-ebook/index.html",
-      "bytes": 5913,
-      "sha256": "6c6c96a612446b17e03606af7f0d9a191e9c3ccbe8b9557c961052db8b8a7d45"
+      "bytes": 5581,
+      "sha256": "384a0c19f465cc98871a3b03f665a4007da5f9fd255628d50722ac6dfa39e4e2"
     },
     {
       "path": "produto/veste-de-luz-do-novo-homem/index.html",
-      "bytes": 5929,
-      "sha256": "5199f3a6ebb18fcd19421cd50e96b166b124c1eea39ff792eda1aec58df4db11"
+      "bytes": 5597,
+      "sha256": "613cb16d008a04409b1586c7089f758a4762ce391e003525f94b50c7de27abea"
     },
     {
       "path": "produto/o-misterio-iniciatico-cristao-dei-gloria-intacta-ebook/index.html",
-      "bytes": 6204,
-      "sha256": "6e2d408b379fe833978a396f3efdb4984b10905a5e19578eb73c70aaa4619463"
+      "bytes": 5872,
+      "sha256": "b89bb20feda840f1e6cea0ab3b24056dd205c556a23d209fdc4da523d8911700"
     },
     {
       "path": "produto/revista-ano-25-numero-3/index.html",
-      "bytes": 5842,
-      "sha256": "acd2890a7307ee4f900ba016f38e92944cea0489cb5d79815f300abbe0b7828f"
+      "bytes": 5510,
+      "sha256": "4a9e0f17fb5ae4dfa5cca0a52bcefe01fa9e16334a0de2ca0745c495386c8a28"
     },
     {
       "path": "produto/o-remedio-universal/index.html",
-      "bytes": 5936,
-      "sha256": "2255488bfdca2b7d336c7deec66d6794856137ee7846f3a1746e3374945d2552"
+      "bytes": 5604,
+      "sha256": "d923945cd8a0638200813b95351b498dcc8ed7306f3d7d8efe203692bd13eea7"
     },
     {
       "path": "produto/o-caminho-da-rosacruz-nos-dias-atuais-2/index.html",
-      "bytes": 6021,
-      "sha256": "c0abddc56dbd476e1bc6458af400d0c95f3d579a99d1dd6aea8d89f6310844aa"
+      "bytes": 5689,
+      "sha256": "3ac6a4c8cec26d0fd060e2f4aafc9a958e037df0da3744c5423d5b264d1371a0"
     },
     {
       "path": "produto/revista-2010-numero-1/index.html",
-      "bytes": 6047,
-      "sha256": "56458e763d3fa731f54d7d4c6e8841cf4c1949670d1ed2cb829329cbf385c8f9"
+      "bytes": 5729,
+      "sha256": "439c7dfb775c83ca64459e634a60e1eb853d2d5a747ddf71a3df182a2661ca9f"
     },
     {
       "path": "produto/revista-ano-21-numero-1/index.html",
-      "bytes": 5970,
-      "sha256": "3098d9d34ec097120db988f4d32e76e1b2603f3f7553c13752d1921cf60ee773"
+      "bytes": 5638,
+      "sha256": "603d1e5691a3a5a3615e9933e48a532e3f6bc9f38a530f811d71f91f19f216c1"
     },
     {
       "path": "produto/revista-2014-numero-2/index.html",
-      "bytes": 5694,
-      "sha256": "83d8fc0562d7b9565312cc01c414f7e609cded949875b732ba6010f5f589548f"
+      "bytes": 5345,
+      "sha256": "2a3165ca48162d5055fad89f3d7ca8a87a7be59576e56f47b5bc0526af8b63d5"
     },
     {
       "path": "produto/das-forcas-magicas-da-natureza/index.html",
-      "bytes": 6323,
-      "sha256": "42819f33fb6b55f41a9fd6ee4bafcd29f435dfe0ae184e1b308410987158e032"
+      "bytes": 5991,
+      "sha256": "a9470d572355f6b60470bb0acdae322f11b11609567fb792720f3437c2d70bab"
     },
     {
       "path": "produto/o-misterio-das-bem-aventurancas/index.html",
-      "bytes": 5954,
-      "sha256": "b80f71a9cb24323b448a8815b11d405195659dbb3bb92c0b51fc06cc4e037af2"
+      "bytes": 5622,
+      "sha256": "89bd3c5b5f8e138550e5898e430db7fd28a9d66c27a04636721019048ac2c2e6"
     },
     {
       "path": "produto/grande-revolucao/index.html",
-      "bytes": 5987,
-      "sha256": "796e3e98a7ff53fcc23565eb21fc8ca6f3477ae2913d4108d565bc2b56fe85a9"
+      "bytes": 5638,
+      "sha256": "a3ea7a3b5fdecc8b522b99f568fbc894c7c3c8df0bc456420ebb7fe17d05cb2b"
     },
     {
       "path": "produto/revista-ano-21-numero-4/index.html",
-      "bytes": 5947,
-      "sha256": "c511267606cbce4ab252f2c3bef6b5f83b8971a855c2f796d4be867f97d7039d"
+      "bytes": 5615,
+      "sha256": "f23b351a978d4539b1253e307412ae0c23c97a945e0fd7b1b9043e14e44a60c2"
     },
     {
       "path": "produto/christianopolis/index.html",
-      "bytes": 5791,
-      "sha256": "eacaf4ef1af525fd10a9082de56647b008ba3b056704f26a21eb4fe9187f17f7"
+      "bytes": 5442,
+      "sha256": "c920f89b36a4301ee46d047b396fbf7b4720cdb04d8d8b6f81b31907822c39f9"
     },
     {
       "path": "produto/revista-ano-20-numero-3/index.html",
-      "bytes": 5909,
-      "sha256": "71ba7fda3ebb7aed035825e484e9603cc4dd71ab48839843dd6808dbd94ca680"
+      "bytes": 5577,
+      "sha256": "a67e02708ac692adf51412929af99fe47d4d5cbda4b3443918e4f0b0c5ff5822"
     },
     {
       "path": "produto/transfiguracao/index.html",
-      "bytes": 5747,
-      "sha256": "74d4689c31cd8f6b2e4d55dade061cfb9d14dce23b748044a3351696c89bd025"
+      "bytes": 5398,
+      "sha256": "dd9a081fc1fd3bfac459a85899cb7d16c8d2f75f1d4d7ac4533c735cece5975b"
     },
     {
       "path": "produto/revista-ano-19-numero-1/index.html",
-      "bytes": 5982,
-      "sha256": "3d166d4a41616ec7d8d08fc5c2d9c23b2b83920986c8b05ad571de1f1e65eef1"
+      "bytes": 5650,
+      "sha256": "be4ff1addfdffe302bdeecb4b999ceb2071754e95de4c06af6e61feaa04ea4eb"
     },
     {
       "path": "produto/historias-do-roseiral-ebook/index.html",
-      "bytes": 5628,
-      "sha256": "f5f6d3dd5e062d48a6a3785aed7d9259831e36c614e072156c85b5c3e40f4b1e"
+      "bytes": 5296,
+      "sha256": "fa08dad26b4701daab20f88844905426d5dba1c18bbdd82d4b8382d24ecf8539"
     },
     {
       "path": "produto/gnosis-chinesa/index.html",
-      "bytes": 6926,
-      "sha256": "42b639aa5029b816d85b3dd724dd2d4017ea4e2922d1cec291d9d0ba67f5ae73"
+      "bytes": 6594,
+      "sha256": "4ee849b24dbaab99947e7268398250a3ba7cf92c006fd881971351b1c8481e4d"
     },
     {
       "path": "produto/revista-ano-20-numero-2/index.html",
-      "bytes": 5803,
-      "sha256": "e843f7b2c5b3e28a53b637a92e47ae54681a08bff1bd6d47bb29964a9d80cef8"
+      "bytes": 5471,
+      "sha256": "d7eb2493a1f0d6cb5f0283d840696808724531d73bfa0a266d61b46440a39885"
     },
     {
       "path": "produto/transfiguracao-ebook/index.html",
-      "bytes": 5747,
-      "sha256": "74d4689c31cd8f6b2e4d55dade061cfb9d14dce23b748044a3351696c89bd025"
+      "bytes": 5398,
+      "sha256": "dd9a081fc1fd3bfac459a85899cb7d16c8d2f75f1d4d7ac4533c735cece5975b"
     },
     {
       "path": "produto/revista-ano-22-numero-2/index.html",
-      "bytes": 5954,
-      "sha256": "d2a3e007570f5821b0c61a3335f2d1e44516204dceef88f90925fdcb9e5b7f07"
+      "bytes": 5622,
+      "sha256": "9d12aab3c8ebf20995f60fd9451668455ba09ffd55626fd3d8234460f86b855a"
     },
     {
       "path": "produto/revista-ano-26-numero-3/index.html",
-      "bytes": 5806,
-      "sha256": "0706d0510cbe5d7d81ffedc80d844ef8496cba4de10e5fda338f57d567d38f8a"
+      "bytes": 5474,
+      "sha256": "9919729fcc5f86443ed31a19e0a5cd21196316efbc72e364fed7b3d7fedd9369"
     },
     {
       "path": "produto/um-novo-chamado/index.html",
-      "bytes": 5738,
-      "sha256": "560576119de326501b0d43dad347d70d568ef3f2833f1c912fcb1d5a33dda4ad"
+      "bytes": 5389,
+      "sha256": "074ff9f72b68734158c702cd454550e62d8c12ff734ad516765320b5b75ba9c8"
     },
     {
       "path": "produto/revista-2015-numero-2/index.html",
-      "bytes": 6165,
-      "sha256": "8a1c0f89374df13dbe0b1da62a0cee5e0f19f10934d426921993fca6b1f6ee4c"
+      "bytes": 5816,
+      "sha256": "e5bd4e9fbb352c5f35bde1f34d48661c6ee85a2046ca541dee7ab11ea796191f"
     },
     {
       "path": "produto/revista-ano-22-numero-1/index.html",
-      "bytes": 5730,
-      "sha256": "7b6b906690234b0358d38a7fd075bd89c2ee57df3a11fee3c1380e9c9c3bdaa3"
+      "bytes": 5398,
+      "sha256": "0a14d1c31a618640010f0688e827ed1d68ff4f54260074a675066fb4d665f740"
     },
     {
       "path": "produto/revista-2009-numero-3/index.html",
-      "bytes": 5756,
-      "sha256": "0eabde98d5e0643f0b2b8414a3f77ca7687faae089f1fee09e59faa1b33fae1b"
+      "bytes": 5424,
+      "sha256": "f09d72f5735e9d6524a27bacce8bceeae3ea03956080e2cd7a97f375c4fdbbe4"
     },
     {
       "path": "produto/revista-ano-21-numero-3/index.html",
-      "bytes": 5867,
-      "sha256": "9490f803f3af2e90d3bd04e21d085c8be9028c48569213bb648b0a53e9457f98"
+      "bytes": 5535,
+      "sha256": "ce517041e976259fc2cb42ae37bff7d861ffb700ba6a47cf5c9b13d2dde457bf"
     },
     {
       "path": "produto/revista-ano-24-numero-3/index.html",
-      "bytes": 5961,
-      "sha256": "47d33eb32c545e157ac6c0e6977812634fea4e103e8fd91c5441d02393447d62"
+      "bytes": 5629,
+      "sha256": "e5201a6fdbbb8c3392e0fe05e56aeeb32d2425bcf947bad4fc297d89ccd6bea3"
     },
     {
       "path": "produto/revista-2012-numero-3/index.html",
-      "bytes": 6162,
-      "sha256": "25404df142ac9cc78e30d032116e01ddac6ba09daca0eadd95f4501baeafdc87"
+      "bytes": 5813,
+      "sha256": "be082b6485ed412d2528266e8c1eb457589f029fa3d3435ca54ebadaf135b390"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-2-ebook/index.html",
-      "bytes": 5965,
-      "sha256": "0a0861a37a6bd6d64d71c1d12183b11844624a94b5b23568fd46c0e6a59eaca3"
+      "bytes": 5633,
+      "sha256": "6d9b08218380d513f547ec1f8cfe2e9015144f0ba577e9228f9628f65a5c6148"
     },
     {
       "path": "produto/nao-ha-espaco-vazio-ebook/index.html",
-      "bytes": 6034,
-      "sha256": "2a34ce32e7ff7c6d61f27cdd1b92eefbb9005786293ce0514b84febea25e90c5"
+      "bytes": 5702,
+      "sha256": "2a070333a9bf09fff664beced3aee2da1268583c4d113c5d8f1911db20c15cc2"
     },
     {
       "path": "produto/gnose-em-sua-atual-manifestacao-ebook/index.html",
-      "bytes": 5859,
-      "sha256": "27bfb2b352d64308ecc6b6fd0087d635150a31cefd58f03dbd02d6899ebd14cf"
+      "bytes": 5527,
+      "sha256": "ce2478d6786f40346e007a05c66e4d5ddca80775a7cd9ff864ff0a440fc6c1a6"
     },
     {
       "path": "produto/revista-ano-27-numero-6/index.html",
-      "bytes": 5762,
-      "sha256": "3bcadc6db8ed2103cdf0736ed28b32668dff8a41da366b18774fdba33f4c2ac7"
+      "bytes": 5430,
+      "sha256": "a6760e3d0a2de2bbc821ec3935ded97219e583c9182fe3ad08c8a4880c39f66c"
     },
     {
       "path": "produto/gnosis-universal/index.html",
-      "bytes": 5913,
-      "sha256": "6c6c96a612446b17e03606af7f0d9a191e9c3ccbe8b9557c961052db8b8a7d45"
+      "bytes": 5581,
+      "sha256": "384a0c19f465cc98871a3b03f665a4007da5f9fd255628d50722ac6dfa39e4e2"
     },
     {
       "path": "produto/revista-2015-numero-4/index.html",
-      "bytes": 5593,
-      "sha256": "c0bfea6d0491e5fd9c43895a703fa32b51eb115fa557c9e7e89b9c00d12a0ba0"
+      "bytes": 5244,
+      "sha256": "e20b99294277cc2f37ff704b8e48140b2ef074497467669e4f0ed42b7ff8867e"
     },
     {
       "path": "produto/revista-ano-24-numero-1/index.html",
-      "bytes": 5968,
-      "sha256": "2eea0242c2693990365c395667d73a0702ce370b3c09606d0a635d07ced2d0ea"
+      "bytes": 5636,
+      "sha256": "5b1b28c5cffa8ba44571bb76c006a4fd69e5986ee4059efbf7a544bd3e9aa442"
     },
     {
       "path": "produto/revista-2007-numero-1/index.html",
-      "bytes": 6986,
-      "sha256": "12c5e694a2bec155e568f2f8a622e27c590ac8a822c674cac4261c72e61f8ae3"
+      "bytes": 6654,
+      "sha256": "1a664d68fc5fa8157152e326e417322c34f36db7aaa8d99336add6b32ea97444"
     },
     {
       "path": "produto/confessio-da-fraternidade-da-rosacruz-2/index.html",
-      "bytes": 5986,
-      "sha256": "9b2ee3387eb31483f69f3a3b3f551f412c2ee46cf3a6731796d3f4b3a884f2f5"
+      "bytes": 5654,
+      "sha256": "449e81adb4cd4e067c2cf5a52d80f5abb22da08d5effb0a060c66a41dfb930b5"
     },
     {
       "path": "produto/revista-2009-numero-4/index.html",
-      "bytes": 5911,
-      "sha256": "6b8bf6e92caf837facc17101d0c0b0da59494480c14b50c482e9eada6df768cc"
+      "bytes": 5579,
+      "sha256": "f3dc8a2820a85ecd7bb5c275dbd1fcddc6c3b03f1bb890d488e442d03643d9d7"
     },
     {
       "path": "produto/revista-ano-25-numero-6/index.html",
-      "bytes": 6017,
-      "sha256": "e81451b6ebdd1fc167047b38e7255098895191626cd6a5559d2b1f47e5d9e253"
+      "bytes": 5685,
+      "sha256": "753af9f200ab6563f50b01cd2431f6e2f48654401a8bdb54714ff3f6642c0f6c"
     },
     {
       "path": "produto/revista-2006-numero-4/index.html",
-      "bytes": 6989,
-      "sha256": "a916c99917add86957f00a0f4e3e3de34ee9206c10a5b5a10151e75d96686b7d"
+      "bytes": 6657,
+      "sha256": "91aecb7bcf5e55a50552fd6ebfee5a9d6aa3475175490067fc4827301cab7764"
     },
     {
       "path": "produto/revista-2017-numero-1/index.html",
-      "bytes": 6524,
-      "sha256": "ddf86ea6f96580a443d91c71ee2530c2caeb5dec412a770a69ae3ef36e2b833e"
+      "bytes": 6175,
+      "sha256": "2bbecedfd523c2fa2b2a5d709cf8c28d9492f3bfb10f4a093f4009049dac414e"
     },
     {
       "path": "produto/os-misterios-gnosticos-da-pistis-sophia/index.html",
-      "bytes": 6118,
-      "sha256": "b12d62ef9427fd200c95d00dcf244bc0a7c9914b532027ca31fe04d6f171f576"
+      "bytes": 5786,
+      "sha256": "f0181168a1ae72ffa5e7cecd28176748d5781135bdb09a25819e52a3ff9e9794"
     },
     {
       "path": "produto/revista-ano-22-numero-4/index.html",
-      "bytes": 5989,
-      "sha256": "02ab040aa9461231629ecde2d0c4393bcda99c2d4ccb4e76255a2f25d51e68e6"
+      "bytes": 5657,
+      "sha256": "b17fa3f0ca71f3be2e650798c503d41e38b1164ca4cbb2b126f4fdd2fd9f287e"
     },
     {
       "path": "produto/revista-2009-numero-1/index.html",
-      "bytes": 5838,
-      "sha256": "1fb2bf097c28513280620cf27d558484d62896c579b0152e0824cfee87375d61"
+      "bytes": 5506,
+      "sha256": "aca916fab30bdcfcef3e8fe9e0a089d9e8c4390a1a36bf7367228f3e3f9aa78d"
     },
     {
       "path": "produto/revista-ano-23-numero-2/index.html",
-      "bytes": 5791,
-      "sha256": "eba4aaaaf953f8c385574da5bcc9b312b525391ab896046e8b633fa037e59ad4"
+      "bytes": 5459,
+      "sha256": "c75db83c567cb28e7bf36af65cb9d6cba958697a013db299e014f2988fe5a21d"
     },
     {
       "path": "produto/gnose-em-sua-atual-manifestacao/index.html",
-      "bytes": 5859,
-      "sha256": "27bfb2b352d64308ecc6b6fd0087d635150a31cefd58f03dbd02d6899ebd14cf"
+      "bytes": 5527,
+      "sha256": "ce2478d6786f40346e007a05c66e4d5ddca80775a7cd9ff864ff0a440fc6c1a6"
     },
     {
       "path": "produto/revista-2013-numero-4/index.html",
-      "bytes": 5869,
-      "sha256": "c28bf3505d32fa5777bf1306c2ec4fb7cb67cd4d222469961d194a8d790e5816"
+      "bytes": 5520,
+      "sha256": "f6cb61ab55571374887cde76ce2ce19bfa057799498e495edf950004e8913b17"
     },
     {
       "path": "produto/fraternidade-mundial-da-rosa-cruz/index.html",
-      "bytes": 5943,
-      "sha256": "16fa9c557dbd46b4cb6a1bb6cccf2a9ccd39dc9ec47be418e25a83e807029105"
+      "bytes": 5611,
+      "sha256": "e855c50ce084732cb8ad554a8ffa65ca23e3fba8a4d1a5324fe53dd0858b3b33"
     },
     {
       "path": "produto/revista-2007-numero-5/index.html",
-      "bytes": 5948,
-      "sha256": "46fae3f8a8d2a5e3bd00983fef5968b411c3185a40d73fe430ead8e8865775e4"
+      "bytes": 5616,
+      "sha256": "3b610a0aedc1e4c001ff55aebf86c7eee12c6076b82185a4d4d413eb9f6d97ee"
     },
     {
       "path": "produto/revista-2015-numero-3/index.html",
-      "bytes": 5880,
-      "sha256": "0a1c9ef1a8ee0544d693c9dda626c36d9b3a7e080d28bfa0ceb8a4eb7f5dbe30"
+      "bytes": 5531,
+      "sha256": "d2678ef3a6215751675086b9b63dcc0aed3be2592edae47ad4ff31ec34071639"
     },
     {
       "path": "produto/agenda-2016/index.html",
-      "bytes": 5667,
-      "sha256": "f812db14c1dc1105ed34c5215f91df5a71a16c4522ee755142f07fb0784249a6"
+      "bytes": 5335,
+      "sha256": "10bdc94f664cdaa4a2e79ac6e6b5bb822dfa0965c88f1ea1f8d9880198c23e6c"
     },
     {
       "path": "produto/as-nupcias-alquimicas-de-christian-rosenkreuz-i/index.html",
-      "bytes": 5989,
-      "sha256": "df43cd23b7ce8b680712f243c9ac7cb828c95b1477be1650b46d9094953f3d77"
+      "bytes": 5657,
+      "sha256": "1c3958b15df762e8679a4f6caa433f91e01b6345dda0fd817893ae56d4fbac97"
     },
     {
       "path": "produto/revista-ano-20-numero-6/index.html",
-      "bytes": 5955,
-      "sha256": "8b4e162209e5e0190cf32c920e19c7e2ec992a010d656e28bdbe42031a3a4c7e"
+      "bytes": 5623,
+      "sha256": "99d919671c59cf4a6dc16cb6485ca266782612426a7580c67fe5163ba06649e8"
     },
     {
       "path": "produto/o-chamado-da-fraternidade-rosacruz-ebook/index.html",
-      "bytes": 6827,
-      "sha256": "cc56348c72414f721b72aca8ca52d8bdac073ca6ab328e03f950bf76cf245ca5"
+      "bytes": 6478,
+      "sha256": "9fe7a11a5ec5f8fa003719b7cdf8eaf69e910ada01040390a606a5030fbbada4"
     },
     {
       "path": "produto/revista-2014-numero-3/index.html",
-      "bytes": 5435,
-      "sha256": "abfe5a24de377ce80b4b025a1e9a4dbe507e058c05275dd811caad25e757568f"
+      "bytes": 5103,
+      "sha256": "8f7d052450aabc283c034c9bb8ba36205e88e84bf7e88089910a4b5c2ba44595"
     },
     {
       "path": "produto/rosacruzes-ontem-e-hoje/index.html",
-      "bytes": 6130,
-      "sha256": "1345f2c1135d027d4f4985aead9499b5ef4f0254f2dca283d12773cc836ffa33"
+      "bytes": 5781,
+      "sha256": "593fc42bd306315a5a59842b6e1223f6c6ad982d5a5becbcf6e313fafd3f43d0"
     },
     {
       "path": "produto/revista-ano-20-numero-1/index.html",
-      "bytes": 5838,
-      "sha256": "a55257077cd477718a8838be980b1c8e90c4660a38af2c1b53c46f55f59ca13b"
+      "bytes": 5506,
+      "sha256": "b470f381780282be20d4799013169dca6216071e5999c62cf1653a55502aeee6"
     },
     {
       "path": "produto/revista-2007-numero-4/index.html",
-      "bytes": 5620,
-      "sha256": "d42be198a534a5fd4b18afa57e3816dfdaece25ef977da187d95cb14daadcd4c"
+      "bytes": 5302,
+      "sha256": "71e568732d062b654b474f6b1922f1ecb2f7167b38408ca352d0cfbd33b27383"
     },
     {
       "path": "produto/revista-ano-25-numero-5/index.html",
-      "bytes": 5748,
-      "sha256": "81c3fde3e1cbd6d50c60c0a2d319e693513310e2858906403581e41186f7573b"
+      "bytes": 5416,
+      "sha256": "17f376d7ded1dcc98b6a461df97ff1eb4a3890d20102932f0fb597d11a5c28e5"
     },
     {
       "path": "produto/revista-ano-24-numero-4/index.html",
-      "bytes": 5900,
-      "sha256": "1f289aa5cb56821f7fe520d967b726ee61d3e26f48f5a25c7b95feca8949f469"
+      "bytes": 5568,
+      "sha256": "d2a090bab8ca5f36657bf8cef2718230944e8476c030d6c81129f8e73ed6cf8a"
     },
     {
       "path": "produto/historias-do-roseiral/index.html",
-      "bytes": 5628,
-      "sha256": "f5f6d3dd5e062d48a6a3785aed7d9259831e36c614e072156c85b5c3e40f4b1e"
+      "bytes": 5296,
+      "sha256": "fa08dad26b4701daab20f88844905426d5dba1c18bbdd82d4b8382d24ecf8539"
     },
     {
       "path": "produto/revista-ano-23-numero-4/index.html",
-      "bytes": 5794,
-      "sha256": "75c013dc67e6d20402dbe0e9271197c10c5fb8feeaee3db5e4fff5e02225188e"
+      "bytes": 5462,
+      "sha256": "d52caa7585a7c2b2b8d464c13dfbcba087762168d5e9572f28ed3ad6dafe16cb"
     },
     {
       "path": "produto/o-misterio-da-vida-e-da-morte-ebook/index.html",
-      "bytes": 5962,
-      "sha256": "675de0235f47e2c4d395a6b9fd1a43026e6f2637277862d77e2811cd8c14060b"
+      "bytes": 5630,
+      "sha256": "aeea46586c1b90d9e72a0e182c0c806d1b7495cd9140e12f11e693cd5b4209ca"
     },
     {
       "path": "produto/sete-vozes-falam/index.html",
-      "bytes": 6044,
-      "sha256": "5684baa4e3311d8f3fee3d303fb4043564cde5e8b438a7cc6bd44bd9189b0238"
+      "bytes": 5712,
+      "sha256": "fec1d446b862df798b0fa8b3012bffec9f976b72c801d64f4171abb72921a9b8"
     },
     {
       "path": "produto/o-verbo-vivente/index.html",
-      "bytes": 6030,
-      "sha256": "96a6fa7e4ce701304368c7e15e19c7b71745e182ea8847d67ba75e09e362beab"
+      "bytes": 5681,
+      "sha256": "fcca171edbfe4aca6af558ff95b10bf241048e91c3a4d2df5a0ce3ea5d459620"
     },
     {
       "path": "produto/o-novo-caduceu-de-mercurio/index.html",
-      "bytes": 6119,
-      "sha256": "f402e7939e2fe45df25cb9135cc098e5eea3f2c0cba4ee5bf244a10ea9c52962"
+      "bytes": 5770,
+      "sha256": "45f7a09b79e16999c04674ddfe29f87e1fbe2584383b1371e5610f4e7a7098dc"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-1/index.html",
-      "bytes": 7383,
-      "sha256": "eb29b5f911f92712be9601b0719c092f022b0def38c9ae3260a2c22b1fc1d1fb"
+      "bytes": 7051,
+      "sha256": "8d9bbc1d6a161759b30052c81ac7a0cf4e0cc83fdc96f4215ea84b67495a18b1"
     },
     {
       "path": "produto/revista-ano-20-numero-4/index.html",
-      "bytes": 5866,
-      "sha256": "ee37b08f03cc41a4b10faadd714229da343d0c4ad126a5482fcc744e5a63fdf2"
+      "bytes": 5534,
+      "sha256": "833c209c02398bd39d0a245d54791e592fb596f59715e2af82b06b0e9ad9ef60"
     },
     {
       "path": "produto/gnosis-original-egipcia-tomo-4/index.html",
-      "bytes": 5931,
-      "sha256": "53dfc916267c822aa5202ce37e1a028cf1b82978fe953c6fdcc9ed4d879f65ad"
+      "bytes": 5599,
+      "sha256": "87838b6e44410ef71286c03ccf02a43c18546a9ad8299aa9e87d066f98597353"
     },
     {
       "path": "produto/paracelso-sua-filosofia-e-sua-medicina-atemporais/index.html",
-      "bytes": 6090,
-      "sha256": "1a8b3640cab5fc96f4e7d1ba49d23b920d6d051a302f7aee7a2d66f9a44a2683"
+      "bytes": 5758,
+      "sha256": "7a6c6d6aaca6b3c118cc07b2d564f0cd548a48e4e0912001dc67481a769bae7a"
     },
     {
       "path": "produto/revista-ano-26-numero-5/index.html",
-      "bytes": 5779,
-      "sha256": "7fb836fba84dde54e395b1d51a437aa402fb8cb8229efca1a454e13d88c4a891"
+      "bytes": 5447,
+      "sha256": "92c307429197186c0299c5923c3afd1415497ed47d30bc11731a51c577260ccb"
     },
     {
       "path": "produto/iniciacao-iluminacao-libertacao/index.html",
-      "bytes": 6336,
-      "sha256": "2ec8b8b8bf81e7dc48e754c18fd8c88e70879fa32347696620756abe8e1228bb"
+      "bytes": 6004,
+      "sha256": "40f0e12ba9ebdbb322d8048a4020bd932871e1f95e55e15c0357799aa6f76c40"
     },
     {
       "path": "produto/revista-ano-24-numero-5/index.html",
-      "bytes": 5917,
-      "sha256": "40ff0d4d7607860dc2e329fdddc9fa8bef900feadd24da84bbe7f36c81b7965b"
+      "bytes": 5585,
+      "sha256": "1794ae83e2a8cd06ad98864a03b9e35fad0f67f8839c158f605ff70e975235ac"
     },
     {
       "path": "produto/revista-ano-27-numero-5/index.html",
-      "bytes": 5851,
-      "sha256": "5df3c25adb4e73583e620990fdffca24401dcf4ecd7cd9d056899142b2a22c58"
+      "bytes": 5519,
+      "sha256": "462b0963a0dac89d940c56f9e0ab70765dd134a82ab20a50415e8409b3545bdf"
     },
     {
       "path": "produto/revista-ano-19-numero-3/index.html",
-      "bytes": 5996,
-      "sha256": "256339e3b2f9d2b55678fbb54b3ee49435adb2abc2d3efdecf09f258b1846f0b"
+      "bytes": 5664,
+      "sha256": "e272c3e03580adf0b518d7938a7f3bf254067350167e63578b4245edec4e02e4"
     },
     {
       "path": "produto/senda-libertadora-da-rosa-cruz-ebook/index.html",
-      "bytes": 5918,
-      "sha256": "4d1d3e9e308f5f1cb503e81bc00124e9fdbaf3af2bf3cbb0249d5a9f00d82a01"
+      "bytes": 5569,
+      "sha256": "ebba53823c0207d856dfca865b26ae8b24fe7430946793378d969bb4c6aa7d6b"
     },
     {
       "path": "produto/revista-ano-19-numero-2/index.html",
-      "bytes": 6082,
-      "sha256": "bcdf04b0cc8a3143f24406229dc2f62ff94d60c97c69600070c8efe344ba425f"
+      "bytes": 5750,
+      "sha256": "b542cb0e97a1ccc997e8f764e0ee40e8bbe4d7e50ef01ba0a1225c81abc073f5"
     },
     {
       "path": "produto/revista-2009-numero-6/index.html",
-      "bytes": 5982,
-      "sha256": "7351c7195c6f415fe32aa37c62c358d4ce093e0ad5ad738753e6aaed9a8f2502"
+      "bytes": 5650,
+      "sha256": "799c7d994af2c1eb16a4967892b3ea64837601e7a41fa24b05fe12d52bed904f"
     },
     {
       "path": "produto/revista-2008-numero-5/index.html",
-      "bytes": 5871,
-      "sha256": "905b499b9b58fcb488aa004417a347e763c0e80a2f40baa5253e691e0bf6760b"
+      "bytes": 5539,
+      "sha256": "f74a84a049d3fdef78b52b8bf84b729e199313e35b8d3095373296736e66dfdb"
     },
     {
       "path": "produto/o-evangelho-da-verdade-e-o-evangelho-de-maria-o-conhecimento-que-ilumina/index.html",
-      "bytes": 6566,
-      "sha256": "fd762776a3c947b699dac1025bbbd60318d33729b4fde09a4305c42e3b129c29"
+      "bytes": 6234,
+      "sha256": "d04547ef2358dd4d4d73274c1bc47fd72c366f8cb1288d849072f2eb3d711dc3"
     },
     {
       "path": "produto/revista-ano-26-numero-4/index.html",
-      "bytes": 5765,
-      "sha256": "cdad6b51d575e09886bad1f0ba1becbb2cfbf124576de2eea96b22675b233a99"
+      "bytes": 5433,
+      "sha256": "60d5b9474eb33e2e129460d88cd26dd12e1fde38559286f44ac3bf6bf1578009"
     },
     {
       "path": "produto/revista-ano-26-numero-2/index.html",
-      "bytes": 5794,
-      "sha256": "590a4908aa5d1c39051a882eb0cbee0b6e15eb12cd369d9dbff2840639585e0f"
+      "bytes": 5462,
+      "sha256": "a59e4a2284047cb0c880de78494b2a194c7462d36ae67ed5c4e4ed2a2c47f54a"
     },
     {
       "path": "produto/revista-ano-19-numero-4/index.html",
-      "bytes": 5976,
-      "sha256": "95872c8be4f75261e02192eaf9dc0091c7e557135df5a43a42686c283b51b892"
+      "bytes": 5644,
+      "sha256": "a734ad851ccac199f669a793740ac61df290d26ea365a3653b0fcdea9743b58d"
     },
     {
       "path": "produto/revista-ano-25-numero-1/index.html",
-      "bytes": 5824,
-      "sha256": "0969a4bb3b787759a6db66b2a8dd21101242a279040066d442ca38c9fc3cdc72"
+      "bytes": 5492,
+      "sha256": "ddefad17dff1c3f2df367126096658c4452a1b9120e4f8b9b547fb00b5200a96"
     },
     {
       "path": "produto/revista-2012-numero-4/index.html",
-      "bytes": 6097,
-      "sha256": "a344661e6b286a0a9c64db93983230da3da79c2675c6b5e5fc1a7c4dc311bd51"
+      "bytes": 5765,
+      "sha256": "6430e444d0a27d022aa156d6a2bb1a87c0921cb55e8eb9cb20f7cc0a71234c06"
     },
     {
       "path": "produto/revista-2016-numero-4/index.html",
-      "bytes": 6869,
-      "sha256": "f89d7c0524089ab97e6055633e438c5275c301ae053001a6ebd599b93236d0ad"
+      "bytes": 6520,
+      "sha256": "15fda37728f6db7881964dbcf7e2203f3e3d4f5ef746134651e6c420ed72b9f0"
     },
     {
       "path": "produto/as-nupcias-alquimicas-de-christian-rosenkreuz-ii/index.html",
-      "bytes": 6033,
-      "sha256": "84ea269f1e6c9c98b4883fb8f48e420ebe9824f49e563c7c280b94e19e9f9b7e"
+      "bytes": 5701,
+      "sha256": "a3a395d33af9144dfcba456fedc2e102e62d1d339aedee0a946755ec4183c0c2"
     },
     {
       "path": "produto/revista-ano-24-numero-6/index.html",
-      "bytes": 5719,
-      "sha256": "07fd5fc3e4693a6976e02d425f00f8aa944ce0aa6b97b071a94c254beb7b9106"
+      "bytes": 5387,
+      "sha256": "811917ca6b5c1dcfb9b0a20e54a8fe426390383141351c42bb694b3cfaf0b14f"
     },
     {
       "path": "produto/o-graal-e-rosacruz/index.html",
-      "bytes": 6284,
-      "sha256": "3f823bf6de1b852a1d56d7454f2250308daaf14aeb637a168fbe24a13eebbc95"
+      "bytes": 5952,
+      "sha256": "ae65f8c9874e04fd7e5fa8081ac35e911f2d89a39fee9f4b567677e3aa1090ad"
     },
     {
       "path": "produto/revista-ano-24-numero-2/index.html",
-      "bytes": 5910,
-      "sha256": "3d4beb050c4ee9053c2380ca033b91fdceb0403574a6db4adadca19f25fe08c3"
+      "bytes": 5578,
+      "sha256": "6e8f6aa21e6e5f00e91ddb0498719a6a93f0f835c0c1a03ba781312809b1b3c4"
     },
     {
       "path": "produto/triplice-alianca-da-luz-ebook/index.html",
-      "bytes": 6740,
-      "sha256": "0fbb06b3e01cf15fe87501f007f496ac3c305e6c15774e73c302ebcf04da78d7"
+      "bytes": 6408,
+      "sha256": "9d543a036049476191fe3858183a056fae16692fe173f314b4d80f29d9e675d0"
     },
     {
       "path": "revistas/revista-2016-numero-4-2/index.html",
-      "bytes": 6869,
-      "sha256": "f89d7c0524089ab97e6055633e438c5275c301ae053001a6ebd599b93236d0ad"
+      "bytes": 6520,
+      "sha256": "15fda37728f6db7881964dbcf7e2203f3e3d4f5ef746134651e6c420ed72b9f0"
     },
     {
       "path": "revistas/revista-2016-numero-3-2/index.html",
-      "bytes": 6199,
-      "sha256": "e91f37189e81cc96714e21e8afe6e5247e593e5d4cf8463de50bd7172cea203b"
+      "bytes": 5850,
+      "sha256": "c4bdab35cdf1c0acdcd1fd9d4035b66ab4ffce09d7fb6a8ec821fcf08cd364c5"
     },
     {
       "path": "revistas/revista-2014-numero-1/index.html",
-      "bytes": 5664,
-      "sha256": "34ec9d9cd66937697adc4ace54dead6a590f4bcee92c057a65f6e1e0ffdeb2ca"
+      "bytes": 5315,
+      "sha256": "baa69388b523bc37d176658a284ca0fc3f0bfa2300eddb5a8b85760551274b04"
     },
     {
       "path": "revistas/revista-2025-ano-1-numero-2/index.html",
-      "bytes": 5230,
-      "sha256": "fd02fd2e75b6db768a1a8f5d4f12139498cb6f426c9e0e1fc00bbf3c5b631c2a"
+      "bytes": 4881,
+      "sha256": "ded3e78b48760759d94a1192f24444188a4a18a02d59658e7fc5c13d595963cf"
     },
     {
       "path": "revistas/revista-2012-numero-2/index.html",
-      "bytes": 6184,
-      "sha256": "41ccf43be30d4edec4f288021b1918cb851c5b300bf43d2ef599fcb7e4145946"
+      "bytes": 5835,
+      "sha256": "3a63e755b7bd8024a1c37aadcf719885703684e493bdab1233cf63244d684cf3"
     },
     {
       "path": "revistas/revista-2015-numero-2-2/index.html",
-      "bytes": 6165,
-      "sha256": "8a1c0f89374df13dbe0b1da62a0cee5e0f19f10934d426921993fca6b1f6ee4c"
+      "bytes": 5816,
+      "sha256": "e5bd4e9fbb352c5f35bde1f34d48661c6ee85a2046ca541dee7ab11ea796191f"
     },
     {
       "path": "revistas/revista-2025-ano-1-numero-1/index.html",
-      "bytes": 5230,
-      "sha256": "6ba4afdf467c1f33f8b67b90291753b1104c5f3ba311e43d3d402ac0c8767832"
+      "bytes": 4881,
+      "sha256": "20dfe3c43a9c044bad08eda539bfc7ac28b5d712829ad1c84dc7280b23e495f5"
     },
     {
       "path": "revistas/revista-2013-numero-3/index.html",
-      "bytes": 5933,
-      "sha256": "5d3e97de3e7b2687d49b51a685b55d0bedea6eded80980ba3d391f60d90e96a6"
+      "bytes": 5584,
+      "sha256": "e4abd26d9b9b1b480cfd86bb187c0af4960a6622bd8f6128bcee6c9f8a3e547a"
     },
     {
       "path": "revistas/revista-2014-numero-4/index.html",
-      "bytes": 6001,
-      "sha256": "d20c438f63721460c586d9232c0be36e5ef6a17f5b563bfb4776c0671be226d1"
+      "bytes": 5652,
+      "sha256": "27c7a27266f4bc9120ae6e6b146f950f9b6e247b4a83c444536df8b6f4cf3c06"
     },
     {
       "path": "revistas/revista-2013-numero-5/index.html",
-      "bytes": 6188,
-      "sha256": "2cf03035402fbf186105a272690711dd12cad8e221f5e4c1b8332d8891044e2a"
+      "bytes": 5839,
+      "sha256": "2eb99026a23f147634a30f219b38b9055871e3b70bd3e0b995f2a3a81ad71818"
     },
     {
       "path": "revistas/revista-2015-numero-5/index.html",
-      "bytes": 5360,
-      "sha256": "71f4c64a5fe3975dbff0dc53cb4c32fa561d01633d1bc204c636386267008a7b"
+      "bytes": 5011,
+      "sha256": "9d4a76d7bdb670b8e21999e6a844568a15b921ba8b923f343f4fd2fcd6dac8cb"
     },
     {
       "path": "revistas/revista-2014-numero-2/index.html",
-      "bytes": 5694,
-      "sha256": "83d8fc0562d7b9565312cc01c414f7e609cded949875b732ba6010f5f589548f"
+      "bytes": 5345,
+      "sha256": "2a3165ca48162d5055fad89f3d7ca8a87a7be59576e56f47b5bc0526af8b63d5"
     },
     {
       "path": "revistas/revista-2017-numero-1-2/index.html",
-      "bytes": 6524,
-      "sha256": "ddf86ea6f96580a443d91c71ee2530c2caeb5dec412a770a69ae3ef36e2b833e"
+      "bytes": 6175,
+      "sha256": "2bbecedfd523c2fa2b2a5d709cf8c28d9492f3bfb10f4a093f4009049dac414e"
     },
     {
       "path": "revistas/revista-2015-numero-6-2/index.html",
-      "bytes": 5895,
-      "sha256": "6faf9123805e946cb6a5af6562d336cd8b03e3a7f5966c3a2e3b0f5f06faf415"
+      "bytes": 5546,
+      "sha256": "23ca24daad1ae7967bf8ece15b2b249b4b8cb6500ceb8fcb940d5671e18cc350"
     },
     {
       "path": "revistas/revista-2015-numero-1-2/index.html",
-      "bytes": 5930,
-      "sha256": "b34ec26e9a03f77ec4a1f12c57dbb093e9a8434ed9f82e0c5b84dad03c35337b"
+      "bytes": 5581,
+      "sha256": "a10ad6d9c87bcfb5fe20776d68145c5ca042df05e44597120f4302ae48bcdf04"
     },
     {
       "path": "revistas/revista-2012-numero-3/index.html",
-      "bytes": 6162,
-      "sha256": "25404df142ac9cc78e30d032116e01ddac6ba09daca0eadd95f4501baeafdc87"
+      "bytes": 5813,
+      "sha256": "be082b6485ed412d2528266e8c1eb457589f029fa3d3435ca54ebadaf135b390"
     },
     {
       "path": "revistas/revista-2016-numero-1-2/index.html",
-      "bytes": 5795,
-      "sha256": "81982df6d5b4e5311068db63936eae807d9ff8b7cd042952df8f5d3e356b0eef"
+      "bytes": 5446,
+      "sha256": "b02283ea6ffbc3058e9949115fb4df12a6ffbbc9d7f6dd8c1107a17605b15d84"
     },
     {
       "path": "revistas/revista-2015-numero-4/index.html",
-      "bytes": 5593,
-      "sha256": "c0bfea6d0491e5fd9c43895a703fa32b51eb115fa557c9e7e89b9c00d12a0ba0"
+      "bytes": 5244,
+      "sha256": "e20b99294277cc2f37ff704b8e48140b2ef074497467669e4f0ed42b7ff8867e"
     },
     {
       "path": "revistas/revista-2013-numero-4/index.html",
-      "bytes": 5869,
-      "sha256": "c28bf3505d32fa5777bf1306c2ec4fb7cb67cd4d222469961d194a8d790e5816"
+      "bytes": 5520,
+      "sha256": "f6cb61ab55571374887cde76ce2ce19bfa057799498e495edf950004e8913b17"
     },
     {
       "path": "revistas/revista-2015-numero-3/index.html",
-      "bytes": 5880,
-      "sha256": "0a1c9ef1a8ee0544d693c9dda626c36d9b3a7e080d28bfa0ceb8a4eb7f5dbe30"
+      "bytes": 5531,
+      "sha256": "d2678ef3a6215751675086b9b63dcc0aed3be2592edae47ad4ff31ec34071639"
     },
     {
       "path": "livros/reveille-desperta/index.html",
-      "bytes": 5987,
-      "sha256": "457ffafd3d4621e2dd9805b5efcc38eab18c255408a63c50f97250967c0f76f2"
+      "bytes": 5638,
+      "sha256": "abbeb64c2373ee02c8df7313171a8b04bbdd3879344e617511b669cc5d9ee9f2"
     },
     {
       "path": "livros/filosofia-elementar-da-rosacruz-moderna/index.html",
-      "bytes": 5941,
-      "sha256": "c9df17b7302b6f326057048ba206f7de4aa0434ddc1b4b6193cf6474a6e9782c"
+      "bytes": 5592,
+      "sha256": "18b596113529f7171d4cfbd6f371c0d9ad53b4598d17a25c63329ecb0369594e"
     },
     {
       "path": "livros/gnosis-religiao-interior/index.html",
-      "bytes": 6237,
-      "sha256": "76755e75f5063d9f781cd7b736174a336b97c3f204bbff58aef17811bec789bd"
+      "bytes": 5888,
+      "sha256": "e10eb153f6cff388f73ccff05b1bc0cea2896fa8857bd21d4a0445e99c8a3c6d"
     },
     {
       "path": "livros/no-caminho-do-santo-graal/index.html",
-      "bytes": 6087,
-      "sha256": "ab1abf585c61f558af0edf47a81ea0f60727cf76a3236d31f072e56b050ebe18"
+      "bytes": 5738,
+      "sha256": "4477ff922cf148cffc7d22e931c20008ebc8401df8337f67aaccdbb33487a6e5"
     },
     {
       "path": "livros/o-novo-sinal/index.html",
-      "bytes": 5832,
-      "sha256": "9238b9087f056ed86d1b7990838622df8793fc4816ebe9acca7fabfda7a839b1"
+      "bytes": 5483,
+      "sha256": "53e7c7c69399213625eda9e7e2d94568891e4d60f5e5b12a450e4ff3cc37eb68"
     },
     {
       "path": "livros/a-grande-revolucao/index.html",
-      "bytes": 5987,
-      "sha256": "796e3e98a7ff53fcc23565eb21fc8ca6f3477ae2913d4108d565bc2b56fe85a9"
+      "bytes": 5638,
+      "sha256": "a3ea7a3b5fdecc8b522b99f568fbc894c7c3c8df0bc456420ebb7fe17d05cb2b"
     },
     {
       "path": "livros/o-chamado-da-fraternidade-da-rosa-cruz/index.html",
-      "bytes": 6827,
-      "sha256": "cc56348c72414f721b72aca8ca52d8bdac073ca6ab328e03f950bf76cf245ca5"
+      "bytes": 6478,
+      "sha256": "9fe7a11a5ec5f8fa003719b7cdf8eaf69e910ada01040390a606a5030fbbada4"
     },
     {
       "path": "livros/saude-e-espiritualidade-a-cura/index.html",
-      "bytes": 5340,
-      "sha256": "1d054fc27d2e7a4cd578ce77e483097dec982f63bcb0e8392d1c5bc0ce9e52e7"
+      "bytes": 5008,
+      "sha256": "8adc4fca1c3e0a0f261b9f2094bd7ee5ed2602fe6efae9068bf7dfa012c2acca"
     },
     {
       "path": "livros/a-busca-da-nova-consciencia/index.html",
-      "bytes": 5318,
-      "sha256": "87c2975792b0b668691f0a2db7a9e85193bab95ddec81c0b64c89b20ffb051e8"
+      "bytes": 4986,
+      "sha256": "2d5d61951abfedcc55bc4d47eccf0229fffc3e7201d08fbd9baa55693557a9ff"
     },
     {
       "path": "livros/do-castigo-da-alma/index.html",
-      "bytes": 6250,
-      "sha256": "c4e2775a818aca6b05ee63153ae12288229b5dc261beea832d8270bcfe919643"
+      "bytes": 5901,
+      "sha256": "ff68b8d5ebed1a816b01b9e54547ababb8151b3205dbcf929d7a0f2272e3743e"
     },
     {
       "path": "livros/os-sinais-poderosos-do-conselho-de-deus/index.html",
-      "bytes": 6414,
-      "sha256": "753729a5bdb58902523f73d1ea05f401f3aa409652c4774abaa7c60a897ad250"
+      "bytes": 6065,
+      "sha256": "3fe66640aecb044d814e38a48bdca308fab30f296e722f4f92544e09679874fb"
     },
     {
       "path": "livros/rosacruz-aurea-uma-escola-iniciatica-para-o-seculo-xxi/index.html",
-      "bytes": 7146,
-      "sha256": "d34ae9963c9a68a816d6285fd1c94a5215e23edfad367a4100362b609afb9ff5"
+      "bytes": 6797,
+      "sha256": "035cda02831945c28e777b344554c666b825c684512a6cd169a81d7cb36238fd"
     },
     {
       "path": "livros/rosa-cruzes-ontem-e-hoje/index.html",
-      "bytes": 6130,
-      "sha256": "1345f2c1135d027d4f4985aead9499b5ef4f0254f2dca283d12773cc836ffa33"
+      "bytes": 5781,
+      "sha256": "593fc42bd306315a5a59842b6e1223f6c6ad982d5a5becbcf6e313fafd3f43d0"
     },
     {
       "path": "livros/caos-exterior-despertar-interior/index.html",
-      "bytes": 6562,
-      "sha256": "a0ae9266a93eef15244559e705f58c475e3595b43b117a352ebf49c78fee8732"
+      "bytes": 6213,
+      "sha256": "82f8b2bcc3475cf4f19d95bd3064d446fc5e2654290b71c37697717ebc12d158"
     },
     {
       "path": "livros/christianopolis/index.html",
-      "bytes": 5791,
-      "sha256": "eacaf4ef1af525fd10a9082de56647b008ba3b056704f26a21eb4fe9187f17f7"
+      "bytes": 5442,
+      "sha256": "c920f89b36a4301ee46d047b396fbf7b4720cdb04d8d8b6f81b31907822c39f9"
     },
     {
       "path": "livros/transfiguracao/index.html",
-      "bytes": 5747,
-      "sha256": "74d4689c31cd8f6b2e4d55dade061cfb9d14dce23b748044a3351696c89bd025"
+      "bytes": 5398,
+      "sha256": "dd9a081fc1fd3bfac459a85899cb7d16c8d2f75f1d4d7ac4533c735cece5975b"
     },
     {
       "path": "livros/a-senda-libertadora-da-rosa-cruz/index.html",
-      "bytes": 5918,
-      "sha256": "4d1d3e9e308f5f1cb503e81bc00124e9fdbaf3af2bf3cbb0249d5a9f00d82a01"
+      "bytes": 5569,
+      "sha256": "ebba53823c0207d856dfca865b26ae8b24fe7430946793378d969bb4c6aa7d6b"
     },
     {
       "path": "livros/entre-o-silencio-e-a-luz/index.html",
-      "bytes": 5488,
-      "sha256": "85019f5e37b7551d1d5e067290b844ce44f7315e3460900dc0edd3dd293cb95a"
+      "bytes": 5156,
+      "sha256": "23bde96b808e55bc066b52fa66762e62427d8982d5c9190500f683afffca7ed1"
     },
     {
       "path": "livros/um-novo-chamado/index.html",
-      "bytes": 5738,
-      "sha256": "560576119de326501b0d43dad347d70d568ef3f2833f1c912fcb1d5a33dda4ad"
+      "bytes": 5389,
+      "sha256": "074ff9f72b68734158c702cd454550e62d8c12ff734ad516765320b5b75ba9c8"
     },
     {
       "path": "livros/iniciacao-e-libertacao/index.html",
-      "bytes": 7413,
-      "sha256": "7b808c61a348ad54ec9b314fa08284f5ff2d4cd217b65266cfc11d7cecd681e3"
+      "bytes": 7064,
+      "sha256": "092e1ba752702c9ba0c6d1bba26b2cd2ca2fb26c72f277430b2836d34a16862d"
     },
     {
       "path": "livros/inspiracoes-para-um-novo-tempo/index.html",
-      "bytes": 5431,
-      "sha256": "c1f4c2f690224ba9f246e2a80f120073bdd497afe5929300296c4971162f8adb"
+      "bytes": 5082,
+      "sha256": "406246c6b723a5d8de8f01323860e4641a15ec547c2f0ce44f3ede161ccb263e"
     },
     {
       "path": "livros/o-verbo-vivente/index.html",
-      "bytes": 6030,
-      "sha256": "96a6fa7e4ce701304368c7e15e19c7b71745e182ea8847d67ba75e09e362beab"
+      "bytes": 5681,
+      "sha256": "fcca171edbfe4aca6af558ff95b10bf241048e91c3a4d2df5a0ce3ea5d459620"
     },
     {
       "path": "livros/o-novo-caduceu-de-mercurio/index.html",
-      "bytes": 6119,
-      "sha256": "f402e7939e2fe45df25cb9135cc098e5eea3f2c0cba4ee5bf244a10ea9c52962"
+      "bytes": 5770,
+      "sha256": "45f7a09b79e16999c04674ddfe29f87e1fbe2584383b1371e5610f4e7a7098dc"
     }
   ]
 }
