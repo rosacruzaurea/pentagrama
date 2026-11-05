@@ -1,3 +1,20 @@
+# Estado vigente: site oficial em revisão
+
+Atualizado em 05/11/2026, pedido Dani3999.
+
+- PR #1 confirmado como merged em 05/11/2026. Main de partida: `ed9842d`, incluindo o workflow acrescentado pela equipe.
+- Candidato: branch `feat/site-oficial`, em novo PR contra main; sem merge/deploy nesta intervenção.
+- Pages remoto consultado: publicação por GitHub Actions, domínio personalizado ausente. URL atual: https://rosacruzaurea.github.io/pentagrama/ . A troca para pentagrama.org.br não foi executada.
+- Alteração pública: seção/página sobre a reconstrução e avisos de prévia removidos; Quem somos, catálogo, mídias e avisos de indisponibilidade preservados.
+- Workflow candidato: build e validação antes do deploy; somente `site/`; base de URL obtida do Pages; deploy restrito à main. O merge deste PR disparará a publicação automática já configurada.
+- [Verificação](docs/SITE-OFICIAL.md) e [proposta de ambientes](docs/AMBIENTES.md).
+- Limites editoriais da auditoria de 04/11 permanecem: PDFs amostrais, variantes integrais ainda não vinculadas e cotejos pendentes. Retirar a explicação técnica do site não certifica a integralidade dos livros/revistas.
+- Repositório dev, DNS e configuração de ambientes não foram criados. A recomendação é dois repositórios Pages com uma única fonte de código.
+
+## Histórico preservado: estado anterior à integração
+
+As referências abaixo a PR aberto, preview-pages ativo e main inicial são históricas, superadas pelo estado acima.
+
 # Estado canônico
 
 Atualizado em 2026-11-04. Responsável pela solicitação e revisão: Dani.

@@ -3,12 +3,12 @@ import html
 import json
 import re
 from pathlib import Path
+from site_config import BASE, NOINDEX
 
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 DATA=json.loads((ROOT/'content/site.json').read_text())
 ENTRIES=DATA['entries']
-BASE='/pentagrama'
 H=lambda x:html.escape(str(x),quote=True)
 U=lambda p: BASE+p if p.startswith('/') else p
 ARTICLES=sorted([x for x in ENTRIES if x['type']=='artigo'],key=lambda x:x['date'],reverse=True)
@@ -32,7 +32,7 @@ def shell(title,body,section='',description='',path='/'):
     return f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self' https://github.com https://*.githubusercontent.com; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
-<meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="noindex,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex,follow' if NOINDEX else 'index,follow'}">
 <title>{H(title)} | Pentagrama</title><meta name="description" content="{H(description or 'Artigos, livros e revistas do acervo de Pentagrama Publicações.')}">
 <meta property="og:title" content="{H(title)} | Pentagrama"><meta property="og:type" content="website">
 <link rel="stylesheet" href="{BASE}/assets/styles.css"><script defer src="{BASE}/assets/app.js"></script></head>
@@ -41,7 +41,7 @@ def shell(title,body,section='',description='',path='/'):
 <header class="site-header wrap"><a class="brand" href="{BASE}/" aria-label="Pentagrama, início"><img src="{H(U(DATA['logo']))}" width="456" height="99" alt="Pentagrama Publicações"></a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu <span aria-hidden="true">☰</span></button><nav id="menu" aria-label="Navegação principal">{nav}<a class="search-link" href="{BASE}/buscar/">Buscar <span aria-hidden="true">⌕</span></a></nav></header>
 <main id="conteudo">{body}</main>
-<footer><div class="wrap footer-grid"><div><a class="footer-brand" href="{BASE}/">Pentagrama<span>publicações</span></a><p>Literatura gnóstica, hermética e rosa-cruz.</p></div><div><p class="eyebrow">EXPLORE O ACERVO</p><a href="{BASE}/artigos/">Artigos</a><a href="{BASE}/livros/">Livros e e-books</a><a href="{BASE}/revistas/">Revista Pentagrama</a></div><div><p class="eyebrow">SOBRE ESTA EDIÇÃO</p><p>Prévia do site de 2026, complementada pelo acervo histórico. Consulte os livros e revistas disponíveis. Não há vendas ou cadastros nesta versão.</p><a href="{BASE}/sobre-o-acervo/">Fontes e limites da recuperação ↗</a></div></div><div class="wrap footer-bottom">Pentagrama Publicações <span>Prévia para avaliação da equipe</span></div></footer>
+<footer><div class="wrap footer-grid"><div><a class="footer-brand" href="{BASE}/">Pentagrama<span>publicações</span></a><p>Literatura gnóstica, hermética e rosa-cruz.</p></div><div><p class="eyebrow">EXPLORE O ACERVO</p><a href="{BASE}/artigos/">Artigos</a><a href="{BASE}/livros/">Livros e e-books</a><a href="{BASE}/revistas/">Revista Pentagrama</a></div><div><p class="eyebrow">CONTATO</p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></div></div><div class="wrap footer-bottom">Pentagrama Publicações </div></footer>
 </body></html>'''
 
 
@@ -91,11 +91,11 @@ home=f'''<h1 class="sr-only">Pentagrama Publicações</h1><section class="hero">
 <section class="wrap magazine-feature"><a class="magazine-cover" href="{U(new_mag['path'])}">{picture(new_mag)}</a><div><h2>Revista 2025 | Ano 1 Número 2</h2><p>A Revista Pentagrama é a revista trimestral do Lectorium Rosicrucianum, que reúne seleções de serviços templários proferidos em seus templos no Brasil.</p><p>A Revista constitui um espaço de encontro entre reflexão, autoconhecimento e vivência espiritual. Mais que apresentar ideias, buscamos oferecer ao leitor a oportunidade de voltar-se para si mesmo e conectar-se com um horizonte mais amplo, onde pensamentos, sentimentos e impulso de agir se harmonizam.</p><p>Que esta publicação inspire cada um, de forma livre e consciente, a entrar no fluxo dessa transformação, permitindo que a Luz interior se manifeste e encontre expressão no mundo.</p><a class="button" href="{U(new_mag['path'])}">Ver revista</a></div></section>
 <section class="books-band"><div class="wrap home-section"><div class="section-heading"><h2>Mais Lidos</h2><a class="text-link" href="{BASE}/livros/">Ver Todos →</a></div><div class="card-grid books-grid">{''.join(card(e) for e in modern[:4])}</div></div></section>'''
 write('/','Pentagrama Publicações',home)
-listing('/blog/','Blog','Artigos preservados do acervo de Pentagrama Publicações.',ARTICLES,'blog')
+listing('/blog/','Blog','Artigos de Pentagrama Publicações.',ARTICLES,'blog')
 listing('/artigos/','Artigos','Reflexões sobre o ser humano, a consciência e o caminho espiritual.',ARTICLES,'artigos')
 listing('/livros/','Livros','Obras da tradição gnóstica, hermética e rosa-cruz. Sinopses, autores e e-books disponíveis no acervo.',BOOKS,'livros')
 listing('/revistas/','Revista Pentagrama','As edições recentes e o acervo histórico da Revista Pentagrama. Selecione um ano ou encontre um tema.',MAGAZINES,'revistas')
-listing('/buscar/','Encontre sua próxima leitura','Pesquise títulos, temas e autores em todo o acervo recuperado.',ARTICLES+BOOKS+MAGAZINES,'buscar')
+listing('/buscar/','Encontre sua próxima leitura','Pesquise títulos, temas e autores em todo o acervo.',ARTICLES+BOOKS+MAGAZINES,'buscar')
 
 for e in ENTRIES:
     kind=e['type']; book=kind in {'livro','revista'}
@@ -105,23 +105,22 @@ for e in ENTRIES:
     title=H(e['title'])
     metadata=(date(e['date'])+' · '+str(max(1,round(e['words']/200)))+' min de leitura') if kind=='artigo' else H(', '.join(e['authors']) or e['year'])
     if book:
-        content=f'<div class="wrap detail-top"><a class="back-link" href="{BASE+parent}">← {label}</a></div><article class="wrap book-detail"><div class="book-cover">{picture(e,eager=True)}</div><div><p class="eyebrow">'+('REVISTA PENTAGRAMA' if kind=='revista' else 'BIBLIOTECA PENTAGRAMA')+f'</p><h1>{title}</h1><p class="byline">{metadata}</p><div class="prose">{body or "<p>Registro preservado no catálogo original.</p>"}</div><p class="historical-note">{('Catálogo de 2026, com arquivos complementares do acervo.' if e.get('source')=='web-2026' else 'Registro preservado do acervo editorial.')} Esta prévia não realiza vendas.</p></div></article>'
+        content=f'<div class="wrap detail-top"><a class="back-link" href="{BASE+parent}">← {label}</a></div><article class="wrap book-detail"><div class="book-cover">{picture(e,eager=True)}</div><div><p class="eyebrow">'+('REVISTA PENTAGRAMA' if kind=='revista' else 'BIBLIOTECA PENTAGRAMA')+f'</p><h1>{title}</h1><p class="byline">{metadata}</p><div class="prose">{body or "<p>Consulte as informações desta publicação.</p>"}</div></div></article>'
     else:
         content=f'<div class="wrap detail-top"><a class="back-link" href="{BASE+parent}">← {label}</a></div><article class="reading"><header class="reading-head"><p class="eyebrow">{H(e["categories"][0] if e["categories"] else "PENTAGRAMA PUBLICAÇÕES")}</p><h1>{title}</h1><p class="byline">{metadata}</p></header>'
         if e.get('cover'):
             content+=f'<div class="reading-cover">{picture(e,eager=True)}</div>'
-        content+=f'<div class="prose">{body}</div><p class="historical-note">Texto preservado do acervo original. Publicação e referências correspondem à época indicada.</p></article>'
+        content+=f'<div class="prose">{body}</div></article>'
     related=[x for x in (ARTICLES if kind=='artigo' else MAGAZINES if kind=='revista' else BOOKS) if x['id']!=e['id']][:3]
     content+=f'<section class="wrap home-section related"><div class="section-heading"><h2>Continue a leitura</h2><a class="text-link" href="{BASE+parent}">Ver {label.lower()} ↗</a></div><div class="card-grid">'+''.join(card(x) for x in related)+'</div></section>'
     write(e['path'],e['title'],content,parent.strip('/'),e['summary'])
     for alias in e.get('aliases',[]):
         write(alias,e['title'],content,parent.strip('/'),e['summary'])
 
-manifest=json.loads((ROOT/'content/media-manifest.json').read_text())
-about=f'''<article class="reading about"><p class="eyebrow">MEMÓRIA EDITORIAL</p><h1>Sobre este acervo</h1><div class="prose"><p>Esta prévia tem como referência principal o site de Pentagrama Publicações arquivado em 2026. O backup do site e seu banco de conteúdo de 3 de dezembro de 2018, além de livros da biblioteca local autorizados pela equipe, completam as lacunas.</p><p>Foram reunidos {len(ARTICLES)} artigos, {len(BOOKS)} registros de livros e {len(MAGAZINES)} registros de revistas, além de páginas institucionais e biografias. As datas são as das publicações originais.</p><p><a href="{DATA['reference_home']}">Consultar a referência visual de 2026 no Internet Archive</a>. Os arquivos recuperados não permitem afirmar que todo o catálogo de 2026 foi preservado. Capas antigas foram mantidas onde a versão mais recente não pôde ser recuperada.</p><h2>O que está disponível</h2><p>Leitura dos textos, busca por títulos e temas, filtros de catálogo, imagens e arquivos públicos encontrados no backup. Os áudios são carregados apenas quando você escolhe ouvi-los.</p><h2>Limites desta prévia</h2><p>Alguns links antigos apontam para arquivos ausentes do backup. Esses links não foram apresentados como downloads disponíveis. A presença de uma edição no catálogo não garante que seu PDF tenha sido preservado.</p><p>Preços, compras, carrinho, cadastros, comentários e formulários antigos não estão ativos. Nenhum dado de clientes, senhas ou configuração administrativa faz parte desta publicação.</p><p>Não há coleta própria por formulários, cookies de rastreamento ou ferramentas de análise nesta prévia. A hospedagem e os links externos continuam sujeitos às políticas dos respectivos provedores.</p><h2>Revisão editorial</h2><p>Esta é uma prévia para avaliação da equipe, não a substituição do site institucional. Informações históricas, direitos de uso e conteúdo precisam de revisão antes de uma publicação definitiva.</p></div></article>'''
-write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a> · <a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></p><p>Use o e-mail para entrar em contato. Esta prévia não recebe pedidos ou mensagens por formulário.</p></div></article>','contato')
-write('/sobre-o-acervo/','Sobre este acervo',about)
+# Retire the reconstruction-only page from existing generated artifacts.
+(SITE/'sobre-o-acervo'/'index.html').unlink(missing_ok=True)
+write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a> · <a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></p><p>Entre em contato pelo e-mail acima.</p></div></article>','contato')
 write('404.html','Página não encontrada',f'<section class="reading about"><p class="eyebrow">PENTAGRAMA</p><h1>Esta página não está no acervo.</h1><p>O endereço pode ter mudado. Encontre a publicação pela busca ou volte ao início.</p><a class="button" href="{BASE}/buscar/">Buscar no acervo</a> <a href="{BASE}/">Voltar ao início</a></section>')
 (SITE/'.nojekyll').write_text('')
-(SITE/'robots.txt').write_text('User-agent: *\nDisallow: /pentagrama/\n')
+(SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\n'))
 print(json.dumps({'pages':len(list(SITE.rglob('*.html'))),'articles':len(ARTICLES),'books':len(BOOKS),'magazines':len(MAGAZINES),'base':BASE}))
