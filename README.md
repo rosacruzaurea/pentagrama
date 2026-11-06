@@ -36,3 +36,7 @@ Os áudios públicos recuperados ficam no release `acervo-2018`, separados do Pa
 Textos, marcas, capas, livros e revistas mantêm seus direitos editoriais. Não são automaticamente licenciados como código aberto. A fonte Glegoo acompanha sua licença OFL em `site/assets/fonts/OFL.txt`.
 
 Na reimportação, executar `recover_unlinked.py` após `merge_2026.py`: ele recupera PDFs existentes mas não vinculados corretamente no banco. O inventário de faltantes considera arquivos reais, não apenas links da base.
+
+## Blog e LOGON
+
+A estrutura do Blog segue a referência arquivada de 2026. A seleção atual está em `content/blog-logon.json`, com datas, URLs e créditos conferidos; não há atualização automática. Os textos completos abrem na LOGON. O acervo histórico permanece em `/artigos/`. [Fontes, decisões e verificação](docs/BLOG-2026.md).

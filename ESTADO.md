@@ -1,3 +1,11 @@
+# Estado vigente: Blog 2026 em revisão
+
+Pedido Dani4051. Candidato branch feat/blog-logon-2026, baseado na main f936823. [Referência, fontes e verificação](docs/BLOG-2026.md). Novo Blog com estrutura de2026 e8artigosLOGON do ano, leitura integral externa;77artigos históricos preservados.
+
+PR e atualização de staging em preparação. Produção e domínio não alterados. PR3CNAME continua independente. Registros abaixo são históricos e não descrevem a produção atual.
+
+## Histórico preservado
+
 # Estado vigente: site oficial em revisão
 
 Atualizado em 05/11/2026, pedido Dani3999.

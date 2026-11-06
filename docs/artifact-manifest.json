@@ -1,9 +1,9 @@
 {
   "summary": {
     "html_pages": 357,
-    "local_links_checked": 11794,
-    "files": 878,
-    "bytes": 825364804,
+    "local_links_checked": 11595,
+    "files": 886,
+    "bytes": 826033188,
     "errors": []
   },
   "files": [
@@ -54,8 +54,8 @@
     },
     {
       "path": "blog/index.html",
-      "bytes": 97594,
-      "sha256": "77d3ef142f17082457819c06a616d8cf5d9c69515e6149c1db8c2a8921038564"
+      "bytes": 19319,
+      "sha256": "ba5baf2635005f0a5f9142b6fa003c9d4c283649fd06be21f3e782a6b6985e91"
     },
     {
       "path": "campos-brancos/index.html",
@@ -153,14 +153,54 @@
       "sha256": "84b904c4e99cde8173a46a6d921a2b01ff0cd3ff6164a940293fe68a6976214f"
     },
     {
+      "path": "assets/logon-2026-f9777db404a4.jpg",
+      "bytes": 6005,
+      "sha256": "f9777db404a4db22429a26bf583539df678818cfe2499fe72fa8f768cbe878b0"
+    },
+    {
+      "path": "assets/logon-2026-6d978e483cdf.jpg",
+      "bytes": 266923,
+      "sha256": "6d978e483cdf8062def91ad3c1487db047b0045134eca74c8df1bf7d3f4ce25a"
+    },
+    {
+      "path": "assets/logon-2026-0e8e606a7039.jpg",
+      "bytes": 65335,
+      "sha256": "0e8e606a7039bf2d94c0c1192b2fc830058cf01e6a0025451a82e9b4da830ce5"
+    },
+    {
+      "path": "assets/logon-2026-ab73bee1b57f.jpg",
+      "bytes": 5408,
+      "sha256": "ab73bee1b57f55c3bcb997157a611366738282a5815e79b011065b22168cf5d7"
+    },
+    {
+      "path": "assets/logon-2026-b64415b49fb6.jpg",
+      "bytes": 6465,
+      "sha256": "b64415b49fb6e9346b748bde2bd3101daa69f7c084749040cbea880f3f2bc02b"
+    },
+    {
+      "path": "assets/logon-2026-2c22fccbfd5d.jpg",
+      "bytes": 9674,
+      "sha256": "2c22fccbfd5d9bd8bfb9d82cef8c23510f8db23a739bb7b2bfc9b2eb1d0ec056"
+    },
+    {
+      "path": "assets/logon-2026-4357b50f29b4.jpg",
+      "bytes": 3620,
+      "sha256": "4357b50f29b40783a96929948e4e63cbdfa70d81ae20a7a97302f36a6ed21421"
+    },
+    {
       "path": "assets/app.js",
       "bytes": 2730,
       "sha256": "4100d4b463d710cb74fffc4953cfca0d27a646e95a02f00e0b614618242bd14c"
     },
     {
       "path": "assets/styles.css",
-      "bytes": 17725,
-      "sha256": "3f1d2fbe19286c8ef151cd2619f667cb50bb6fa68e16f844d5626527fb9fee0d"
+      "bytes": 21386,
+      "sha256": "45f817a9f184b2f16a740d2d61a623a1f2df258f9f61f488bf0be270b0a28dea"
+    },
+    {
+      "path": "assets/logon-2026-1fbbc4889967.jpg",
+      "bytes": 379568,
+      "sha256": "1fbbc48899679eea143db0b43d51508dc141035f177ffff90d45eba76a6ba21d"
     },
     {
       "path": "dirige-agora-teu-coracao-para-luz-e-conhece/index.html",
