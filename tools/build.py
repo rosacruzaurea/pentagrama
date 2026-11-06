@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from site_config import BASE, NOINDEX
+from blog import render_blog
 
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
@@ -91,7 +92,7 @@ home=f'''<h1 class="sr-only">Pentagrama Publicações</h1><section class="hero">
 <section class="wrap magazine-feature"><a class="magazine-cover" href="{U(new_mag['path'])}">{picture(new_mag)}</a><div><h2>Revista 2025 | Ano 1 Número 2</h2><p>A Revista Pentagrama é a revista trimestral do Lectorium Rosicrucianum, que reúne seleções de serviços templários proferidos em seus templos no Brasil.</p><p>A Revista constitui um espaço de encontro entre reflexão, autoconhecimento e vivência espiritual. Mais que apresentar ideias, buscamos oferecer ao leitor a oportunidade de voltar-se para si mesmo e conectar-se com um horizonte mais amplo, onde pensamentos, sentimentos e impulso de agir se harmonizam.</p><p>Que esta publicação inspire cada um, de forma livre e consciente, a entrar no fluxo dessa transformação, permitindo que a Luz interior se manifeste e encontre expressão no mundo.</p><a class="button" href="{U(new_mag['path'])}">Ver revista</a></div></section>
 <section class="books-band"><div class="wrap home-section"><div class="section-heading"><h2>Mais Lidos</h2><a class="text-link" href="{BASE}/livros/">Ver Todos →</a></div><div class="card-grid books-grid">{''.join(card(e) for e in modern[:4])}</div></div></section>'''
 write('/','Pentagrama Publicações',home)
-listing('/blog/','Blog','Artigos de Pentagrama Publicações.',ARTICLES,'blog')
+write('/blog/', 'Blog', render_blog(ROOT, BASE, H, card, ARTICLES), 'blog', 'Artigos LOGON de 2026 e o acervo de Pentagrama Publicações.')
 listing('/artigos/','Artigos','Reflexões sobre o ser humano, a consciência e o caminho espiritual.',ARTICLES,'artigos')
 listing('/livros/','Livros','Obras da tradição gnóstica, hermética e rosa-cruz. Sinopses, autores e e-books disponíveis no acervo.',BOOKS,'livros')
 listing('/revistas/','Revista Pentagrama','As edições recentes e o acervo histórico da Revista Pentagrama. Selecione um ano ou encontre um tema.',MAGAZINES,'revistas')

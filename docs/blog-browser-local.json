@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "name": "1280 reference heading",
+      "passed": true
+    },
+    {
+      "name": "1280 eight current articles",
+      "passed": true
+    },
+    {
+      "name": "1280 all dates2026",
+      "passed": true
+    },
+    {
+      "name": "1280 original destinations",
+      "passed": true
+    },
+    {
+      "name": "1280 no overflow",
+      "passed": true
+    },
+    {
+      "name": "1280 search",
+      "passed": true
+    },
+    {
+      "name": "1280 empty",
+      "passed": true
+    },
+    {
+      "name": "1280 reset",
+      "passed": true
+    },
+    {
+      "name": "1280 legacy archive preserved",
+      "passed": true
+    },
+    {
+      "name": "390 reference heading",
+      "passed": true
+    },
+    {
+      "name": "390 eight current articles",
+      "passed": true
+    },
+    {
+      "name": "390 all dates2026",
+      "passed": true
+    },
+    {
+      "name": "390 original destinations",
+      "passed": true
+    },
+    {
+      "name": "390 no overflow",
+      "passed": true
+    },
+    {
+      "name": "390 search",
+      "passed": true
+    },
+    {
+      "name": "390 empty",
+      "passed": true
+    },
+    {
+      "name": "390 reset",
+      "passed": true
+    },
+    {
+      "name": "390 legacy archive preserved",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
