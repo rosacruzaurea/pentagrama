@@ -10,6 +10,9 @@ from urllib.parse import unquote,urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 errors=[]
+content=json.loads((ROOT/'content/site.json').read_text())
+if any(e['type']=='artigo' for e in content['entries']):errors.append('Retired article archive remains in content')
+if (SITE/'artigos/index.html').exists():errors.append('Retired article catalog remains in artifact')
 links=0
 for entry in json.loads((ROOT/'content/site.json').read_text())['entries']:
     if entry['type']=='livro':
@@ -49,6 +52,12 @@ class Check(HTMLParser):
 if (SITE/'sobre-o-acervo'/'index.html').exists():errors.append('Retired reconstruction page remains in artifact')
 expected_robots='User-agent: *\n'+('Disallow: /\n' if NOINDEX else 'Allow: /\n')
 if (SITE/'robots.txt').read_text()!=expected_robots:errors.append('robots.txt does not match indexing policy')
+
+expected_routes={'index.html','404.html','blog/index.html','livros/index.html','revistas/index.html','buscar/index.html','contato/index.html'}
+for e in content['entries']:
+    for route in [e['path'],*e.get('aliases',[])]:expected_routes.add(route.strip('/')+'/index.html')
+actual_routes={str(p.relative_to(SITE)) for p in SITE.rglob('*.html')}
+if actual_routes != expected_routes:errors.append({'unexpected_routes':sorted(actual_routes-expected_routes),'missing_routes':sorted(expected_routes-actual_routes)})
 
 files=[]
 for p in SITE.rglob('*'):

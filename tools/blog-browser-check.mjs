@@ -1,8 +1,10 @@
 import fs from 'node:fs';import path from 'node:path';
-import {chromium} from '/usr/lib/node_modules/openclaw/node_modules/playwright-core/index.mjs';
-const browser=await chromium.connectOverCDP(process.env.CDP_URL||'http://127.0.0.1:18800');
+import {pathToFileURL} from 'node:url';
+const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE));
+const browser=await chromium.connectOverCDP(process.env.CDP_URL);
 const base=process.env.PUBLIC_BASE||'https://pentagrama.test/pentagrama';
 const root=path.resolve('site');const results=[];const errors=[];
+fs.mkdirSync('docs/screenshots',{recursive:true});
 const check=(v,name)=>{results.push({name,passed:!!v});if(!v)throw Error(name);};
 try{for(const width of [1280,390]){
  const ctx=await browser.newContext({viewport:{width,height:900}});
@@ -25,9 +27,8 @@ try{for(const width of [1280,390]){
  await page.getByRole('searchbox').fill('Torii');check(await page.locator('.logon-card:visible').count()===1,width+' search');
  await page.getByRole('searchbox').fill('zzzzSemResultado');check(await page.locator('[data-empty]').isVisible(),width+' empty');
  await page.getByRole('button',{name:'Limpar busca'}).click();check(await page.locator('.logon-card:visible').count()===8,width+' reset');
- await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`docs/screenshots/blog-${process.env.PUBLIC_BASE?'public':'local'}-${width}.png`});
- await page.getByRole('link',{name:'Ver todos os artigos do acervo'}).click();
- check(await page.locator('[data-item]').count()===77,width+' legacy archive preserved');
+ await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';scrollTo(0,0);});await page.screenshot({path:`docs/screenshots/blog-${process.env.PUBLIC_BASE?'public':'local'}-${width}.png`});
+ check(await page.locator('.blog-archive, a[href*="/artigos/"]').count()===0,width+' retired archive absent');
  }finally{await ctx.close();}
 }
 const ctx=await browser.newContext({javaScriptEnabled:false});try{

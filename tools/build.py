@@ -12,7 +12,6 @@ DATA=json.loads((ROOT/'content/site.json').read_text())
 ENTRIES=DATA['entries']
 H=lambda x:html.escape(str(x),quote=True)
 U=lambda p: BASE+p if p.startswith('/') else p
-ARTICLES=sorted([x for x in ENTRIES if x['type']=='artigo'],key=lambda x:x['date'],reverse=True)
 BOOKS=sorted([x for x in ENTRIES if x['type']=='livro'],key=lambda x:(x.get('priority',999),x['title'].casefold()))
 MAGAZINES=sorted([x for x in ENTRIES if x['type']=='revista'],key=lambda x:(x['year'],int(re.search(r'Número\s+(\d+)',x['title'])[1]) if re.search(r'Número\s+(\d+)',x['title']) else 0),reverse=True)
 
@@ -42,7 +41,7 @@ def shell(title,body,section='',description='',path='/'):
 <header class="site-header wrap"><a class="brand" href="{BASE}/" aria-label="Pentagrama, início"><img src="{H(U(DATA['logo']))}" width="456" height="99" alt="Pentagrama Publicações"></a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu <span aria-hidden="true">☰</span></button><nav id="menu" aria-label="Navegação principal">{nav}<a class="search-link" href="{BASE}/buscar/">Buscar <span aria-hidden="true">⌕</span></a></nav></header>
 <main id="conteudo">{body}</main>
-<footer><div class="wrap footer-grid"><div><a class="footer-brand" href="{BASE}/">Pentagrama<span>publicações</span></a><p>Literatura gnóstica, hermética e rosa-cruz.</p></div><div><p class="eyebrow">EXPLORE O ACERVO</p><a href="{BASE}/artigos/">Artigos</a><a href="{BASE}/livros/">Livros e e-books</a><a href="{BASE}/revistas/">Revista Pentagrama</a></div><div><p class="eyebrow">CONTATO</p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></div></div><div class="wrap footer-bottom">Pentagrama Publicações </div></footer>
+<footer><div class="wrap footer-grid"><div><a class="footer-brand" href="{BASE}/">Pentagrama<span>publicações</span></a><p>Literatura gnóstica, hermética e rosa-cruz.</p></div><div><p class="eyebrow">EXPLORE O ACERVO</p><a href="{BASE}/blog/">Artigos</a><a href="{BASE}/livros/">Livros e e-books</a><a href="{BASE}/revistas/">Revista Pentagrama</a></div><div><p class="eyebrow">CONTATO</p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></div></div><div class="wrap footer-bottom">Pentagrama Publicações </div></footer>
 </body></html>'''
 
 
@@ -92,11 +91,10 @@ home=f'''<h1 class="sr-only">Pentagrama Publicações</h1><section class="hero">
 <section class="wrap magazine-feature"><a class="magazine-cover" href="{U(new_mag['path'])}">{picture(new_mag)}</a><div><h2>Revista 2025 | Ano 1 Número 2</h2><p>A Revista Pentagrama é a revista trimestral do Lectorium Rosicrucianum, que reúne seleções de serviços templários proferidos em seus templos no Brasil.</p><p>A Revista constitui um espaço de encontro entre reflexão, autoconhecimento e vivência espiritual. Mais que apresentar ideias, buscamos oferecer ao leitor a oportunidade de voltar-se para si mesmo e conectar-se com um horizonte mais amplo, onde pensamentos, sentimentos e impulso de agir se harmonizam.</p><p>Que esta publicação inspire cada um, de forma livre e consciente, a entrar no fluxo dessa transformação, permitindo que a Luz interior se manifeste e encontre expressão no mundo.</p><a class="button" href="{U(new_mag['path'])}">Ver revista</a></div></section>
 <section class="books-band"><div class="wrap home-section"><div class="section-heading"><h2>Mais Lidos</h2><a class="text-link" href="{BASE}/livros/">Ver Todos →</a></div><div class="card-grid books-grid">{''.join(card(e) for e in modern[:4])}</div></div></section>'''
 write('/','Pentagrama Publicações',home)
-write('/blog/', 'Blog', render_blog(ROOT, BASE, H, card, ARTICLES), 'blog', 'Artigos LOGON de 2026 e o acervo de Pentagrama Publicações.')
-listing('/artigos/','Artigos','Reflexões sobre o ser humano, a consciência e o caminho espiritual.',ARTICLES,'artigos')
+write('/blog/', 'Blog', render_blog(ROOT, BASE, H), 'blog', 'Artigos LOGON de 2026 e o acervo de Pentagrama Publicações.')
 listing('/livros/','Livros','Obras da tradição gnóstica, hermética e rosa-cruz. Sinopses, autores e e-books disponíveis no acervo.',BOOKS,'livros')
 listing('/revistas/','Revista Pentagrama','As edições recentes e o acervo histórico da Revista Pentagrama. Selecione um ano ou encontre um tema.',MAGAZINES,'revistas')
-listing('/buscar/','Encontre sua próxima leitura','Pesquise títulos, temas e autores em todo o acervo.',ARTICLES+BOOKS+MAGAZINES,'buscar')
+listing('/buscar/','Encontre sua próxima leitura','Pesquise títulos, temas e autores em todo o acervo.',BOOKS+MAGAZINES,'buscar')
 
 for e in ENTRIES:
     kind=e['type']; book=kind in {'livro','revista'}
@@ -112,7 +110,7 @@ for e in ENTRIES:
         if e.get('cover'):
             content+=f'<div class="reading-cover">{picture(e,eager=True)}</div>'
         content+=f'<div class="prose">{body}</div></article>'
-    related=[x for x in (ARTICLES if kind=='artigo' else MAGAZINES if kind=='revista' else BOOKS) if x['id']!=e['id']][:3]
+    related=[x for x in (MAGAZINES if kind=='revista' else BOOKS) if x['id']!=e['id']][:3]
     content+=f'<section class="wrap home-section related"><div class="section-heading"><h2>Continue a leitura</h2><a class="text-link" href="{BASE+parent}">Ver {label.lower()} ↗</a></div><div class="card-grid">'+''.join(card(x) for x in related)+'</div></section>'
     write(e['path'],e['title'],content,parent.strip('/'),e['summary'])
     for alias in e.get('aliases',[]):
@@ -124,4 +122,4 @@ write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><di
 write('404.html','Página não encontrada',f'<section class="reading about"><p class="eyebrow">PENTAGRAMA</p><h1>Esta página não está no acervo.</h1><p>O endereço pode ter mudado. Encontre a publicação pela busca ou volte ao início.</p><a class="button" href="{BASE}/buscar/">Buscar no acervo</a> <a href="{BASE}/">Voltar ao início</a></section>')
 (SITE/'.nojekyll').write_text('')
 (SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\n'))
-print(json.dumps({'pages':len(list(SITE.rglob('*.html'))),'articles':len(ARTICLES),'books':len(BOOKS),'magazines':len(MAGAZINES),'base':BASE}))
+print(json.dumps({'pages':len(list(SITE.rglob('*.html'))),'books':len(BOOKS),'magazines':len(MAGAZINES),'base':BASE}))

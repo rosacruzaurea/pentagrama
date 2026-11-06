@@ -39,11 +39,6 @@ Estes três PDFs contêm somente “Temporariamente indisponível”, não o liv
 
 - Entre o silêncio e a luz: o miolo está disponível em PDF; falta a capa.
 
-## Escopo e correções da conferência
+## Limites
 
-Foram cruzados o catálogo recuperado, 235 PDFs do backup bruto, arquivos públicos de caches e a biblioteca local. A conferência por arquivo recuperou mais 25 publicações do catálogo de livros (incluindo Agenda 2016) e 2 revistas que não estavam corretamente ligadas no banco. Elas não aparecem nesta lista de faltantes.
-
-As capturas disponíveis não permitem afirmar que todo o catálogo de 2026 foi recuperado. Por isso, não se inferiram edições faltantes apenas por lacunas na sequência de anos/números.
-
-Prévia: https://rosacruzaurea.github.io/pentagrama/
-Revisão: https://github.com/rosacruzaurea/pentagrama/pull/1
+O inventário é uma conferência de disponibilidade, não uma certificação de integralidade ou equivalência de edições. Há PDFs amostrais e variantes integrais ainda sujeitas a cotejo e atualização de vínculos. A ausência de números na sequência de revistas não comprova que uma edição esteja faltando.
