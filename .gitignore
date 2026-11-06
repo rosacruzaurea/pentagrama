@@ -8,3 +8,9 @@ private/
 *.tar.gz
 *.zip
 node_modules/
+
+# Local validation output
+docs/*-manifest.json
+docs/*-browser*.json
+docs/browser-*.json
+docs/screenshots/
