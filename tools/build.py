@@ -5,11 +5,13 @@ import re
 from pathlib import Path
 from site_config import BASE, NOINDEX
 from blog import render_blog
+from seo import metadata as seo_metadata, write_sitemaps, google_search, ORIGIN
 
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 DATA=json.loads((ROOT/'content/site.json').read_text())
 ENTRIES=DATA['entries']
+CANONICAL_ROUTES=set()
 H=lambda x:html.escape(str(x),quote=True)
 U=lambda p: BASE+p if p.startswith('/') else p
 BOOKS=sorted([x for x in ENTRIES if x['type']=='livro'],key=lambda x:(x.get('priority',999),x['title'].casefold()))
@@ -27,14 +29,12 @@ def picture(e,cls='',eager=False):
     return f'<div class="cover-fallback {cls}" aria-hidden="true"><span>Pentagrama</span><small>{H(e.get("year") or "Acervo")}</small></div>'
 
 
-def shell(title,body,section='',description='',path='/'):
+def shell(title,body,section='',description='',path='/',canonical=None,entry=None):
     nav=''.join(f'<a href="{BASE}/{p+chr(47) if p else ''}"'+(' aria-current="page"' if section==p else '')+f'>{t}</a>' for p,t in [('', 'Home'),('livros','Livros'),('revistas','Revistas'),('quem-somos','Quem somos'),('contato','Contato'),('blog','Blog')])
     return f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self' https://github.com https://*.githubusercontent.com; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
-<meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex,follow' if NOINDEX else 'index,follow'}">
-<title>{H(title)} | Pentagrama</title><meta name="description" content="{H(description or 'Artigos, livros e revistas do acervo de Pentagrama Publicações.')}">
-<meta property="og:title" content="{H(title)} | Pentagrama"><meta property="og:type" content="website">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self' https://github.com https://*.githubusercontent.com; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https://www.google.com/search">
+<meta name="referrer" content="strict-origin-when-cross-origin">{seo_metadata(title,description,path,canonical or path,entry,DATA['logo'],NOINDEX)}
 <link rel="stylesheet" href="{BASE}/assets/styles.css"><script defer src="{BASE}/assets/app.js"></script></head>
 <body><a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <div class="contact-bar"><div class="wrap"><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a><span><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a><a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></span></div></div>
@@ -45,10 +45,11 @@ def shell(title,body,section='',description='',path='/'):
 </body></html>'''
 
 
-def write(path,title,body,section='',description=''):
+def write(path,title,body,section='',description='',canonical=None,entry=None):
+    if canonical is None: CANONICAL_ROUTES.add(path)
     p=SITE/path.strip('/')/'index.html' if path!='404.html' else SITE/'404.html'
     p.parent.mkdir(parents=True,exist_ok=True)
-    p.write_text(shell(title,body,section,description,path))
+    p.write_text(shell(title,body,section,description,path,canonical,entry))
 
 
 def card(e,filterable=False):
@@ -74,10 +75,11 @@ def listing(path,title,intro,items,kind):
         filters='<label>Ano<select name="ano"><option value="">Todos os anos</option>'+''.join(f'<option>{H(t)}</option>' for t in values)+'</select></label>'
     content=f'''<section class="page-head wrap"><a class="back-link" href="{BASE}/">Início /</a><p class="eyebrow">{len(items)} PUBLICAÇÕES NO ACERVO</p><h1>{title}</h1><p class="lede">{intro}</p></section>
 <section class="wrap catalog" data-catalog><form class="filters" role="search"><label class="search-field">Buscar no acervo<input type="search" name="q" placeholder="Título, tema ou autor" autocomplete="off"></label>{filters}<button type="reset" class="button button-light">Limpar filtros</button></form>
+{google_search()}
 <noscript><p>As publicações estão listadas abaixo. Para usar a busca e os filtros, ative o JavaScript no navegador.</p></noscript><p class="result-count" role="status" aria-live="polite" data-count>{len(items)} publicações</p>
 <div class="card-grid {"books-grid" if kind in ["livros","revistas"] else ""}">{''.join(card(e,True) for e in items)}</div>
 <div class="empty" data-empty hidden><h2>Nenhuma publicação encontrada</h2><p>Tente outro termo ou limpe os filtros.</p></div><button class="button more" type="button" data-more hidden>Mostrar mais publicações</button></section>'''
-    write(path,title,content,kind)
+    write(path,title,content,kind,intro)
 
 
 # Home structure, headings, palette and typography from the archived 2026 site.
@@ -112,14 +114,15 @@ for e in ENTRIES:
         content+=f'<div class="prose">{body}</div></article>'
     related=[x for x in (MAGAZINES if kind=='revista' else BOOKS) if x['id']!=e['id']][:3]
     content+=f'<section class="wrap home-section related"><div class="section-heading"><h2>Continue a leitura</h2><a class="text-link" href="{BASE+parent}">Ver {label.lower()} ↗</a></div><div class="card-grid">'+''.join(card(x) for x in related)+'</div></section>'
-    write(e['path'],e['title'],content,parent.strip('/'),e['summary'])
+    write(e['path'],e['title'],content,parent.strip('/'),e['summary'],entry=e)
     for alias in e.get('aliases',[]):
-        write(alias,e['title'],content,parent.strip('/'),e['summary'])
+        write(alias,e['title'],content,parent.strip('/'),e['summary'],canonical=e['path'],entry=e)
 
 # Retire the reconstruction-only page from existing generated artifacts.
 (SITE/'sobre-o-acervo'/'index.html').unlink(missing_ok=True)
 write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a> · <a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></p><p>Entre em contato pelo e-mail acima.</p></div></article>','contato')
 write('404.html','Página não encontrada',f'<section class="reading about"><p class="eyebrow">PENTAGRAMA</p><h1>Esta página não está no acervo.</h1><p>O endereço pode ter mudado. Encontre a publicação pela busca ou volte ao início.</p><a class="button" href="{BASE}/buscar/">Buscar no acervo</a> <a href="{BASE}/">Voltar ao início</a></section>')
 (SITE/'.nojekyll').write_text('')
-(SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\n'))
+(SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n'))
+write_sitemaps(SITE,CANONICAL_ROUTES,ENTRIES)
 print(json.dumps({'pages':len(list(SITE.rglob('*.html'))),'books':len(BOOKS),'magazines':len(MAGAZINES),'base':BASE}))
