@@ -1,6 +1,14 @@
 # Changelog
 
-## 2026.11.06.2 · Em revisão
+## 2026.11.07 · Em revisão
+
+- URLs canônicas, descrições, metadados sociais e dados estruturados derivados do catálogo.
+- Sitemaps separados para páginas primárias e todos os PDFs vinculados, com descoberta em robots.txt.
+- Pesquisa Google opcional nas listagens, limitada ao domínio e com seleção de PDFs, preservando filtros locais.
+- Verificações automáticas de SEO e testes de formulário em desktop/mobile e sem JavaScript.
+- Procedimento para comprovar indexação pelo Search Console; sem alteração dos arquivos do acervo.
+
+## 2026.11.06.2
 
 - Removido o acervo de 77 artigos de 2017–2018, suas páginas e mídias exclusivas.
 - Blog mantido com a seleção LOGON de 2026; navegação ajustada ao catálogo vigente.
