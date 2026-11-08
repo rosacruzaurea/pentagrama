@@ -15,7 +15,9 @@ jobs:
         with:
           persist-credentials: false
       - name: Verificar limites e regressões da busca local
-        run: node --test tools/catalog-search.test.mjs
+        run: node --test tools/*.test.mjs
+      - name: Verificar configuração e CSP da busca no conteúdo
+        run: python3 -m unittest discover -s tools -p "test_*.py"
       - name: Gerar HTML
         run: python3 tools/build.py
       - name: Conferir links, isolamento e limite do artefato
@@ -32,6 +34,14 @@ jobs:
         env:
           PAGES_BASE_PATH: '/pentagrama-dev'
           SITE_NOINDEX: '1'
+        run: |
+          python3 tools/build.py
+          python3 tools/check.py
+      - name: Validate staging-only search demonstration
+        env:
+          PAGES_BASE_PATH: '/pentagrama-staging'
+          SITE_NOINDEX: '1'
+          SEARCH_DEMO: '1'
         run: |
           python3 tools/build.py
           python3 tools/check.py

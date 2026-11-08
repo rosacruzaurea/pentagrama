@@ -6,7 +6,7 @@
 - URLs canônicas são sempre `https://pentagrama.org.br/`, inclusive nos aliases antigos. Caminho de hospedagem não redefine a identidade pública do conteúdo.
 - `sitemap.xml` referencia `sitemap-pages.xml` e `sitemap-pdfs.xml`. Os inventários são derivados das rotas primárias e dos links PDF do catálogo. Aliases, busca interna e página 404 não entram no sitemap de páginas. Não há `lastmod` artificial.
 - Produção permite rastreamento e anuncia o sitemap em `robots.txt`. Busca interna e 404 usam `noindex,follow`. Staging continua com `SITE_NOINDEX=1`, `Disallow: /` e sem CNAME; os sitemaps nele apontam exclusivamente para produção. Não submetê-los como propriedade de staging.
-- Livros, revistas e busca geral oferecem uma pesquisa Google opcional, limitada ao domínio público, com opção `filetype:pdf` via formulário nativo. Não há scripts Google, rastreadores, chaves ou consultas automáticas. A submissão abre outra aba; a política CSP autoriza apenas o endpoint de pesquisa além da própria origem.
+- Livros, revistas e busca geral oferecem **Buscar no conteúdo**, limitada ao domínio público e com opção de PDFs. Sem ID configurado, usa formulário nativo em outra aba, sem scripts de terceiros. Com ID, carrega o Programmable Search somente na submissão e apresenta resultados internos. [Configuração, privacidade e ativação](BUSCA-CONTEUDO.md).
 - Os filtros locais continuam independentes. Sem JavaScript, todo o catálogo e a pesquisa Google permanecem acessíveis.
 
 ## Verificação após publicação em produção

@@ -13,9 +13,11 @@ Python 3.12+ e biblioteca padrão, sem framework ou backend:
 ```sh
 python3 tools/build.py
 python3 tools/check.py
-node --test tools/catalog-search.test.mjs
+node --test tools/*.test.mjs
+python3 -m unittest discover -s tools -p 'test_*.py'
 ```
 
+- `content/search.json`: ID público opcional da busca no conteúdo; vazio mantém a alternativa externa. [Configuração, ativação e demonstração](docs/BUSCA-CONTEUDO.md).
 - `content/site.json`: catálogo e páginas institucionais.
 - `content/blog-logon.json`: seleção estática do Blog, com fontes, datas e créditos. Textos completos na LOGON; não há atualização automática.
 - `tools/build.py`, `tools/blog.py`, `tools/seo.py`: geração do HTML.

@@ -4,7 +4,8 @@ import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
-from site_config import BASE, NOINDEX
+from site_config import BASE, NOINDEX, SEARCH_DEMO
+from content_search import ENGINE_ID, SEARCH_ROUTES, content_security_policy
 from seo import ORIGIN, NS, absolute, pdf_paths
 from xml.etree import ElementTree as ET
 from urllib.parse import unquote,urlsplit
@@ -29,12 +30,15 @@ class Check(HTMLParser):
         global links
         attrs=dict(attrs)
         if tag=='h1':self.headings+=1
+        if tag=='meta' and attrs.get('http-equiv')=='Content-Security-Policy':
+            route='/' + self.path.removesuffix('index.html')
+            if attrs.get('content')!=content_security_policy(bool(ENGINE_ID) and route in SEARCH_ROUTES):errors.append(f'{self.path}: unexpected CSP')
         if tag=='input' and attrs.get('type')=='search' and attrs.get('name')=='q' and attrs.get('maxlength')!='300':errors.append(f'{self.path}: search input must limit length to 300')
         if tag=='meta' and attrs.get('name')=='robots':
             expected='noindex,follow' if NOINDEX or self.path in {'404.html','buscar/index.html'} else 'index,follow'
             if attrs.get('content')!=expected:errors.append(f'{self.path}: wrong indexing policy')
         if tag in {'iframe','object','embed','base'}:errors.append(f'{self.path}: forbidden {tag}')
-        if tag=='script' and not (attrs.get('src')==BASE+'/assets/app.js' or (attrs.get('type')=='application/ld+json' and not attrs.get('src'))):errors.append(f'{self.path}: unexpected script')
+        if tag=='script' and not ((SEARCH_DEMO and self.path=='demo-busca/index.html' and attrs.get('src')==BASE+'/demo-busca/demo.js') or attrs.get('src')==BASE+'/assets/app.js' or (self.path in {'buscar/index.html','livros/index.html','revistas/index.html'} and attrs.get('src')==BASE+'/assets/content-search.js') or (attrs.get('type')=='application/ld+json' and not attrs.get('src'))):errors.append(f'{self.path}: unexpected script')
         if any(k.lower().startswith('on') for k in attrs):errors.append(f'{self.path}: event handler')
         for key in ['href','src']:
             url=attrs.get(key)
@@ -59,6 +63,8 @@ if (SITE/'robots.txt').read_text()!=expected_robots:errors.append('robots.txt do
 expected_routes={'index.html','404.html','blog/index.html','livros/index.html','revistas/index.html','buscar/index.html','contato/index.html'}
 for e in content['entries']:
     for route in [e['path'],*e.get('aliases',[])]:expected_routes.add(route.strip('/')+'/index.html')
+if SEARCH_DEMO:expected_routes.add('demo-busca/index.html')
+if not SEARCH_DEMO and (SITE/'demo-busca').exists():errors.append('Demo directory must not be present in ordinary/production artifacts')
 actual_routes={str(p.relative_to(SITE)) for p in SITE.rglob('*.html')}
 if actual_routes != expected_routes:errors.append({'unexpected_routes':sorted(actual_routes-expected_routes),'missing_routes':sorted(expected_routes-actual_routes)})
 
@@ -90,6 +96,7 @@ index=ET.parse(SITE/'sitemap.xml')
 if {x.text for x in index.findall('.//{'+NS+'}loc')}!={ORIGIN+'/sitemap-pages.xml',ORIGIN+'/sitemap-pdfs.xml'}:errors.append('sitemap index mismatch')
 for path in ['/buscar/','/livros/','/revistas/']:
     source=(SITE/path.strip('/')/'index.html').read_text()
+    if f'data-engine-id="{ENGINE_ID}"' not in source:errors.append(f'{path}: incorrect content search configuration')
     if 'action="https://www.google.com/search"' not in source or 'name="as_sitesearch" value="pentagrama.org.br"' not in source:errors.append(f'{path}: missing scoped Google search')
 
 files=[]

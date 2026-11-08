@@ -1,4 +1,5 @@
 """Canonical metadata and discovery files from the published editorial inventory."""
+from content_search import ENGINE_ID
 import html
 import json
 import re
@@ -92,7 +93,11 @@ def write_sitemaps(site, routes, entries):
 
 
 def google_search():
-    return '''<details class="google-search"><summary>Pesquisar também no Google</summary><p>Busque nas páginas e nos PDFs do Pentagrama que já aparecem no Google. Os filtros do acervo continuam disponíveis acima.</p>
-<form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer" role="search" aria-label="Pesquisa no Google">
-<input type="hidden" name="as_sitesearch" value="pentagrama.org.br"><label class="search-field">Termos para pesquisar no Google<input type="search" name="q" required maxlength="300" placeholder="Ex.: alquimia, alma ou nome do autor"></label><label>Pesquisar em<select name="as_filetype"><option value="">Páginas e documentos</option><option value="pdf">Somente PDFs</option></select></label><button class="button" type="submit">Buscar no Google ↗</button></form>
-<p class="google-search-note">Abre o Google em outra aba. A pesquisa é enviada somente ao clicar em buscar; resultados novos podem demorar a aparecer.</p></details>'''
+    engine = html.escape(ENGINE_ID, quote=True)
+    return f'''<details class="google-search" data-engine-id="{engine}"><summary>Buscar no conteúdo</summary><p>Pesquise no texto das páginas e dos PDFs indexados. Os filtros do acervo continuam disponíveis acima.</p>
+<form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer" role="search" aria-label="Buscar no conteúdo">
+<input type="hidden" name="as_sitesearch" value="pentagrama.org.br"><label class="search-field">O que você procura?<input type="search" name="q" required maxlength="300" placeholder="Ex.: alquimia, alma ou nome do autor"></label><label>Pesquisar em<select name="as_filetype"><option value="">Páginas e documentos</option><option value="pdf">Somente PDFs</option></select></label><button class="button" type="submit">Buscar no conteúdo</button></form>
+<p class="google-search-note" data-search-note>A busca abre em outra aba e envia os termos a um serviço externo somente ao pesquisar. Nem todo o acervo pode estar indexado.</p>
+<p role="status" aria-live="polite" data-content-status></p>
+<a data-content-fallback hidden target="_blank" rel="noopener noreferrer">Abrir resultados em outra aba</a>
+<div data-content-results hidden></div></details>'''

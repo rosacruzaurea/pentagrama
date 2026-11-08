@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.08.2 · Em revisão
+
+- “Buscar no conteúdo” com preparação do Programmable Search, configuração pública vazia e carregamento somente ao pesquisar.
+- Resultados na página, filtro PDF, limites, tratamento de falha e alternativa externa; busca local preservada.
+- Demonstração interativa somente em staging, com exemplos reais do catálogo claramente identificados como simulação.
+- Testes de contrato, CSP e UI com provedor simulado; ativação real depende do ID e de homologação.
+
 ## 2026.11.08 · Em revisão
 
 - Busca local limitada a 300 caracteres na interface, na URL e no processamento, incluindo o Blog.
