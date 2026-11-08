@@ -49,7 +49,7 @@ def render_blog(root, base, escape):
 <p class="blog-updated">Seleção atualizada em {shortdate(data['updated'])}. <a href="https://logon.media/pt-br/">Veja outras publicações na LOGON »</a></p></section>
 </div>
 <aside class="blog-sidebar" aria-label="Navegação do Blog"><section class="blog-side-box blog-search"><h2>Busca</h2>
-<form class="filters" role="search"><label>Buscar nos artigos LOGON de {h(data['year'])}<input type="search" name="q" placeholder="Pesquisa…" autocomplete="off"></label><button type="reset" class="button button-light">Limpar busca</button></form>
+<form class="filters" role="search"><label>Buscar nos artigos LOGON de {h(data['year'])}<input type="search" name="q" maxlength="300" placeholder="Pesquisa…" autocomplete="off"></label><button type="reset" class="button button-light">Limpar busca</button></form>
 <noscript><p>Os artigos estão listados nesta página. Ative o JavaScript para filtrar a seleção.</p></noscript></section>
 <section class="blog-side-box"><h2>Acompanhe FB</h2><a class="blog-facebook" href="https://www.facebook.com/pentagramapublicacoes/">Pentagrama no Facebook ↗</a></section>
 <section class="blog-side-box"><h2>Destaques</h2><ul>{highlights}</ul></section>

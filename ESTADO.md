@@ -10,6 +10,7 @@
 - Recuperação: reverter o commit pertinente por PR e republicar o artefato; não requer restauração de banco.
 - Limites editoriais: disponibilidade de arquivo não comprova integralidade ou edição. Há exemplares amostrais e vínculos que ainda precisam de cotejo; consultar `docs/FALTANTES.md` e `content/missing-publications.json`.
 - SEO: canonicals, metadados estruturados, sitemaps de páginas/PDFs e pesquisa Google opcional. Procedimento de comprovação no Search Console em [SEO](docs/SEO.md); rastreabilidade não comprova indexação.
+- Busca local: limite de 300 caracteres no HTML, na leitura de URL e no processamento; índice normalizado por carregamento e deduplicação de termos. Testes de regressão em `tools/catalog-search.test.mjs` e `tools/search-browser-check.mjs`.
 - Limites de teste: Chrome desktop/mobile simulado; Safari/iOS e dispositivos físicos não homologados.
 
 Mudanças por versão: [CHANGELOG.md](CHANGELOG.md). Evidências transitórias ficam fora da árvore versionada; não registrar conversas, nomes de solicitantes ou histórico de execução aqui.

@@ -29,3 +29,7 @@ Publicar um sitemap não assegura rastreamento, inclusão, prazo ou posição no
 - [Tipos de arquivo indexáveis](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types)
 - [Limites do operador site:](https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site)
 - [PDFs no Google, orientação de 2011](https://developers.google.com/search/blog/2011/09/pdfs-in-google-search-results): ressalvas sobre criptografia e OCR; não usar essa orientação antiga como diagnóstico atual de cada URL.
+
+## Limites da busca local
+
+A consulta local `q` tem limite de 300 unidades UTF-16, consistente com `maxlength` do HTML. O limite também é aplicado ao ler a URL e antes de processar eventos; não depende apenas da interface. Consultas maiores são truncadas no campo e no processamento. O texto do catálogo é normalizado uma vez por carregamento, e palavras repetidas na consulta são consideradas uma única vez. A busca continua sem distinção de maiúsculas ou acentos; filtros, contagem e paginação mantêm seu comportamento. Esse controle reduz trabalho na aba, não é proteção contra DDoS da hospedagem.

@@ -29,6 +29,7 @@ class Check(HTMLParser):
         global links
         attrs=dict(attrs)
         if tag=='h1':self.headings+=1
+        if tag=='input' and attrs.get('type')=='search' and attrs.get('name')=='q' and attrs.get('maxlength')!='300':errors.append(f'{self.path}: search input must limit length to 300')
         if tag=='meta' and attrs.get('name')=='robots':
             expected='noindex,follow' if NOINDEX or self.path in {'404.html','buscar/index.html'} else 'index,follow'
             if attrs.get('content')!=expected:errors.append(f'{self.path}: wrong indexing policy')

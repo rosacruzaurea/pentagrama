@@ -74,7 +74,7 @@ def listing(path,title,intro,items,kind):
         values=sorted({e['year'] for e in items if e['year']},reverse=True)
         filters='<label>Ano<select name="ano"><option value="">Todos os anos</option>'+''.join(f'<option>{H(t)}</option>' for t in values)+'</select></label>'
     content=f'''<section class="page-head wrap"><a class="back-link" href="{BASE}/">Início /</a><p class="eyebrow">{len(items)} PUBLICAÇÕES NO ACERVO</p><h1>{title}</h1><p class="lede">{intro}</p></section>
-<section class="wrap catalog" data-catalog><form class="filters" role="search"><label class="search-field">Buscar no acervo<input type="search" name="q" placeholder="Título, tema ou autor" autocomplete="off"></label>{filters}<button type="reset" class="button button-light">Limpar filtros</button></form>
+<section class="wrap catalog" data-catalog><form class="filters" role="search"><label class="search-field">Buscar no acervo<input type="search" name="q" maxlength="300" placeholder="Título, tema ou autor" autocomplete="off"></label>{filters}<button type="reset" class="button button-light">Limpar filtros</button></form>
 {google_search()}
 <noscript><p>As publicações estão listadas abaixo. Para usar a busca e os filtros, ative o JavaScript no navegador.</p></noscript><p class="result-count" role="status" aria-live="polite" data-count>{len(items)} publicações</p>
 <div class="card-grid {"books-grid" if kind in ["livros","revistas"] else ""}">{''.join(card(e,True) for e in items)}</div>

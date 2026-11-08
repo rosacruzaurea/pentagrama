@@ -13,6 +13,7 @@ Python 3.12+ e biblioteca padrão, sem framework ou backend:
 ```sh
 python3 tools/build.py
 python3 tools/check.py
+node --test tools/catalog-search.test.mjs
 ```
 
 - `content/site.json`: catálogo e páginas institucionais.
@@ -31,7 +32,7 @@ O staging recebe somente o artefato de um commit revisável, com `SITE_NOINDEX=1
 
 ## Validação e direitos
 
-O verificador confere rotas, links locais, arquivos permitidos, política de indexação e tamanho do artefato. Relatórios e capturas são gerados localmente e não versionados. Os testes de navegador usam Playwright e um Chrome/CDP já disponíveis, informados por `PLAYWRIGHT_MODULE` e `CDP_URL`.
+O verificador confere rotas, links locais, arquivos permitidos, política de indexação e tamanho do artefato. Relatórios e capturas são gerados localmente e não versionados. O teste de regressão da busca usa apenas os módulos nativos do Node.js e roda na CI. `tools/search-browser-check.mjs` verifica limite de entrada/URL, histórico, reset e entradas longas no navegador. Os testes de navegador usam Playwright e um Chrome/CDP já disponíveis, informados por `PLAYWRIGHT_MODULE` e `CDP_URL`.
 
 Não incluir credenciais, dados pessoais, bancos, backups ou transcrições no repositório. O site não possui cadastro, backend de formulários nem analytics. A busca Google é opcional e só envia os termos quando o visitante submete a pesquisa.
 

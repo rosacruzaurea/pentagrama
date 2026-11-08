@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.08 · Em revisão
+
+- Busca local limitada a 300 caracteres na interface, na URL e no processamento, incluindo o Blog.
+- Índice normalizado reutilizado e termos repetidos eliminados, evitando trabalho proporcional a consultas repetitivas.
+- Testes de regressão para limites, navegação por URL, acentos, filtros, reset e reutilização do índice.
+
 ## 2026.11.07 · Em revisão
 
 - URLs canônicas, descrições, metadados sociais e dados estruturados derivados do catálogo.
