@@ -32,6 +32,7 @@ Testes com provedor simulado comprovam o comportamento da integração, não a c
 ## Comportamento e privacidade
 
 - Limite de 300 unidades UTF-16, também no processamento. Nenhuma pesquisa ao abrir a página, expandir o painel, digitar ou ler `q` da URL.
+- Links dos resultados abrem na mesma aba, inclusive PDFs. A alternativa explicitamente rotulada “Abrir resultados em outra aba” mantém seu comportamento.
 - Um carregamento de `cse.js` por página. Blocos de resultados separados para páginas/documentos e PDFs, ambos restritos a `pentagrama.org.br`.
 - Inicialização manual via API oficial, sem busca automática nem alteração do histórico pelo provedor.
 - Mensagem de carregamento e de falha; timeout de 12 s para inicialização e 15 s para resultados. A alternativa “Abrir resultados em outra aba” preserva consulta, domínio e tipo. Falhas nunca redirecionam automaticamente.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.09.1 · Em revisão
+
+- Links dos resultados da busca no conteúdo abrem na mesma aba, incluindo PDFs.
+
 ## 2026.11.09 · Em revisão
 
 - Mecanismo de busca no conteúdo configurado; renderização de títulos/trechos como texto pelo callback oficial, sem liberar eval ou HTML externo.

@@ -23,7 +23,7 @@ test('missing/invalid ID preserves native form and caps query without third-part
 });
 test('no provider on load; first submit loads once, uses latest bounded query and scopes results',async()=>{
  const f=fixture();assert.equal(f.scripts.length,0);f.input.value='a'.repeat(8000);const first=await f.submit();f.input.value='alma & espírito';f.filetype.value='pdf';const second=await f.submit();
- assert.equal(f.scripts.length,1);f.init();await Promise.all([first.done,second.done]);assert.equal(f.executed.length,1);assert.equal(f.executed[0].query,'alma & espírito');assert.equal(f.rendered[0].attributes.as_filetype,'pdf');assert.equal(f.rendered[0].attributes.as_sitesearch,'pentagrama.org.br');assert.equal(f.rendered[0].attributes.autoSearchOnLoad,false);
+ assert.equal(f.scripts.length,1);f.init();await Promise.all([first.done,second.done]);assert.equal(f.executed.length,1);assert.equal(f.executed[0].query,'alma & espírito');assert.equal(f.rendered[0].attributes.as_filetype,'pdf');assert.equal(f.rendered[0].attributes.as_sitesearch,'pentagrama.org.br');assert.equal(f.rendered[0].attributes.autoSearchOnLoad,false);assert.equal(f.rendered[0].attributes.linkTarget,'_self');
  const url=new URL(f.fallback.href);assert.equal(url.searchParams.get('q'),'alma & espírito');assert.equal(url.searchParams.get('as_filetype'),'pdf');
  f.context.__gcse.searchCallbacks.web.rendered('content-pdf');assert.equal(f.results.attrs['aria-busy'],'false');
 });
@@ -54,7 +54,7 @@ test('real result renderer inserts text, rejects executable URLs and preserves s
  assert.equal(done,true);assert.equal(div.children.length,1);
  const [link,snippet]=div.children[0].children;
  assert.equal(link.textContent,'<img onerror=alert(1)>');assert.equal(link.innerHTML,undefined);
- assert.equal(snippet.textContent,'<script>evil</script>');assert.equal(link.rel,'noopener noreferrer');
+ assert.equal(snippet.textContent,'<script>evil</script>');assert.equal(link.rel,'noopener noreferrer');assert.equal(link.target,'_self');
  f.context.__gcse.searchCallbacks.web.ready('content-all','q',[],[],div);
  assert.equal(div.children.length,1);assert.match(div.children[0].textContent,/Nenhum resultado/);
 });
