@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.09 · Em revisão
+
+- Mecanismo de busca no conteúdo configurado; renderização de títulos/trechos como texto pelo callback oficial, sem liberar eval ou HTML externo.
+- Resultados dentro do fluxo da página; política de segurança mantida. Configuração de idioma e anúncios no provedor ainda requer revisão.
+- Removida a demonstração, seus geradores e a opção de publicação; testes de regressão preservados.
+
 ## 2026.11.08.2 · Em revisão
 
 - “Buscar no conteúdo” com preparação do Programmable Search, configuração pública vazia e carregamento somente ao pesquisar.

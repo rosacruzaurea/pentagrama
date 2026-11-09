@@ -1,5 +1,13 @@
 # Busca no conteúdo
 
+## Estado do candidato
+
+ID público configurado. Consultas reais retornam páginas e PDFs, mas isso não garante indexação de todo o acervo nem atualização dos URLs antigos conhecidos pelo Google.
+
+O template padrão do provedor tentou usar `eval`, incompatível com a CSP. O callback oficial `searchCallbacks.web.ready` renderiza títulos/trechos usando `textContent`, aceita apenas URLs HTTP(S) e preserva atribuição, paginação e controles do provedor. Não se concede `unsafe-eval` nem se injeta HTML externo. `overlayResults: false`, reconhecido pelo SDK observado, mantém os resultados no fluxo da página; conferir novamente ao mudar a versão do provedor.
+
+O provedor ainda tenta carregar recursos de publicidade/telemetria bloqueados pela CSP. A política não foi ampliada para esses hosts; ausência visual de anúncios não comprova Nonprofit ou desativação no painel. Idioma recebido do mecanismo: inglês. Ajustar português do Brasil e confirmar a modalidade sem anúncios no painel antes da homologação final. Não usar CSS para esconder anúncios.
+
 ## Configuração
 
 `content/search.json` contém um único parâmetro público: `programmableSearchId`.
@@ -19,7 +27,7 @@ O ID é incorporado ao HTML pelo build; não é lido da URL nem baixado de confi
 5. Confirmar que não há chamadas ao provedor antes de pesquisar, que os resultados estão restritos ao domínio e que filtros locais, erro/rede bloqueada e alternativa externa continuam funcionais.
 6. Submeter a revisão e só então publicar conforme o fluxo do projeto. Para desativar, esvaziar o ID, gerar novamente e publicar a revisão aprovada.
 
-Sem ID real, testes com provedor simulado comprovam o comportamento da integração, não a compatibilidade final do serviço, a isenção de anúncios ou a indexação.
+Testes com provedor simulado comprovam o comportamento da integração, não a compatibilidade final do serviço, a isenção de anúncios ou a indexação.
 
 ## Comportamento e privacidade
 
@@ -31,23 +39,14 @@ Sem ID real, testes com provedor simulado comprovam o comportamento da integraç
 - Ao enviar a busca, o serviço externo recebe os termos e dados de conexão e pode usar cookies. Há aviso junto ao formulário. Não se faz proxy de consultas nem armazenamento próprio.
 - CSP adicional somente nas três páginas de busca e somente com ID configurado: scripts/conexões em hosts Google enumerados, estilos inline necessários ao componente, imagens enumeradas e frame em `www.google.com`. Sem `unsafe-inline`/`unsafe-eval` para scripts, sem curingas de script ou origens de redes de anúncios. Nas demais páginas, preserva-se a política original.
 
-## Demonstração interativa, exclusivamente em staging
+## Demonstração retirada
 
-Gerar em um checkout isolado:
-
-```sh
-PAGES_BASE_PATH=/pentagrama-staging SITE_NOINDEX=1 SEARCH_DEMO=1 python3 tools/build.py
-PAGES_BASE_PATH=/pentagrama-staging SITE_NOINDEX=1 SEARCH_DEMO=1 python3 tools/check.py
-```
-
-Abrir `/demo-busca/`. A página apresenta resultados na própria tela, incluindo consulta, filtro PDF e estado vazio. Os exemplos vêm dos títulos/descrições reais do catálogo, não do texto integral dos PDFs. O aviso de simulação é permanente; o layout é ilustrativo, não reprodução garantida da interface final do provedor. Não usa ID nem rede externa.
-
-`SEARCH_DEMO=1` sem `SITE_NOINDEX=1` falha. A demonstração não entra em sitemap; o verificador rejeita seus arquivos no artefato normal/de produção. Não copiar o staging para produção. Builds são realizados em checkouts isolados para não deixar arquivos da demonstração na árvore de origem.
+A antiga rota `/demo-busca/` não faz parte do artefato. `SEARCH_DEMO=1` é rejeitado; staging usa a mesma integração real do candidato, com `SITE_NOINDEX=1`.
 
 ## Verificações
 
 - `node --test tools/*.test.mjs`: busca local e integração com DOM/provedor inertes, sem rede.
-- `python3 -m unittest discover -s tools -p 'test_*.py'`: validação do ID, CSP e bloqueio da demonstração em produção.
+- `python3 -m unittest discover -s tools -p 'test_*.py'`: validação do ID, CSP e rejeição da demonstração retirada.
 - `tools/content-search-browser-check.mjs`: UI no Chrome com provedor sintético, resultados internos, PDF, limites, reutilização e falha.
 - `tools/seo-browser-check.mjs`: fallback sem ID, submissão externa interceptada, desktop/mobile/sem JS.
 - `tools/search-browser-check.mjs`: regressões da busca local.

@@ -4,7 +4,7 @@ import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
-from site_config import BASE, NOINDEX, SEARCH_DEMO
+from site_config import BASE, NOINDEX
 from content_search import ENGINE_ID, SEARCH_ROUTES, content_security_policy
 from seo import ORIGIN, NS, absolute, pdf_paths
 from xml.etree import ElementTree as ET
@@ -38,7 +38,7 @@ class Check(HTMLParser):
             expected='noindex,follow' if NOINDEX or self.path in {'404.html','buscar/index.html'} else 'index,follow'
             if attrs.get('content')!=expected:errors.append(f'{self.path}: wrong indexing policy')
         if tag in {'iframe','object','embed','base'}:errors.append(f'{self.path}: forbidden {tag}')
-        if tag=='script' and not ((SEARCH_DEMO and self.path=='demo-busca/index.html' and attrs.get('src')==BASE+'/demo-busca/demo.js') or attrs.get('src')==BASE+'/assets/app.js' or (self.path in {'buscar/index.html','livros/index.html','revistas/index.html'} and attrs.get('src')==BASE+'/assets/content-search.js') or (attrs.get('type')=='application/ld+json' and not attrs.get('src'))):errors.append(f'{self.path}: unexpected script')
+        if tag=='script' and not (attrs.get('src')==BASE+'/assets/app.js' or (self.path in {'buscar/index.html','livros/index.html','revistas/index.html'} and attrs.get('src')==BASE+'/assets/content-search.js') or (attrs.get('type')=='application/ld+json' and not attrs.get('src'))):errors.append(f'{self.path}: unexpected script')
         if any(k.lower().startswith('on') for k in attrs):errors.append(f'{self.path}: event handler')
         for key in ['href','src']:
             url=attrs.get(key)
@@ -63,8 +63,7 @@ if (SITE/'robots.txt').read_text()!=expected_robots:errors.append('robots.txt do
 expected_routes={'index.html','404.html','blog/index.html','livros/index.html','revistas/index.html','buscar/index.html','contato/index.html'}
 for e in content['entries']:
     for route in [e['path'],*e.get('aliases',[])]:expected_routes.add(route.strip('/')+'/index.html')
-if SEARCH_DEMO:expected_routes.add('demo-busca/index.html')
-if not SEARCH_DEMO and (SITE/'demo-busca').exists():errors.append('Demo directory must not be present in ordinary/production artifacts')
+if (SITE/'demo-busca').exists():errors.append('Demo directory must not be present in ordinary/production artifacts')
 actual_routes={str(p.relative_to(SITE)) for p in SITE.rglob('*.html')}
 if actual_routes != expected_routes:errors.append({'unexpected_routes':sorted(actual_routes-expected_routes),'missing_routes':sorted(expected_routes-actual_routes)})
 

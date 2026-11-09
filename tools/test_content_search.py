@@ -27,8 +27,8 @@ class SearchConfigTests(unittest.TestCase):
         self.assertIn("object-src 'none'", enabled)
         self.assertIn("base-uri 'none'", enabled)
 
-    def test_demo_cannot_build_for_production(self):
+    def test_retired_demo_cannot_build(self):
         env = {**os.environ, 'SEARCH_DEMO': '1', 'SITE_NOINDEX': '0'}
         result = subprocess.run([sys.executable, '-c', "import sys;sys.path.insert(0,'tools');import site_config"], env=env, capture_output=True)
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn(b'SEARCH_DEMO requires SITE_NOINDEX=1', result.stderr)
+        self.assertIn(b'SEARCH_DEMO has been retired', result.stderr)

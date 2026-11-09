@@ -3,7 +3,7 @@ import html
 import json
 import re
 from pathlib import Path
-from site_config import BASE, NOINDEX, SEARCH_DEMO
+from site_config import BASE, NOINDEX
 from content_search import ENGINE_ID, SEARCH_ROUTES, content_security_policy
 from blog import render_blog
 from seo import metadata as seo_metadata, write_sitemaps, google_search, ORIGIN
@@ -125,9 +125,6 @@ for e in ENTRIES:
 (SITE/'sobre-o-acervo'/'index.html').unlink(missing_ok=True)
 write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a> · <a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></p><p>Entre em contato pelo e-mail acima.</p></div></article>','contato')
 write('404.html','Página não encontrada',f'<section class="reading about"><p class="eyebrow">PENTAGRAMA</p><h1>Esta página não está no acervo.</h1><p>O endereço pode ter mudado. Encontre a publicação pela busca ou volte ao início.</p><a class="button" href="{BASE}/buscar/">Buscar no acervo</a> <a href="{BASE}/">Voltar ao início</a></section>')
-if SEARCH_DEMO:
-    from search_demo import render_demo
-    render_demo(SITE, shell, ENTRIES, BASE)
 (SITE/'.nojekyll').write_text('')
 (SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n'))
 write_sitemaps(SITE,CANONICAL_ROUTES,ENTRIES)

@@ -6,7 +6,7 @@ import fs from 'node:fs';
 const code=fs.readFileSync(new URL('../site/assets/content-search.js',import.meta.url),'utf8');
 function fixture(engine='fixture-engine') {
  const timers=new Map(),scripts=[],executed=[],rendered=[],handlers={};let counter=0;
- const node=()=>({hidden:true,textContent:'',children:[],attrs:{},setAttribute(k,v){this.attrs[k]=v;},append(el){this.children.push(el);},remove(){this.removed=true;}});
+ const node=()=>({hidden:true,textContent:'',children:[],attrs:{},setAttribute(k,v){this.attrs[k]=v;},append(...els){this.children.push(...els);},replaceChildren(...els){this.children=els;},remove(){this.removed=true;}});
  const input={value:'alma',addEventListener(){},focus(){this.focused=true;}},filetype={value:''};
  const form={elements:{q:input,as_filetype:filetype},addEventListener(type,fn){(handlers[type]??=[]).push(fn);}};
  const status=node(),fallback=node(),results=node(),note=node();
@@ -42,4 +42,19 @@ test('load timeout and result timeout end busy state and expose fallback',async(
 test('empty query does not load; unsafe-looking query is passed only as text',async()=>{
  const f=fixture();f.input.value='   ';await (await f.submit()).done;assert.equal(f.scripts.length,0);
  f.input.value='<svg onload=alert(1)>';const s=await f.submit();f.init();await s.done;assert.equal(f.executed[0].query,'<svg onload=alert(1)>');assert.equal(f.results.children.length,1);assert.equal(new URL(f.fallback.href).searchParams.get('q'),f.input.value);
+});
+
+test('real result renderer inserts text, rejects executable URLs and preserves safe links',async()=>{
+ const f=fixture();const s=await f.submit();f.init();await s.done;
+ const div=f.context.document.createElement('div');
+ const done=f.context.__gcse.searchCallbacks.web.ready('content-all','q',[],[
+  {url:'javascript:alert(1)',titleNoFormatting:'bad'},
+  {url:'https://pentagrama.org.br/example.pdf',titleNoFormatting:'<img onerror=alert(1)>',contentNoFormatting:'<script>evil</script>'}
+ ],div);
+ assert.equal(done,true);assert.equal(div.children.length,1);
+ const [link,snippet]=div.children[0].children;
+ assert.equal(link.textContent,'<img onerror=alert(1)>');assert.equal(link.innerHTML,undefined);
+ assert.equal(snippet.textContent,'<script>evil</script>');assert.equal(link.rel,'noopener noreferrer');
+ f.context.__gcse.searchCallbacks.web.ready('content-all','q',[],[],div);
+ assert.equal(div.children.length,1);assert.match(div.children[0].textContent,/Nenhum resultado/);
 });

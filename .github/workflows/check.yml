@@ -37,11 +37,10 @@ jobs:
         run: |
           python3 tools/build.py
           python3 tools/check.py
-      - name: Validate staging-only search demonstration
+      - name: Validate staging paths without demonstration
         env:
           PAGES_BASE_PATH: '/pentagrama-staging'
           SITE_NOINDEX: '1'
-          SEARCH_DEMO: '1'
         run: |
           python3 tools/build.py
           python3 tools/check.py

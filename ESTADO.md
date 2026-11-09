@@ -10,7 +10,7 @@
 - Recuperação: reverter o commit pertinente por PR e republicar o artefato; não requer restauração de banco.
 - Limites editoriais: disponibilidade de arquivo não comprova integralidade ou edição. Há exemplares amostrais e vínculos que ainda precisam de cotejo; consultar `docs/FALTANTES.md` e `content/missing-publications.json`.
 - SEO: canonicals, metadados estruturados, sitemaps de páginas/PDFs e pesquisa Google opcional. Procedimento de comprovação no Search Console em [SEO](docs/SEO.md); rastreabilidade não comprova indexação.
-- Busca no conteúdo: integração opcional preparada em `content/search.json`, ID vazio; fallback externo. [Ativação e demonstração exclusiva de staging](docs/BUSCA-CONTEUDO.md). Homologação com o mecanismo real depende do ID e do painel Nonprofit.
+- Busca no conteúdo: mecanismo público configurado em `content/search.json`, resultados reais via callback seguro, sem liberar eval. [Configuração e limites](docs/BUSCA-CONTEUDO.md). Demo retirada. Idioma do provedor, anúncios/Nonprofit e compatibilidade completa de CSP permanecem sujeitos a homologação do painel externo.
 - Busca local: limite de 300 caracteres no HTML, na leitura de URL e no processamento; índice normalizado por carregamento e deduplicação de termos. Testes de regressão em `tools/catalog-search.test.mjs` e `tools/search-browser-check.mjs`.
 - Limites de teste: Chrome desktop/mobile simulado; Safari/iOS e dispositivos físicos não homologados.
 
