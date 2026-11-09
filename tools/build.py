@@ -75,7 +75,20 @@ def listing(path,title,intro,items,kind):
         filters='<label>Autor<select name="autor"><option value="">Todos os autores</option>'+''.join(f'<option>{H(t)}</option>' for t in values)+'</select></label><label>Formato<select name="tipo"><option value="">Todos os livros</option><option value="ebook">E-books gratuitos</option></select></label>'
     elif kind=='revistas':
         values=sorted({e['year'] for e in items if e['year']},reverse=True)
-        filters='<label>Ano<select name="ano"><option value="">Todos os anos</option>'+''.join(f'<option>{H(t)}</option>' for t in values)+'</select></label>'
+        editorial_years={year:set() for year in values}
+        for entry in items:
+            match=re.search(r'\bAno\s+(\d+)\b',entry['title'],re.IGNORECASE)
+            if match and entry['year']:
+                editorial_years[entry['year']].add(int(match.group(1)))
+        options=[]
+        for year in values:
+            numbers=editorial_years[year]
+            if len(numbers)>1:
+                raise ValueError(f'Conflicting editorial years for {year}: {sorted(numbers)}')
+            label=year+(f' - Ano {next(iter(numbers))}' if numbers else '')
+            # Keep the civil year as the value consumed by filters and shared URLs.
+            options.append(f'<option value="{H(year)}">{H(label)}</option>')
+        filters='<label>Ano<select name="ano"><option value="">Todos os anos</option>'+''.join(options)+'</select></label>'
     content=f'''<section class="page-head wrap"><a class="back-link" href="{BASE}/">Início /</a><p class="eyebrow">{len(items)} PUBLICAÇÕES NO ACERVO</p><h1>{title}</h1><p class="lede">{intro}</p></section>
 <section class="wrap catalog" data-catalog><form class="filters" role="search"><label class="search-field">Buscar no acervo<input type="search" name="q" maxlength="300" placeholder="Título, tema ou autor" autocomplete="off"></label>{filters}<button type="reset" class="button button-light">Limpar filtros</button></form>
 {google_search()}

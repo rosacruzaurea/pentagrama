@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.09.2 · Em revisão
+
+- Filtro de revistas identifica o ano editorial quando ele está explícito nos títulos do catálogo, mantendo o ano civil nos valores e URLs.
+
 ## 2026.11.09.1 · Em revisão
 
 - Links dos resultados da busca no conteúdo abrem na mesma aba, incluindo PDFs.

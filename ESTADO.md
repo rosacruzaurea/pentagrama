@@ -3,6 +3,7 @@
 - Stack: HTML/CSS/JavaScript, geração com Python 3.12+; sem backend ou banco.
 - Produção: `main` → GitHub Actions → `site/` → https://pentagrama.org.br/.
 - Staging: repositório `pentagrama-staging`, branch `gh-pages`, raiz; artefato com base `/pentagrama-staging`, `noindex` e sem domínio próprio.
+- Filtro de revistas: rótulos combinam ano civil e editorial quando comprovados nos títulos; números não são extrapolados. Valores/URLs continuam usando o ano civil.
 - Conteúdo: 70 registros de livros, 124 revistas, 7 páginas institucionais e seleção de 8 artigos LOGON de 2026. Seleção editorial manual.
 - Identidade: branco, dourado `#B18400`, Glegoo, faixa rosa/azul; referência visual de 2026 registrada em `content/blog-logon.json` e `content/site.json`.
 - Fontes de edição: `content/`, `tools/build.py`, `tools/blog.py`, `tools/seo.py`, `site/assets/`. Build e checks no README.
