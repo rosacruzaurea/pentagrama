@@ -14,6 +14,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Verificar limites e regressões da busca local
+        run: node --test tools/*.test.mjs
+      - name: Verificar configuração e CSP da busca no conteúdo
+        run: python3 -m unittest discover -s tools -p "test_*.py"
       - name: Gerar HTML
         run: python3 tools/build.py
       - name: Conferir links, isolamento e limite do artefato
@@ -29,6 +33,13 @@ jobs:
       - name: Validate development paths and indexing policy
         env:
           PAGES_BASE_PATH: '/pentagrama-dev'
+          SITE_NOINDEX: '1'
+        run: |
+          python3 tools/build.py
+          python3 tools/check.py
+      - name: Validate staging paths without demonstration
+        env:
+          PAGES_BASE_PATH: '/pentagrama-staging'
           SITE_NOINDEX: '1'
         run: |
           python3 tools/build.py

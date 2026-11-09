@@ -6,3 +6,5 @@ BASE = os.environ.get('PAGES_BASE_PATH', '/pentagrama').rstrip('/')
 if not re.fullmatch(r'(?:/[A-Za-z0-9_-]+)*', BASE):
     raise ValueError('PAGES_BASE_PATH must be empty or an absolute path without query/fragment')
 NOINDEX = os.environ.get('SITE_NOINDEX', '0') == '1'
+if os.environ.get('SEARCH_DEMO', '0') == '1':
+    raise ValueError('SEARCH_DEMO has been retired; use the real search integration')
