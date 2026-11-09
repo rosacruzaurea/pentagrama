@@ -6,7 +6,7 @@ ID público configurado. Consultas reais retornam páginas e PDFs, mas isso não
 
 O template padrão do provedor tentou usar `eval`, incompatível com a CSP. O callback oficial `searchCallbacks.web.ready` renderiza títulos/trechos usando `textContent`, aceita apenas URLs HTTP(S) e preserva atribuição, paginação e controles do provedor. Não se concede `unsafe-eval` nem se injeta HTML externo. `overlayResults: false`, reconhecido pelo SDK observado, mantém os resultados no fluxo da página; conferir novamente ao mudar a versão do provedor.
 
-O provedor ainda tenta carregar recursos de publicidade/telemetria bloqueados pela CSP. A política não foi ampliada para esses hosts; ausência visual de anúncios não comprova Nonprofit ou desativação no painel. Idioma recebido do mecanismo: inglês. Ajustar português do Brasil e confirmar a modalidade sem anúncios no painel antes da homologação final. Não usar CSS para esconder anúncios.
+O provedor ainda tenta carregar recursos de publicidade/telemetria bloqueados pela CSP. A política não foi ampliada para esses hosts; ausência visual de anúncios não comprova Nonprofit ou desativação no painel. O mecanismo respondeu inicialmente em inglês e, na conferência pública seguinte, em português do Brasil (pt_BR). Confirmar a modalidade sem anúncios no painel antes da homologação final. Não usar CSS para esconder anúncios.
 
 ## Configuração
 
