@@ -16,3 +16,7 @@
 - Limites de teste: Chrome desktop/mobile simulado; Safari/iOS e dispositivos físicos não homologados.
 
 Mudanças por versão: [CHANGELOG.md](CHANGELOG.md). Evidências transitórias ficam fora da árvore versionada; não registrar conversas, nomes de solicitantes ou histórico de execução aqui.
+
+## Candidato SEO
+
+Autoria Book derivada do catálogo em `tools/seo.py`; critérios e relação completa em [REVISAO-AUTORIA](docs/REVISAO-AUTORIA.md). 62 registros elegíveis, oito preservados sem autor estruturado. Sem alterações de rotas, PDFs ou conteúdo visível.

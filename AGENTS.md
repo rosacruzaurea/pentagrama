@@ -10,3 +10,5 @@ Leia README.md, ESTADO.md e CHANGELOG.md antes de alterar.
 - Verifique os fluxos alterados em desktop/mobile. Preserve conteúdos e arquivos fora do escopo.
 - Mantenha documentação curta e impessoal, com changelog e contexto técnico. Relatórios, capturas e registros de conversas ficam fora da árvore versionada.
 - Nunca inclua segredos, SQL, backups brutos, dados pessoais ou arquivos de servidor no repositório.
+
+- Preserve caminhos existentes. A cada mudança, confira a consistência do sitemap com as páginas publicáveis e registre explicitamente URLs novas, alteradas ou removidas na entrega; se não houver delta, declare isso.

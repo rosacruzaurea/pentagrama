@@ -12,6 +12,27 @@ NS = 'http://www.sitemaps.org/schemas/sitemap/0.9'
 ET.register_namespace('', NS)
 
 
+# Catalogue names with unambiguous entity types. Unknown/traditional attributions
+# stay visible in the catalogue but are not asserted as people in structured data.
+AUTHOR_TYPES = {
+    'Lectorium Rosicrucianum': 'Organization',
+    'Jan van Rijckenborgh': 'Person', 'Catharose de Petri': 'Person',
+    'Antonin Gadal': 'Person', 'J. A. Comenius': 'Person',
+    'Gideon Jasper Ouseley': 'Person', 'Francisco Casanueva Freijo': 'Person',
+    'Klaus Bielau': 'Person', 'Benita Kleiberg': 'Person',
+    'J L G de Hartog Meyjes': 'Person', 'Karl von Eckartshausen': 'Person',
+    'Mikhail Naimy': 'Person', 'Peter Huijs': 'Person',
+}
+
+
+def structured_authors(entry):
+    names = entry.get('authors', [])
+    # Do not silently drop one member of a coauthorship with an unknown type.
+    if not names or any(name not in AUTHOR_TYPES for name in names):
+        return []
+    return [{'@type': AUTHOR_TYPES[name], 'name': name} for name in names]
+
+
 def absolute(path):
     return ORIGIN + quote('/' + path.lstrip('/'), safe='/%-._~')
 
@@ -66,6 +87,9 @@ def metadata(title, text, path, canonical, entry, logo, noindex):
     ]
     if entry and entry['type'] in {'livro', 'revista'}:
         work = {'@type': 'Book' if entry['type'] == 'livro' else 'PublicationIssue', '@id': url + '#publication', 'name': entry['title'], 'url': url, 'description': desc}
+        authors = structured_authors(entry) if entry['type'] == 'livro' else []
+        if authors:
+            work['author'] = authors
         if entry.get('cover'):
             work['image'] = absolute(entry['cover'])
         # Do not turn unverified dates, prices or ratings into structured claims.

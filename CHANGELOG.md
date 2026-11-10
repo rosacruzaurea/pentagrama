@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.10 · Em revisão
+
+- Autoria estruturada de livros conforme o catálogo visível, preservando coautorias e distinguindo pessoas e instituição.
+- Registros sem autoria e atribuição tradicional a Hermes Trimegisto permanecem sem autor estruturado.
+- Nenhuma alteração de PDF, URL, edição ou informação bibliográfica adicional.
+
+
 ## 2026.11.09.2 · Em revisão
 
 - Filtro de revistas identifica o ano editorial quando ele está explícito nos títulos do catálogo, mantendo o ano civil nos valores e URLs.
