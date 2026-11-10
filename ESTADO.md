@@ -20,3 +20,5 @@ Mudanças por versão: [CHANGELOG.md](CHANGELOG.md). Evidências transitórias f
 ## Candidato SEO
 
 Autoria Book derivada do catálogo em `tools/seo.py`; critérios e relação completa em [REVISAO-AUTORIA](docs/REVISAO-AUTORIA.md). 62 registros elegíveis, oito preservados sem autor estruturado. Sem alterações de rotas, PDFs ou conteúdo visível.
+
+Complemento de interface no mesmo candidato: ícones SVG locais nas redes sociais, com aria-label/title e destinos preservados. Sem novas dependências ou páginas.

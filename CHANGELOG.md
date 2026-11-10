@@ -2,6 +2,7 @@
 
 ## 2026.11.10 · Em revisão
 
+- Links de redes sociais com ícones SVG locais e nomes acessíveis.
 - Autoria estruturada de livros conforme o catálogo visível, preservando coautorias e distinguindo pessoas e instituição.
 - Registros sem autoria e atribuição tradicional a Hermes Trimegisto permanecem sem autor estruturado.
 - Nenhuma alteração de PDF, URL, edição ou informação bibliográfica adicional.

@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from site_config import BASE, NOINDEX
+from icons import social_link
 from content_search import ENGINE_ID, SEARCH_ROUTES, content_security_policy
 from blog import render_blog
 from seo import metadata as seo_metadata, write_sitemaps, google_search, ORIGIN
@@ -40,7 +41,7 @@ def shell(title,body,section='',description='',path='/',canonical=None,entry=Non
 <meta name="referrer" content="strict-origin-when-cross-origin">{seo_metadata(title,description,path,canonical or path,entry,DATA['logo'],NOINDEX)}
 <link rel="stylesheet" href="{BASE}/assets/styles.css"><script defer src="{BASE}/assets/app.js"></script>{search_script}</head>
 <body><a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<div class="contact-bar"><div class="wrap"><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a><span><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a><a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></span></div></div>
+<div class="contact-bar"><div class="wrap"><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a><span>{social_link('https://www.facebook.com/pentagramapublicacoes/','facebook','Facebook')}{social_link('https://www.instagram.com/pentagramapublicacoes/','instagram','Instagram')}</span></div></div>
 <header class="site-header wrap"><a class="brand" href="{BASE}/" aria-label="Pentagrama, início"><img src="{H(U(DATA['logo']))}" width="456" height="99" alt="Pentagrama Publicações"></a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu <span aria-hidden="true">☰</span></button><nav id="menu" aria-label="Navegação principal">{nav}<a class="search-link" href="{BASE}/buscar/">Buscar <span aria-hidden="true">⌕</span></a></nav></header>
 <main id="conteudo">{body}</main>
@@ -136,7 +137,7 @@ for e in ENTRIES:
 
 # Retire the reconstruction-only page from existing generated artifacts.
 (SITE/'sobre-o-acervo'/'index.html').unlink(missing_ok=True)
-write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p><a href="https://www.facebook.com/pentagramapublicacoes/">Facebook</a> · <a href="https://www.instagram.com/pentagramapublicacoes/">Instagram</a></p><p>Entre em contato pelo e-mail acima.</p></div></article>','contato')
+write('/contato/','Contato',f'<article class="reading about"><h1>Contato</h1><div class="prose"><p>Pentagrama Publicações</p><p><a href="mailto:livros@pentagrama.org.br">livros@pentagrama.org.br</a></p><p>{social_link('https://www.facebook.com/pentagramapublicacoes/','facebook','Facebook')} {social_link('https://www.instagram.com/pentagramapublicacoes/','instagram','Instagram')}</p><p>Entre em contato pelo e-mail acima.</p></div></article>','contato')
 write('404.html','Página não encontrada',f'<section class="reading about"><p class="eyebrow">PENTAGRAMA</p><h1>Esta página não está no acervo.</h1><p>O endereço pode ter mudado. Encontre a publicação pela busca ou volte ao início.</p><a class="button" href="{BASE}/buscar/">Buscar no acervo</a> <a href="{BASE}/">Voltar ao início</a></section>')
 (SITE/'.nojekyll').write_text('')
 (SITE/'robots.txt').write_text('User-agent: *\n' + ('Disallow: /\n' if NOINDEX else 'Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n'))
